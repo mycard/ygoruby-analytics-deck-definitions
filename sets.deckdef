@@ -1,4 +1,5 @@
 # Source: lflist.conf
+# This line is testing update.
 
 deck: 正义盟军 [2]
 	! [正义盟军] > 10
