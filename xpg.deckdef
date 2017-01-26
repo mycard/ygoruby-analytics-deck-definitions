@@ -15,7 +15,9 @@ tag: 推理门
 ## 暗黑界 已被系列收录
 deck: 邪心英雄
 	! 暗黑融合 >= 1
-deck: 邪心英雄
+tag: 神召	
+	config: global
+	config: upgrade
 	! 暗黑神召 >= 1
 	
 ## 阴影 已被系列忽略
@@ -59,6 +61,7 @@ deck: 邪心英雄
 ## 虫惑魔 已被系列收录
 ## 音响战士 已被系列忽略
 deck: 雷电
+	! [雷电] main >= 6
 ## 次世代 已被系列忽略
 ## 宝石骑士 已被系列收录
 ## 地缚神 已被系列收录
@@ -72,6 +75,7 @@ deck: 雷电
 deck: 蜘蛛
 tag: 迅捷
 	config: global
+	config: upgrade
 	! [迅捷] >= 6
 ## 史莱姆 不认识的玩意
 ## 异热同心武器 不是一个卡组
@@ -126,7 +130,6 @@ deck: 漏洞人
 deck: 灵使/凭依装着
 	! [凭依装着] >= 1
 	! [灵使] >= 1
-	# 我不知道怎样处理
 ## 冰结界 已被系列收录
 ## 英豪 已被系列收录
 ## 电子鱼人 已被系列忽略
@@ -137,7 +140,6 @@ deck: 灵使/凭依装着
 ## 阳炎兽 已被系列收录
 deck: 蛇毒
 	! [蛇毒] >= 6
-	# 我不知道怎样处理
 ## 入魔 已被系列收录
 ## 企鹅 已被系列收录
 ## 宝玉兽 已被系列收录
@@ -154,6 +156,7 @@ tag: 食恶
 ## 纹章/纹章兽 已被系列收录
 tag: 毛扎
 	config: global
+	config: upgrade
 	! 毛扎 >= 1
 deck: 于贝尔
 	! 于贝尔 >= 2
@@ -221,6 +224,7 @@ tag: 小丑千刀
 ## 无形 已被系列忽略
 tag: 巨神龙
 	config: global
+	config: upgrade
 	! 巨神龙 闪耀 >= 1
 tag: 虹龙 # 这啥玩意？？
 	config: global
@@ -302,7 +306,9 @@ tag: 削命
 # 暗 将在疑难区收录（暗调）
 # 风
 
-deck: 混沌幻魔
+tag: 混沌幻魔
+	config: global
+	config: upgrade
 	! 混沌幻魔 阿米泰尔 >= 1
 # 盟军头脑
 ## 阿兹特克
@@ -313,9 +319,12 @@ tag: 大气圈神鸟
 ## 传说之都
 ## 石蒜花
 ## 到来
-deck: 异星 BEAT
-	tag: 异星的最终战士
-	tag: 一族的团结
+tag: 异星 BEAT
+	config: global
+	config: upgrade
+	! 异星的最终战士 >= 1
+	#tag: 异星的最终战士
+	#tag: 一族的团结
 		# config:global
 deck: 日月龙
 	! 太阳龙 因蒂 >= 1
@@ -332,6 +341,7 @@ tag: 兔
 	! 救援兔 >= 1
 deck: 神炎皇
 	! 神炎皇 乌利亚 >= 2
+	! 降雷皇 哈蒙 < 1
 tag: 艾托斯
 
 tag: 赠剑兵
@@ -370,14 +380,17 @@ tag: 大天使
 ## 花园 ——带这个的卡组我们肯定认不出来放弃
 tag: 天枪龙
 tag: 融合之门
+	config: global
 	! 融合之门 >= 2
 tag: 幻想召唤师
+	config: global
 	! 幻想召唤师 >= 2
 tag: 纳祭之魔
 	config: global
+	config: upgrade
 	! 纳祭之魔 >= 1
 tag: 萨图嗯
-tag: 杂货 # 俗话说得好杂货毁构筑
+tag: 魔杂 # 俗话说得好杂货毁构筑
 	config: global
 	! 魔导杂货商人 >= 1
 deck: 鱼王同调
@@ -419,6 +432,7 @@ deck: 鱼王同调
 ## Lock（锁）
 tag: 世界锁
 	config: global
+	config: upgrade
 	! 秘仪之力21-世界 >= 2
 	! [秘仪之力] <= 3
 ## Control
