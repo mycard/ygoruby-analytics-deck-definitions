@@ -62,6 +62,11 @@ deck: 机巧
 
 deck: 青蛙
 	! [青蛙] main > 8
+tag: 青蛙
+	config: upgrade
+	config: global
+	! [青蛙] main <= 8
+	! [青蛙] main >= 3
 
 deck: 机皇
 	! [机皇] > 6
@@ -84,6 +89,7 @@ deck: 疾行机人（SR）
 
 tag: 同调士
 	config: global
+	config: upgrade
 	! [同调士] > 6
 
 deck: 云魔物
@@ -112,7 +118,7 @@ deck: 地缚神
 
 deck: 罪
 	! [罪] >= 6
-	! 罪世界 >= 1
+#	! 罪世界 >= 1
 
 deck: 废铁
 	! 废铁奇美拉 >= 2
@@ -156,6 +162,7 @@ deck: 命运女郎
 
 tag: 火山(烈焰加农炮)
 	config: global
+	config: upgrade
 	! [火山] >= 3
 	! [烈焰加农炮] >= 2
 
@@ -179,6 +186,7 @@ deck: 魔轰神
 
 ## 光道 被忽略 ## 争议
 tag: 光道
+	config: upgrade
 	config: global
 	! [光道] >= 6
 
@@ -246,7 +254,9 @@ deck: 宝石骑士
 ## 进化龙 被忽略
 ## 进化帝 被忽略
 
-deck: 爆裂
+tag: 爆裂
+	config: upgrade
+	config: global
 	! 爆裂模式 >= 2
 	! [/爆裂体] >= 1
 
@@ -346,11 +356,15 @@ deck: 海皇
 	! [海皇] >= 6 
 	(海皇水精鳞)
 		! [水精鱗] > 4
+		
+deck: 水精鱗
+	! [海皇] < 1
+	! [水精鳞] >= 6
 
 ## 深渊 被忽略
 
 deck: 纹章
-	! [纹章兽] > 10
+	! [纹章兽] >= 6
 
 ## 迅捷 被忽略
 
@@ -459,6 +473,9 @@ deck: 超重武者
 deck: 幻奏
 	! [幻奏] > 10
 
+tag: 幻奏
+	! [幻奏] <= 10
+	! [幻奏] > 5
 deck: 星因士
 	! [星守] main > 8
 
@@ -540,10 +557,22 @@ deck: 灵兽
 ## 外神 被忽略
 ## 旧神 被忽略
 ## 古神 被忽略
-## 烈焰加农炮 被忽略
+tag: 克苏鲁
+	config: global
+	config: upgrade
+	! [旧神] >= 1
+	! [外神] >= 1
+	! [古神] >= 1
+	! 禁断的偏方面体 >= 1
 
 deck: 急袭猛禽（RR）
 	! [急袭猛禽] > 10
+
+tag: 残存
+	config: global
+	config: upgrade
+	! 急袭猛禽-残存林鸮 >= 2
+	! [急袭猛禽] <= 8
 
 deck: 狱火机
 	! [狱火机] > 10
@@ -582,6 +611,7 @@ tag: 神数
 
 tag: 龙剑士
 	config: global
+	config: upgrade	
 	! [龙剑士] main >= 3
 	
 deck: 点火骑士
@@ -612,14 +642,18 @@ deck: 灰篮
 deck: 星际仙踪（星兹）
 	! [星际仙踪] >= 10
 
-## 坏兽被忽略
 deck: 坏兽
 	! [坏兽] >= 6
 	! 56111151 >= 2
 	
 deck: 伯吉斯异兽
 	! [伯吉斯异兽] > 10
-
+	
+tag: 伯吉斯异兽
+	config: global
+	! [伯吉斯异兽] > 3
+	! [伯吉斯异兽] <= 10
+	
 ## 但丁 被忽略
 
 deck: 破坏剑
@@ -723,6 +757,7 @@ tag: 十二兽
 
 tag: 召唤兽
 	config: global
+	config: upgrade	
 	! 召唤师 阿莱斯特 >= 1
 	! 召唤魔术 >= 1
 	
@@ -737,6 +772,7 @@ tag: 奇美拉大花草
 	
 tag: 甘多拉
 	config: global
+	config: upgrade
 	! [甘多拉] >= 2
 
 deck: 抒情歌鸲
@@ -751,6 +787,7 @@ tag: 独立夜莺(无海王星)
 	
 tag: 独立夜莺(海王星)
 	config: global
+	config: upgrade
 	! [抒情歌鸲] main < 1
 	! 简易融合 >= 1
 	! 抒情歌鸲-独立夜莺 >= 1
