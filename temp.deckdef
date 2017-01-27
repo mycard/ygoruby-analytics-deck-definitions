@@ -1,4 +1,6 @@
-deck: 混沌龙	
+tag: 混沌龙
+	config: global
+	config: upgrade
 	! 光脉冲星龙 >= 1
 	! 混沌战士 -开辟的使者- >= 1
   
