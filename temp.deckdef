@@ -17,8 +17,8 @@ deck: 究极龙骑士
 	! 5405694 >= 1
 	
 deck: 二重植物
- 	! 巨型植物 >= 2
- 	! 超二重召唤 >= 2
+ 	! 53257892 >= 2
+ 	! 95750695 >= 2
   
 tag: 天魔神
  	config: global
@@ -115,7 +115,7 @@ tag: 2阶兽族
 	! 39972129 >= 1
 	
 tag: 蛇姐
-	config: globa
+	config: global
 	config: upgrade
 	! 毒蛇王 维诺米隆 >= 1
 	! 毒蛇神 维诺米纳迦 >= 1
