@@ -15,11 +15,11 @@ deck: R4水
 deck: 究极龙骑士
 	! 青眼究极龙 >= 1
 	! 5405694 >= 1
-	
+
 deck: 二重植物
  	! 53257892 >= 2
  	! 95750695 >= 2
-  
+
 tag: 天魔神
  	config: global
  	! 天魔神 诺雷拉斯 >= 1
@@ -32,7 +32,7 @@ tag: 天照大神
 deck: 废品战士
 	! 废品战士 >= 2
 	! 废铁拳 >= 2
-	
+
 deck: 魔杰拉
 	! 大魔王 魔杰拉 >= 2
 	! 杰拉的战士 >= 2
@@ -40,7 +40,7 @@ deck: 魔杰拉
 
 deck: 假面魔兽
 	! [假面魔兽] main >= 3
-	
+
 deck: 龙骑士 盖亚
 	! [暗黑骑士 盖亚] >= 3
 	! 螺旋枪杀 >= 2
@@ -54,7 +54,7 @@ deck: 门之守护神
 deck: 大飞蛾
 	! 幼虫宝宝 >= 1
 	! 进化之茧 >= 1
-	
+
 tag: 光创
 	config: global
 	config: upgrade
@@ -62,13 +62,13 @@ tag: 光创
 	! 奥西里斯之天空龙 >= 1
 	! 欧贝利斯克之巨神兵 >= 1
 	! 太阳神之翼神龙 >= 1
-	
+
 tag: 史莱姆beat
 	config: global
 	config: upgrade
 	! 史莱姆增殖炉 >= 2
 	! 湿地草原 >= 2
-	
+
 deck: 堕天药副
 	! 67316075 >= 2
 	! 药物的副作用 >= 1
@@ -87,7 +87,7 @@ tag: 大革命
 	! 团结的反抗军 >= 1
 	! 流离的饥民 >= 1
 	! 受弹压的民众 >= 1
-	
+
 tag: 纸飞机人
 	config: global
 	config: upgrade
@@ -108,12 +108,12 @@ tag: 索菲娅
 
 deck: 究极昆虫
 	! [究极昆虫] main >= 5
-	
+
 tag: 2阶兽族
 	config: global
 	config: upgrade
 	! 39972129 >= 1
-	
+
 tag: 蛇姐
 	config: global
 	config: upgrade
@@ -130,7 +130,7 @@ tag: 水龙
 	! 氢素龙 main >= 2
 	! 氧素龙 main >= 2
 	! 化学结合-H2O main >= 1
-	
+
 tag: 素材门
 	config: global
 	config: upgrade
@@ -143,4 +143,3 @@ tag: 星见炮
 	! 核成恶魔 main >= 1
 	! 盟军·次世代鸟人兵 >= 1
 	! 星见兽 加里斯 >= 1
-	
