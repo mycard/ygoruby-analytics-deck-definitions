@@ -19,3 +19,8 @@ deck: R4水
  tag: 天魔神
  	config: global
  	! 天魔神 诺雷拉斯 >= 1
+
+tag: 天照大神
+	config: global
+	config: upgrade
+	! 天照大神 >= 2
