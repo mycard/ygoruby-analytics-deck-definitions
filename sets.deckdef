@@ -844,17 +844,19 @@ deck: 秘旋谍
 
 deck: 堕天使
 	! [堕天使] > 10
+	(虚无)
+		! 虚无魔人 main >= 2
 
 ## 风魔女 被忽略
 
 deck: 十二兽
-	! [十二兽] main >= 10
+	! [十二兽] main > 12
 	
 tag: 十二兽
 	config: global
 	config: upgrade
 	! [十二兽] main > 1
-	! [十二兽] main < 10
+	! [十二兽] main <= 12
 
 tag: 召唤兽
 	config: global
