@@ -436,9 +436,9 @@ deck: 森罗
 	! [森罗] > 10
 
 ## 王家长眠之谷 被忽略
-## 电子龙 被忽略
 tag: 电子龙
 	config: global
+	config: upgrade
 	! [电子龙] main >= 6
 
 deck: 电子化天使
