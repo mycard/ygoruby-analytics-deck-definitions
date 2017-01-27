@@ -37,3 +37,85 @@ deck: 魔杰拉
 	! 大魔王 魔杰拉 >= 2
 	! 杰拉的战士 >= 2
 	! 万魔殿-恶魔的巢窟- >= 2
+
+deck: 假面魔兽
+	! [假面魔兽] main >= 3
+	
+deck: 龙骑士 盖亚
+	! [暗黑骑士 盖亚] >= 3
+	! 螺旋枪杀 >= 2
+
+deck: 门之守护神
+	! 门之守护神 >= 1
+	! 雷魔神-桑迦 >= 1
+	! 水魔神-斯迦 >= 1
+	! 风魔神-修迦 >= 1
+
+deck: 大飞蛾
+	! 幼虫宝宝 >= 1
+	! 进化之茧 >= 1
+	
+tag: 光创
+	config: global
+	config: upgrade
+	! 光之创造神 哈拉克提 >= 1
+	! 奥西里斯之天空龙 >= 1
+	! 欧贝利斯克之巨神兵 >= 1
+	! 太阳神之翼神龙 >= 1
+	
+tag: 史莱姆beat
+	config: global
+	config: upgrade
+	! 史莱姆增殖炉 >= 2
+	! 湿地草原 >= 2
+	
+deck: 堕天药副
+	! 67316075 >= 2
+	! 药物的副作用 >= 1
+	! 礼品卡 >= 1
+
+tag: 传说的渔人
+	config: global
+	config: upgrade
+	! 传说的渔人 main >= 1
+	! 传说的渔人三世 main >= 1
+
+tag: 大革命
+	config: global
+	config: upgrade
+	! 大革命 >= 1
+	! 团结的反抗军 >= 1
+	! 流离的饥民 >= 1
+	! 受弹压的民众 >= 1
+	
+tag: 纸飞机人
+	config: global
+	config: upgrade
+	! 何者 >= 1
+	! 他者 >= 1
+	! 此者 >= 1
+	! 彼者 >= 1
+
+tag: 要塞鲸
+	config: global
+	config: upgrade
+	! 要塞鲸 main >= 2
+
+tag: 索菲娅
+	config: global
+	config: upgrade
+	! 创星神 索菲娅 main >= 1
+
+deck: 究极昆虫
+	! [究极昆虫] main >= 5
+	
+tag: 2阶兽族
+	config: global
+	config: upgrade
+	! 39972129 >= 1
+	
+tag: 蛇姐
+	config: globa
+	config: upgrade
+	! 毒蛇王 维诺米隆 >= 1
+	! 毒蛇神 维诺米纳迦 >= 1
