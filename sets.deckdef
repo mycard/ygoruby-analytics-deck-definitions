@@ -811,7 +811,7 @@ deck: 化合兽
 	! [化合兽] > 6
 
 deck: 魔界剧团	
-! [魔界剧团] >= 5
+	! [魔界剧团] >= 5
 	! [魔界台本] >= 3
 
 deck: 地底恐魔
@@ -832,9 +832,9 @@ deck: 十二兽
 	
 tag: 十二兽
 	config: global
+	config: upgrade
 	! [十二兽] main > 1
 	! [十二兽] main < 10
-## 灵摆龙 被忽略
 
 tag: 召唤兽
 	config: global
