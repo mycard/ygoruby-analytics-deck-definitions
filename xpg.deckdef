@@ -369,7 +369,7 @@ tag: 赠剑兵
 	config: global
 	config: upgrade
 	! 英豪挑战者 赠剑兵 >= 2
-	! [英豪] <= 6
+	! [英豪] main <= 6
 ## 艾克佐迪亚 已被系列收录
 tag: 海洋侠
 ## 恶忍
@@ -404,6 +404,7 @@ tag: 天枪龙
 tag: 融合之门
 	config: global
 	! 融合之门 >= 2
+	! 连锁素材 < 2
 tag: 幻想召唤师
 	config: global
 	! 幻想召唤师 >= 2
@@ -456,7 +457,7 @@ tag: 世界锁
 	config: global
 	config: upgrade
 	! 秘仪之力21-世界 >= 2
-	! [秘仪之力] <= 3
+	! [秘仪之力] <= 10
 ## Control
 ## Handeath（手札破坏）
 ## 卡组破坏
