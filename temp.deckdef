@@ -26,6 +26,11 @@ tag: 天魔神
 	config: global
 	! 天魔神 诺雷拉斯 >= 1
 
+tag: 猫僧
+	config: global
+	! 召唤僧 main >= 1
+	! 救援猫 main >= 1
+
 tag: 天照大神
  	config: global
 	config: upgrade
