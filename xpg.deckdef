@@ -450,6 +450,11 @@ deck: 鱼王同调
 ## High Beat
 ## Low Beat
 ## BEAT
+tag: 技抽beat
+	config: global
+	config: upgrade
+	! 技能抽取 main >= 2
+	! 神兽王 巴巴罗斯 >= 1
 ## Low Level
 ## Cahin
 ## Turbo
@@ -473,6 +478,11 @@ tag: 世界锁
 	config: upgrade
 	! 秘仪之力21-世界 >= 2
 	! [秘仪之力] <= 10
+
+deck: 时间吞噬者
+	! 时间吞噬者 >= 1
+	! 终端世界 >= 1
+
 ## Control
 ## Handeath（手札破坏）
 ## 卡组破坏
@@ -490,6 +500,12 @@ deck: 反击天使
 ## Twillight
 ## 次元斩
 ## 行星 不是一个卡组
+tag: 至尊太阳
+	config: global
+	config: upgrade
+	! 至尊太阳 main >= 2
+	
+
 ## 表/里电子流 将在疑难区收录（屁啦无限万岁）
 ## Ex 破坏
 tag: 轰雷
