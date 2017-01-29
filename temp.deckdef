@@ -120,6 +120,7 @@ tag: 2阶兽族
 	config: global
 	config: upgrade
 	! 39972129 >= 1
+	! 24096499 main >= 1
 
 tag: 蛇姐
 	config: global
@@ -155,4 +156,56 @@ tag: 捕食
 	config: global
 	! 捕食植物 蜂兰蝎 >= 2
 	! 捕食植物 蛇瓶草眼镜蛇 >= 1
-	! [捕食植物] main <= 6
+	! [捕食植物] main <= 8
+
+tag: 地灵雪虎
+	config: global
+	config: upgrade
+	! 地灵神 格兰索尔 main >= 1
+	! 冰结界的虎王 雪虎 >= 1
+
+tag: 龙姬神
+	config: global
+	! 祝祷的圣歌 main >= 1
+	! 龙姬神 萨菲拉 main >= 1
+
+tag: 辉神鸟
+	config: global
+	! 辉神鸟 贝努鸟 main >= 1
+	! 原初的叫唤 main >= 1
+
+tag: 神光
+	config: global
+	config: upgrade
+	! 神光之宣告者 main >= 1
+	! 宣告者的预言 main >= 1
+
+tag: 崇光	
+	config: global
+	config: upgrade
+	! 崇光之宣告者 main >= 1
+	! 宣告者的神托 main >= 1
+	
+tag: 便乘
+	config: global
+	! 便乘 main >= 2
+	
+deck: 骰子壶
+	! 骰子壶 main >= 2
+
+tag: 次元
+	config: global
+	config: upgrade
+	! 大宇宙 >= 2
+	! 次元的裂缝 >= 2
+
+tag: 骷髅炎鬼
+	config: global
+	config: upgrade
+	! [骷髅炎鬼] main >= 2
+
+tag: 魔力指示物
+	config: global
+	config: upgrade
+	! 魔法都市 恩底弥翁 >= 2
+	! 魔力掌握 >= 2
