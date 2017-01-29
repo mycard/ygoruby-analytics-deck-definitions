@@ -190,11 +190,20 @@ tag: 便乘
 deck: 骰子壶
 	! 骰子壶 main >= 2
 
+set: 次元贴纸
+	大宇宙
+	次元的裂缝
+	光之追放者
+	闪光之追放者
+
 tag: 次元
 	config: global
 	config: upgrade
-	! 大宇宙 >= 2
-	! 次元的裂缝 >= 2
+	! [次元贴纸] >= 3
+	
+tag: 大宇宙
+	config: global
+	! [赫利俄斯] main >= 3
 
 tag: 骷髅炎鬼
 	config: global
