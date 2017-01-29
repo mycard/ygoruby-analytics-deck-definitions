@@ -137,6 +137,12 @@ deck: 漏洞人
 deck: 灵使/凭依装着
 	! [凭依装着] >= 1
 	! [灵使] >= 1
+	
+tag: 灵使
+	config: global
+	config: upgrade
+	! [灵使] main >= 1
+	! [凭依装着] main < 1
 ## 冰结界 已被系列收录
 ## 英豪 已被系列收录
 ## 电子鱼人 已被系列忽略
@@ -329,6 +335,10 @@ tag: 混沌幻魔
 	config: upgrade
 	! 混沌幻魔 阿米泰尔 >= 1
 # 盟军头脑
+tag: 盟军头脑
+	config: global
+	config: upgrade
+	! 盟军头脑 main >= 2
 ## 阿兹特克
 ## 暗杀者
 tag: 大气圈神鸟
@@ -448,6 +458,14 @@ deck: 鱼王同调
 ## Turbo
 ## Cure
 ## Burn 将在特殊战术区收录
+deck: ChainBurn
+	! 连锁爆击 >= 2
+	! 积累的幸福 >= 1
+
+tag: 大逆转
+	config: global
+	config: upgrade
+	! 大逆转谜题 main >= 1
 ## Meta 
 ## FIF
 ## Drawgo
