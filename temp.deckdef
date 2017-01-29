@@ -11,6 +11,7 @@ deck: R4水
 		! 双生鳍鲨 >= 1
 	(遗式)
 		! 遗式兽 >= 2
+		! [遗式] main <= 8
 	(使魔) ## 是这么说的吗
 		! 电豪灵蜥 >= 2
 
@@ -240,3 +241,38 @@ deck: 天位骑士
 	! 国王骑士 >= 1
 	! 王后骑士 >= 1
 	! 天位骑士 >= 1
+
+tag: 黑白龙
+	config: global
+	! 暗黑龙 坍缩星蛇 main >= 2
+	! 辉白龙 暴源翼龙 main >= 2
+	
+tag: VW
+	config: global
+	config: upgrade
+	! V-喷气虎 main >= 1
+	! W-弹射飞翼 main >= 1
+	! VW-强击虎 >= 1
+
+tag: XYZ
+	config: global
+	config: upgrade
+	! X-首领加农 main >= 1
+	! Y-龙头 main >= 1
+	! Z-金属履带 main >= 1
+
+tag: 海龙神
+	config: global
+	config: upgrade
+	! [达路斯] main >= 5
+
+tag: 清净
+	config: global
+	config: upgrade
+	! 清净世界 main >= 1
+	! 清净恶龙 main >= 1
+
+tag: 咕咚
+	config: global
+	config: upgrade
+	! 睡巨人 咕咚 main >= 1
