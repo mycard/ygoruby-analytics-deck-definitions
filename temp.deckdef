@@ -49,10 +49,6 @@ deck: 魔杰拉
 deck: 假面魔兽
 	! [假面魔兽] main >= 3
 
-deck: 龙骑士 盖亚
-	! [暗黑骑士 盖亚] >= 3
-	! 螺旋枪杀 >= 2
-
 deck: 门之守护神
 	! 门之守护神 >= 1
 	! 雷魔神-桑迦 >= 1
@@ -265,12 +261,6 @@ tag: 海龙神
 	config: global
 	config: upgrade
 	! [达路斯] main >= 5
-
-tag: 清净
-	config: global
-	config: upgrade
-	! 清净世界 main >= 1
-	! 清净恶龙 main >= 1
 
 tag: 咕咚
 	config: global
