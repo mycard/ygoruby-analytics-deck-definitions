@@ -284,3 +284,8 @@ tag: 终焉之王
 	config: global
 	config: upgrade
 	! 终焉之王 迪米斯 >= 2
+
+tag: 头奖壶
+	config: global
+	config: upgrade
+	! 头奖壶7 main >= 3
