@@ -276,3 +276,11 @@ tag: 咕咚
 	config: global
 	config: upgrade
 	! 睡巨人 咕咚 main >= 1
+
+deck: 野蛮人
+	! [野蛮人] main >= 7
+	
+tag: 终焉之王
+	config: global
+	config: upgrade
+	! 终焉之王 迪米斯 >= 2
