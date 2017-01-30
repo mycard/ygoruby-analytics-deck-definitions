@@ -6,6 +6,10 @@ deck: 正义盟军 [2]
 
 deck: 次世代
 	! [次世代] > 10
+tag: 次世代
+config: global
+	! [次世代] main >= 3
+	! [次世代] <= 10
 
 deck: 亚马逊
 	! [亚马逊] > 10
@@ -16,6 +20,12 @@ deck: 秘仪之力
 deck: 暗黑界
 	! [暗黑界] > 10
 	! 暗黑界的龙神 格拉法 >= 2
+tag: 暗黑界
+	config: global
+	! [暗黑界] > 4
+	or:
+		! [暗黑界] <= 10
+		! 暗黑界的龙神 格拉法 < 2
 
 deck: 古代机械
 	! [古代的机械] > 10
@@ -37,6 +47,7 @@ deck: 英雄
 		! 对极英雄 混沌侠 >= 1
 
 tag: 新宇
+	config: global
 	! [新宇] > 8
 
 deck: 入魔
@@ -47,30 +58,49 @@ deck: 侵入魔鬼
 	! [侵入魔鬼] > 10
 
 deck: 永火
-	! [永火] > 6
+	! [永火] > 10
 	! 永火恶魔 >= 1 #保留意见 TCG恶魔限制
+tag: 永火
+	config: global
+	! [永火] main >= 2 # 恶魔罩子
+	! [永火] <= 10
 
 deck: 外星人
 	! [外星] > 10
+tag: 外星人
+	config: global
+	! [外星] > 5
+	! [外星] <= 10
 
 deck: X-剑士
 	! [X-剑士] > 10
 
 deck: 电气
 	! [电气] > 6
+tag: 电气
+	config: global
+	! [电气] main >= 4
+	! [电气] <= 6
 
 deck: 扰乱
-	! [扰乱] main > 8
+	! [扰乱] main > 12
+tag: 扰乱
+	config: global
+	! [扰乱] main >= 6
+	! [扰乱] main <= 12
 
 deck: 薰风
 	! [薰风] > 10
+tag: 薰风
+	config: global
+	! [薰风] main >= 4
+	! [薰风] <= 10
 
 deck: 机巧
 	! [机巧] main > 6
 
 deck: 青蛙
 	! [青蛙] main > 8
-
 tag: 青蛙
 	config: upgrade
 	config: global
@@ -119,8 +149,21 @@ deck: 幻兽
 	! [幻兽] >= 7
 	! [幻兽机] <= 3
 
+set: 岩石四兄弟
+	核成守护者
+	核成墙人
+	核成沙人
+	核成过量体
+set: 核成兽战士
+	核成原始战士
+	核成十字军
 deck: 核成
 	! [核成] > 10
+	(岩石beat)
+		! [岩石四兄弟] >= 8
+	(兽战士beat)
+		! [核成兽战士] >= 5
+		! [炎舞] main >= 3
 
 ## 茧状体 被忽略
 
@@ -133,7 +176,6 @@ tag: 新空间侠
 
 deck: 地缚神
 	! [地缚神] >= 4
-	
 tag: 地缚神
 	config: global
 	config: upgrade
@@ -165,6 +207,10 @@ deck: 电池人
 
 deck: 龙骑兵团
 	! [龙骑兵团] > 10
+tag: 龙骑兵团
+	config: global
+	! [龙骑兵团] main >= 5
+	! [龙骑兵团] <= 10
 
 deck: 自然
 	! [自然] > 10
@@ -185,6 +231,8 @@ deck: 冰结界
 
 deck: 大日
 	! [大日] > 10
+	(波纹)
+		! 静寂之杖-波纹 main >= 2
 
 deck: 命运女郎
 	! [命运女郎] >= 8
@@ -194,7 +242,6 @@ tag: 火山(烈焰加农炮)
 	config: upgrade
 	! [火山] >= 3
 	! [烈焰加农炮] >= 2
-
 
 deck: 黑羽（BF）
 	! [黑羽] > 10
@@ -218,7 +265,6 @@ deck: 魔轰神
 
 deck: 机甲
 	! [机甲] main >= 12
-	
 tag: 机甲
 	config: global
 	config: upgrade
@@ -524,6 +570,8 @@ tag: 阴影
 	
 deck: 武神
 	! [武神] > 10
+	(花园)
+		! 黑色花园 main >= 1
 
 ## 洞 被忽略
 
@@ -566,7 +614,6 @@ tag: 暗电子
 	
 deck: 电子化天使
 	! [电子化天使] >= 6
-
 tag: 电子化天使
 	config: global
 	config: upgrade
@@ -589,12 +636,10 @@ tag: AF
 deck: 魔术师
 	! [魔术师] main >= 9
 	! 星刻之魔术师 >= 1
-	
 tag: 魔术师
 	config: global
 	! [魔术师] main >= 6
 	! 星刻之魔术师 < 1
-	
 tag: 灵摆读阵
 	config: global
 	! [灵摆读阵] >= 2
@@ -609,7 +654,6 @@ deck: 超重武者
 
 deck: 幻奏
 	! [幻奏] > 10
-
 tag: 幻奏
 	! [幻奏] <= 10
 	! [幻奏] > 5
@@ -671,11 +715,12 @@ deck: 栗子球
 ## 兰斯洛特 被忽略
 
 deck: 毛绒
-	! [毛绒动物] > 8
+	! [毛绒动物] > 12
 	! [魔玩具] ex >= 4
-
 tag: 毛绒
-	! [毛绒动物] <= 7
+	config: global
+	! [毛绒动物] > 4
+	! [毛绒动物] <= 12	
 	! [魔玩具] ex <= 3
 
 deck: 机壳
@@ -696,6 +741,10 @@ deck: DD
 
 deck: 彼岸（BA）
 	! [彼岸] > 10
+tag: BA
+	config: global
+	! [彼岸] main >= 3
+	! [彼岸] <= 10
 
 deck: 超级运动员（UA）
 	! [超级运动员] > 10
@@ -705,7 +754,6 @@ deck: 妖仙兽
 
 deck: 影灵衣
 	! [影灵衣] >= 10
-
 tag: 影灵衣
 	config: global
 	! [影灵衣] main >= 2
@@ -726,7 +774,6 @@ tag: 克苏鲁
 
 deck: 急袭猛禽（RR）
 	! [急袭猛禽] > 10
-
 tag: 残存
 	config: global
 	config: upgrade
@@ -792,7 +839,6 @@ deck: Psy 骨架（PSY）
 
 deck: 神数
 	! [神数] main >= 12
-
 tag: 神数
 	config: global
 	! [神数] main >= 3
@@ -810,7 +856,6 @@ tag: 龙剑士
 
 deck: 魔装战士
 	! [魔装战士] >= 8
-
 tag: 魔装战士
 	config: global
 	! [魔装战士] >= 2
@@ -849,15 +894,14 @@ deck: 星际仙踪（星兹）
 deck: 坏兽
 	! [坏兽] >= 6
 	! 56111151 >= 2
-
 tag: 坏兽
 	config: global
 	! [坏兽] main >= 2
+	! 遭受妨碍的坏兽安眠 main >= 1
 	! 56111151 < 1
 	
 deck: 伯吉斯异兽
 	! [伯吉斯异兽] > 10
-	
 tag: 伯吉斯异兽
 	config: global
 	! [伯吉斯异兽] > 3
@@ -876,7 +920,6 @@ deck: 雾动机龙
 
 deck: 不知火
 	! [不知火] >= 9
-
 tag: 不知火
 	config: global
 	! 不知火的隐者 main >= 1
@@ -899,7 +942,8 @@ deck: 白龙
 
 deck: 月光
 	! [月光] > 10
-
+	(花园)
+		! 黑色花园 main >= 1
 tag: 月光
 	config: global
 	config: upgrade
@@ -932,28 +976,30 @@ deck: 光波
 
 deck: 花札
 	! [花札卫] main > 12
-
+	
+deck: 沉默剑士
+	! [沉默剑士] > 5
 tag: 沉默剑士
 	config: global
 	! 15180041 >= 1
 	! [沉默剑士] <= 5
-	
-deck: 沉默剑士
-	! [沉默剑士] > 5
-	
+
+deck: 沉默魔术师
+	! [沉默魔术师] > 5
 tag: 沉默魔术师
 	config: global
 	! 41175645 >= 1
 	! [沉默魔术师] <= 5
 
-deck: 沉默魔术师
-	! [沉默魔术师] > 5
-
 deck: 水晶机巧
 	! [水晶机巧|非「机巧」] main > 10
 
 deck: 化合兽
-	! [化合兽] > 6
+	! [化合兽] > 8
+tag: 化合兽
+	config: global
+	! [化合兽] main >= 3
+	! [化合兽] <= 8
 
 deck: 魔界剧团	
 	! [魔界剧团] >= 5
@@ -968,7 +1014,7 @@ deck: 秘旋谍
 ## 秘旋谍装备 被忽略
 
 deck: 堕天使
-	! [堕天使] > 10
+	! [堕天使] > 11
 	(虚无)
 		! 虚无魔人 main >= 2
 
@@ -978,11 +1024,10 @@ tag: 风魔女
 
 deck: 十二兽
 	! [十二兽] main > 12
-	
 tag: 十二兽
 	config: global
 	config: upgrade
-	! [十二兽] main > 1
+	! [十二兽] main > 3
 	! [十二兽] main <= 12
 
 tag: 召唤兽
@@ -995,8 +1040,7 @@ deck: 电子光虫
 	! [电子光虫] >= 9
 	
 deck: 捕食植物
-	! [捕食植物] main >= 6
-
+	! [捕食植物] main >= 8
 tag: 奇美拉大花草
 	config: global
 	! [捕食植物] main <= 2
@@ -1010,7 +1054,6 @@ tag: 甘多拉
 
 deck: 抒情歌鸲
 	! [抒情歌鸲] main >= 6
-	
 tag: 独立夜莺(海王星)
 	config: global
 	config: upgrade
@@ -1035,13 +1078,11 @@ deck: 真龙
 		! [真龙皇] >= 8
 	(剑皇)
 		! 真龙剑皇 卓辉星·拼图 >= 1
-
 tag: 真龙皇
 	config: global
 	! [真龙] <= 15
 	! 真龙剑皇 卓辉星·拼图 < 1
 	! [真龙皇] >= 3 
-	
 tag: 真龙剑皇	
 	config: global
 	! [真龙] <= 15
