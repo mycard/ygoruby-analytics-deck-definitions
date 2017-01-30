@@ -67,6 +67,30 @@ tag: 光创
 	! 欧贝利斯克之巨神兵 >= 1
 	! 太阳神之翼神龙 >= 1
 
+tag: 巨神兵
+	config: global
+	config: upgrade
+	! 欧贝利斯克之巨神兵 main >= 1
+	or:	
+		! 奥西里斯之天空龙 main < 1
+		! 太阳神之翼神龙 main < 1
+		
+tag: 天空龙	
+	config: global
+	config: upgrade
+	! 奥西里斯之天空龙 main >= 1
+	or:	
+		! 欧贝利斯克之巨神兵 main < 1
+		! 太阳神之翼神龙 main < 1
+		
+tag: 翼神龙	
+	config: global
+	config: upgrade
+	! 太阳神之翼神龙 main >= 1
+	or:	
+		! 欧贝利斯克之巨神兵 main < 1
+		! 奥西里斯之天空龙 main < 1
+
 tag: 史莱姆beat
 	config: global
 	config: upgrade
@@ -109,6 +133,11 @@ tag: 索菲娅
 	config: global
 	config: upgrade
 	! 创星神 索菲娅 main >= 1
+	
+tag: 提耶拉	
+	config: global
+	config: upgrade
+	! 创星神 提耶拉 main >= 1
 
 deck: 究极昆虫
 	! [究极昆虫] main >= 5
