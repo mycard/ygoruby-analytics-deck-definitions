@@ -388,7 +388,11 @@ deck: 光子
 	! [光子] main >= 7
 
 deck: 甲虫装机
-	! [甲虫装机] >= 6
+	! [甲虫装机] >= 8
+tag: 甲虫装机
+	config: global
+	! [甲虫装机] main >= 3
+	! [甲虫装机] main < 8
 
 tag: 共鸣者
 	config: global
