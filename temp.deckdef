@@ -317,3 +317,32 @@ tag: 头奖壶
 	config: global
 	config: upgrade
 	! 头奖壶7 main >= 3
+	
+deck: 打火石
+	! [火石] >= 6
+
+set: 超時空戦闘機
+	胜利蛇XX03
+	能量胶囊
+	超时空战斗机 V形蛇
+	子机
+	旋风镭射
+	蓝色雷电T45
+	翡翠骑士
+	大刀β
+	罗德不列颠号
+deck: 超時空戦闘機
+	! [超時空戦闘機] main >= 9
+	
+tag: 珂珑公主
+	config: global
+	config: upgrade
+	! 珂珑公主 >= 2
+	! 玩具盒 >= 2
+
+tag: 大凛魔天使
+	config: global
+	config: upgrade
+	! 大凛魔天使 蔷薇仙 >= 1
+	! 魔天使 蔷薇之巫师 >= 1
+	! 凛天使 蔷薇之女王 >= 1
