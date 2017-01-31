@@ -5,3 +5,148 @@ deck: 十二兽坏兽 [10]
 	! 56111151 < 1
 	refuse: 十二兽
 	refuse: 坏兽
+
+deck: 十二兽召唤兽 [10]
+	! [十二兽] main > 2
+	! 召唤师 阿莱斯特 >= 1
+	! 召唤魔术 >= 1
+	refuse: 十二兽
+	refuse: 召唤兽
+
+deck: 十二兽召唤兽坏兽 [20]
+	! [十二兽] main > 2
+	! [坏兽] main >= 2
+	! 遭受妨碍的坏兽安眠 main >= 1
+	! 56111151 < 1
+	! 召唤师 阿莱斯特 >= 1
+	! 召唤魔术 >= 1
+	refuse: 十二兽
+	refuse: 召唤兽
+	refuse: 坏兽
+
+deck: 十二兽真龙 [10]
+	! [十二兽] main > 2
+	! [真龙] main >= 4
+	! 龙神阵·略图 main >= 2
+	refuse: 十二兽
+	refuse: 真龙
+
+deck: 十二兽捕食真龙 [20]
+	! [十二兽] main > 2
+	! 捕食植物 蜂兰蝎 >= 2
+	! 捕食植物 蛇瓶草眼镜蛇 >= 1
+	! [真龙] main >= 4
+	! 龙神阵·略图 main >= 2
+	refuse: 十二兽
+	refuse: 捕食	
+	refuse: 真龙
+
+deck: 十二兽真龙坏兽 [20]
+	! [十二兽] main > 2
+	! [真龙] main >= 4
+	! 龙神阵·略图 main >= 2
+	! [坏兽] main >= 2
+	! 遭受妨碍的坏兽安眠 main >= 1
+	! 56111151 < 1
+	refuse: 十二兽
+	refuse: 真龙
+	refuse: 坏兽
+
+deck: 十二兽炼装 [10]
+	! [十二兽] main > 2
+	! [炼装] main >= 12
+	refuse: 十二兽
+	refuse: 炼装
+
+deck: 十二兽真龙炼装 [20]
+	! [十二兽] main > 2
+	! [炼装] main >= 12
+	! [真龙] main >= 2
+	refuse: 十二兽
+	refuse: 真龙
+	refuse: 炼装
+
+deck: 十二兽魔术师 [10]
+	! [十二兽] main > 2
+	! [魔术师] main >= 9
+	! [灵摆读阵] main >= 2
+	refuse: 十二兽
+	refuse: 魔术师
+	refuse: 灵摆读阵
+
+deck: 十二兽魔术师坏兽 [20]
+	! [十二兽] main > 2
+	! [魔术师] main >= 9
+	! [灵摆读阵] main >= 2
+	! [坏兽] main >= 2
+	! 遭受妨碍的坏兽安眠 main >= 1
+	! 56111151 < 1
+	refuse: 十二兽
+	refuse: 魔术师
+	refuse: 灵摆读阵
+	refuse: 坏兽
+
+deck: 魔术师召唤兽
+	! [魔术师] main >= 9
+	! [灵摆读阵] main >= 2
+	! 召唤师 阿莱斯特 >= 1
+	! 召唤魔术 >= 1
+	refuse: 魔术师
+	refuse: 灵摆读阵
+	refuse: 召唤兽
+
+deck: 十二兽狱火机 [10]
+	! [十二兽] main > 2
+	! [狱火机] main >= 6
+	refuse: 十二兽
+	refuse: 狱火机
+
+deck: 割草狱火机 [10]
+	! [狱火机] main >= 6
+	! [邻家割草] main >= 2
+	refuse: 割草
+	refuse: 狱火机
+
+deck: 割草十二兽狱火机 [20]
+	! [十二兽] main > 2
+	! [狱火机] main >= 6
+	! [邻家割草] main >= 2
+	refuse: 割草
+	refuse: 十二兽
+	refuse: 狱火机
+
+deck: 光白火 [20]
+	! [光道] main >= 4
+	! 妖精传姬-白雪 main >= 1
+	! [不知火] main >= 4
+	refuse: 光道
+	refuse: 白学家
+	refuse: 不知火
+
+deck: 十二兽光白火 [30]
+	! [十二兽] main > 2
+	! [光道] main >= 4
+	! 妖精传姬-白雪 main >= 1
+	! [不知火] main >= 4
+	refuse: 十二兽	
+	refuse: 光道
+	refuse: 白学家
+	refuse: 不知火
+
+deck: 十二兽捕食不知火 [20]
+	! [十二兽] main > 2
+	! 捕食植物 蜂兰蝎 >= 2
+	! 捕食植物 蛇瓶草眼镜蛇 >= 1
+	! [不知火] main >= 4
+	refuse: 十二兽
+	refuse: 捕食
+	refuse: 不知火
+
+deck: AFWW召唤兽 [20]
+	! [古遗物] main >= 4
+	! [风魔女] main >= 3
+	! 召唤师 阿莱斯特 >= 1
+	! 召唤魔术 >= 1
+	refuse: AF
+	refuse: 风魔女
+	refuse: 召唤兽
