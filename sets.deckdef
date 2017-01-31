@@ -1032,7 +1032,7 @@ deck: 十二兽
 tag: 十二兽
 	config: global
 	config: upgrade
-	! [十二兽] main > 3
+	! [十二兽] main > 2
 	! [十二兽] main <= 12
 
 tag: 召唤兽
