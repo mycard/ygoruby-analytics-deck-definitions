@@ -982,6 +982,11 @@ deck: 炼装
 		! 宙读之魔术士 >= 1
 	(解放天使)
 		! 98301564 >= 1	
+tag: 炼装
+	config: global
+	config: upgrade
+	! [炼装] main >= 4
+	! [炼装] main < 12
 
 deck: 三形金字塔
 	! [三形金字塔] > 10
