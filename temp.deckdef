@@ -81,23 +81,23 @@ tag: 巨神兵
 	config: global
 	config: upgrade
 	! 欧贝利斯克之巨神兵 main >= 1
-	or:	
+	or:
 		! 奥西里斯之天空龙 main < 1
 		! 太阳神之翼神龙 main < 1
 
-tag: 天空龙	
+tag: 天空龙
 	config: global
 	config: upgrade
 	! 奥西里斯之天空龙 main >= 1
-	or:	
+	or:
 		! 欧贝利斯克之巨神兵 main < 1
 		! 太阳神之翼神龙 main < 1
 
-tag: 翼神龙	
+tag: 翼神龙
 	config: global
 	config: upgrade
 	! 太阳神之翼神龙 main >= 1
-	or:	
+	or:
 		! 欧贝利斯克之巨神兵 main < 1
 		! 奥西里斯之天空龙 main < 1
 
@@ -249,7 +249,7 @@ set: 次元贴纸
 	光之追放者
 	闪光之追放者
 
-tag: 次元场	
+tag: 次元场
 	config: global
 	config: upgrade
 	! [次元贴纸] >= 3
@@ -273,7 +273,7 @@ deck: 惰天使
 	! 鬼计惰天使 >= 1
 	! 混沌超量 冀望皇 异晶人 >= 1
 	! No.69 纹章神 盾徽 >= 1
-	
+
 tag: 除外向念动力
 	config: global
 	config: upgrade
