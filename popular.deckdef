@@ -150,3 +150,12 @@ deck: AFWW召唤兽 [20]
 	refuse: AF
 	refuse: 风魔女
 	refuse: 召唤兽
+
+deck: 十二兽海王星 [20]
+	! [十二兽] main > 2
+	! 简易融合 >= 2
+	! 抒情歌鸲-独立夜莺 >= 1
+	! 暴君海王星 >= 1
+	refuse: 十二兽
+	refuse: 杯面
+	refuse: 独立夜莺(海王星)
