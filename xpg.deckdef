@@ -180,7 +180,8 @@ deck: 漏洞人
 tag: 毛扎
 	config: global
 	config: upgrade
-	! 毛扎 >= 1
+	! 毛扎 main >= 1
+	! 毛兽之王 main >= 1
 
 deck: 于贝尔
 	! 于贝尔 >= 1
