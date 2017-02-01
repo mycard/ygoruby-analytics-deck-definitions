@@ -159,3 +159,10 @@ deck: 十二兽海王星 [20]
 	refuse: 十二兽
 	refuse: 杯面
 	refuse: 独立夜莺(海王星)
+
+
+deck: 圣遗 [20]
+	! [圣刻] >= 4
+	! [遗式] main >= 5
+	refuse: 圣刻
+	refuse: 遗式
