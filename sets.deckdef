@@ -47,8 +47,12 @@ deck: 英雄
 		! 对极英雄 混沌侠 >= 1
 tag: hero
 	config: global
+	config: upgrade
 	! [英雄] main > 4
 	! [英雄] <= 9
+	or:
+		! E-紧急呼唤 >= 2
+		! 英雄到来 >= 2
 
 tag: 新宇
 	config: global
@@ -152,6 +156,7 @@ deck: 云魔物
 
 deck: 剑斗兽
 	! [剑斗兽] > 10
+	refuse: hero
 	(到来)
 		! 英雄到来 >= 1
 
@@ -461,8 +466,13 @@ deck: 鹰身
 ## 侵略的 被忽略
 ## 战士 被忽略
 
+deck: 音响战士
+	! [音响战士] >= 8
+	! 音响放大器 >= 1
+	refuse: 音响战士
 tag: 音响战士
 	config: global
+	config: upgrade
 	! [音响战士] >= 5	
 
 deck: 磁石战士
@@ -710,8 +720,7 @@ tag: EM
 	! [娱乐伙伴] >= 5
 	! [娱乐伙伴] < 9
 
-tag: 传说的骑士
-	config: global
+deck: 传说的骑士
 	! 80019195 main >= 1
 	! 84565800 main >= 1
 	! 85800949 main >= 1
