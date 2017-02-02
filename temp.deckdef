@@ -537,9 +537,7 @@ deck: 螺丝刺猬
 	! 螺丝刺猬 main >= 3
 	! 僵尸带菌者 main >= 2
 
-tag: 重装武者-弁庆
-	config: global
-	config: upgrade
+deck: 重装武者-弁庆
 	! 重装武者-弁庆 main >= 2
 
 deck: 自爆
@@ -591,7 +589,7 @@ tag: 6轴
 	config: global
 	! [6轴部件] >= 5
 
-tag: 雷beat
+set: 雷beat
 	雷王
 	避雷神
 	电光－雪花－
@@ -614,3 +612,19 @@ set: 残骸爆破burn
 	魔力爆发
 deck: 残骸爆破
 	! [残骸爆破burn] main >= 2
+
+deck: 狂战士之魂
+	! 狂战士之魂 main >= 1
+
+tag: 说书同调 # 待定
+	config: global
+	config: upgrade
+	! 强袭黑羽-五月雨之骚速刀鸟 >= 2
+	! 源龙星-望天吼 >= 1
+	! 科技属-超图书馆员 >= 1
+	! 天轮之双星道士 >= 1
+	! 方程式同调士 >= 1
+	! 龙子 >= 1
+	! 水晶机巧-量子刚玉 >= 1
+	! 加速同调士 >= 1
+	! 瑚之龙 >= 1
