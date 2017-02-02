@@ -240,6 +240,10 @@ deck: 壶削
 	! AD变更者 main >= 2
 	! 太阳之书 main >= 2
 
+deck: 混沌壶
+	! 混沌壶 main >= 2
+	! 召唤限制-猛突的怪兽 main >= 2
+
 deck: 骰子壶
 	! 骰子壶 main >= 2
 
@@ -248,12 +252,14 @@ set: 次元贴纸
 	次元的裂缝
 	光之追放者
 	闪光之追放者
-
 tag: 次元场
 	config: global
 	config: upgrade
 	! [次元贴纸] >= 3
-
+tag: 红莲魔兽
+	config: global
+	config: upgrade
+	! 红莲魔兽 塔·伊沙 main >= 2
 tag: 大宇宙
 	config: global
 	! [赫利俄斯] main >= 3
@@ -476,3 +482,40 @@ tag: 灵魂
 	config: global
 	config: upgrade
 	! [常见灵魂] >= 6
+
+set: 旧吃货
+	溶岩魔神
+	火山女王
+	撒旦老人
+set: 回收控制权
+	所有者的刻印
+	洗脑解除
+	救援战士
+deck: 吃货
+	! [旧吃货] main >= 3
+	! [回收控制权] main >= 3
+
+deck: 悠悠
+	! 悠悠 main >= 2
+	! 愤怒的悠悠 main >= 1
+	! 悠悠王 ex >= 1
+
+deck: 上膛beat
+	! 永火上膛者 main >= 2
+	! 休战增援 main >= 1
+
+deck: 蜂鸟侠
+	! 元素英雄 新宇侠 main >= 2
+	! 新空间侠·天空蜂鸟 main >= 2
+	! [新空间侠] main <= 6
+	! 元素英雄 天空新宇侠 >= 1
+
+deck: 和修吉
+	! 爬虫妖女·和修吉 main >= 2
+	! [爬虫妖] main <= 9
+
+deck: 弗兰克特化
+	! 恶魔科学怪人 main >= 1
+	or:
+		! 念动增幅装置 main >= 2
+		! 脑开发研究所 main >= 1
