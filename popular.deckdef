@@ -179,3 +179,6 @@ deck: 红龙DH [20]
 		and:
 			! 拉长石龙 main >= 1
 			! 碳素龙 main >= 1
+deck: WWSR [20]
+	! [风魔女] main >= 3
+	! [疾行机人] main >= 6
