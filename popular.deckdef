@@ -165,6 +165,7 @@ deck: 圣遗 [10]
 	! [遗式] main >= 5
 	refuse: 圣刻
 	refuse: 遗式
+	refuse: 6轴
 
 deck: 红莲法老 [10]
 	! 红莲共鸣者 main >= 3
@@ -173,12 +174,14 @@ deck: 红莲法老 [10]
 
 deck: 红龙DH [10]
 	! 命运英雄 魔性人 main >= 3
+	! 命运英雄 绝命人 >= 1
 	! 奥特玛雅·卓尔金 >= 1
 	or:
 		! 瑚之龙 >= 1
 		and:
 			! 拉长石龙 main >= 1
 			! 碳素龙 main >= 1
+
 deck: WWSR [10]
 	! [风魔女] main >= 3
 	! [疾行机人] main >= 6
