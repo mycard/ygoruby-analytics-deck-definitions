@@ -169,6 +169,7 @@ deck: 圣遗 [20]
 deck: 红莲法老 [20]
 	! 红莲共鸣者 main >= 3
 	! 法老的化身 main >= 3
+	refuse: 共鸣者
 
 deck: 红龙DH [20]
 	! 命运英雄 魔性人 main >= 3
@@ -178,7 +179,3 @@ deck: 红龙DH [20]
 		and:
 			! 拉长石龙 main >= 1
 			! 碳素龙 main >= 1
-
-deck: 螺丝刺猬
-	! 螺丝刺猬 main >= 3
-	! 僵尸带菌者 main >= 2
