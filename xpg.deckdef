@@ -276,6 +276,7 @@ tag: 虹龙
 
 tag: 真红王
 	config: global
+	config: upgrade
 	! 真红王 >= 1
 
 ## 异色眼 将在疑难区收录
@@ -630,6 +631,10 @@ tag: 至尊太阳
 	config: global
 	config: upgrade
 	! 至尊太阳 main >= 2
+tag: 天王星
+	config: global
+	config: upgrade
+	! 绝望天王星 main >= 2
 
 ## 表/里电子流 将在疑难区收录（屁啦无限万岁）
 ## Ex 破坏
