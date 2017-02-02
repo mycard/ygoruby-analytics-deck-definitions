@@ -151,7 +151,7 @@ deck: AFWW召唤兽 [20]
 	refuse: 风魔女
 	refuse: 召唤兽
 
-deck: 十二兽海王星 [20]
+deck: 十二兽海王星 [10]
 	! [十二兽] main > 2
 	! 简易融合 >= 2
 	! 抒情歌鸲-独立夜莺 >= 1
@@ -160,18 +160,18 @@ deck: 十二兽海王星 [20]
 	refuse: 杯面
 	refuse: 独立夜莺(海王星)
 
-deck: 圣遗 [20]
+deck: 圣遗 [10]
 	! [圣刻] >= 4
 	! [遗式] main >= 5
 	refuse: 圣刻
 	refuse: 遗式
 
-deck: 红莲法老 [20]
+deck: 红莲法老 [10]
 	! 红莲共鸣者 main >= 3
 	! 法老的化身 main >= 3
 	refuse: 共鸣者
 
-deck: 红龙DH [20]
+deck: 红龙DH [10]
 	! 命运英雄 魔性人 main >= 3
 	! 奥特玛雅·卓尔金 >= 1
 	or:
@@ -179,6 +179,6 @@ deck: 红龙DH [20]
 		and:
 			! 拉长石龙 main >= 1
 			! 碳素龙 main >= 1
-deck: WWSR [20]
+deck: WWSR [10]
 	! [风魔女] main >= 3
 	! [疾行机人] main >= 6
