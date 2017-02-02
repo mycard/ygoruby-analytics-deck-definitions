@@ -590,3 +590,27 @@ set: 6轴部件
 tag: 6轴
 	config: global
 	! [6轴部件] >= 5
+
+tag: 雷beat
+	雷王
+	避雷神
+	电光－雪花－
+	放电枪野马
+
+deck: 雷族beat
+	! [雷beat] >= 6
+
+deck: 暴食图书馆
+	! 吞食百万的暴食兽 main >= 2
+	! No.78 №系档案馆 >= 2
+	! [No.] >= 4
+
+deck: 废品融合者
+	! 废品同调士 main >= 2
+	! 同调融合者 main >= 2
+
+set: 残骸爆破burn
+	残骸爆破
+	魔力爆发
+deck: 残骸爆破
+	! [残骸爆破burn] main >= 2
