@@ -185,3 +185,12 @@ deck: 红龙DH [10]
 deck: WWSR [10]
 	! [风魔女] main >= 3
 	! [疾行机人] main >= 6
+	refuse: 陀螺
+	refuse: 风魔女
+
+deck: 异色眼魔术师 [10]
+	! 天空的虹彩 >= 1
+	! [异色眼] >= 3
+	! [魔术师] main >= 8
+	refuse: 魔术师
+	refuse: 异色眼
