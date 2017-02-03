@@ -61,6 +61,12 @@ deck: kozmo真龙 [10]
 	refuse: kozmo
 	refuse: 真龙皇
 
+deck: 真龙龙星 [10]
+	! [真龙] main >= 3
+	! [龙星] main >= 10
+	refuse: 真龙皇
+	refuse: 龙星
+
 deck: 十二兽炼装 [10]
 	! [十二兽] main > 2
 	! [炼装] main >= 12
@@ -184,8 +190,8 @@ deck: 圣遗 [10]
 	refuse: 6轴
 
 deck: 红莲法老 [10]
-	! 红莲共鸣者 main >= 3
-	! 法老的化身 main >= 3
+	! 红莲共鸣者 main >= 2
+	! 法老的化身 main >= 2
 	refuse: 共鸣者
 
 deck: 红龙DH [10]
