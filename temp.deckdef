@@ -606,6 +606,7 @@ deck: 暴食图书馆
 deck: 废品融合者
 	! 废品同调士 main >= 2
 	! 同调融合者 main >= 2
+	refuse: 同调士
 
 set: 残骸爆破burn
 	残骸爆破
