@@ -170,6 +170,12 @@ deck: 十二兽海王星 [10]
 	refuse: 杯面
 	refuse: 独立夜莺(海王星)
 
+deck: 十二兽月光 [10]
+	! [十二兽] main > 2
+	! [月光] main >= 4
+	refuse: 十二兽
+	refuse: 月光
+
 deck: 圣遗 [10]
 	! [圣刻] >= 4
 	! [遗式] main >= 5
