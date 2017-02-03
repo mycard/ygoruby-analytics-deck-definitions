@@ -712,6 +712,10 @@ tag: 影依
 
 deck: 龙星
 	! [龙星] main > 12
+tag: 龙星
+	config: global
+	! [龙星] main >= 4
+	! [龙星] main <= 12
 
 deck: 娱乐伙伴
 	! [娱乐伙伴] >= 9
