@@ -679,9 +679,9 @@ deck: 钢炎魔王burn
 		! 死之魔术箱 >= 1
 
 set: 凡骨配套
-	!魔之试衣间
-	!三白骨区
-	!马骨的对价
+	魔之试衣间
+	三白骨区
+	马骨的对价
 tag: 凡骨
 	config: global
 	config: upgrade
