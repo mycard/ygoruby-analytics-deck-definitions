@@ -636,7 +636,6 @@ tag: 次元斩
 	config: upgrade
 	! [次元斩三人组] >= 5
 ## 行星 不是一个卡组
-
 tag: 至尊太阳
 	config: global
 	config: upgrade
@@ -645,6 +644,19 @@ tag: 天王星
 	config: global
 	config: upgrade
 	! 绝望天王星 main >= 2
+deck: 行星
+	restrains: >= 4
+		! 轻盈水星 main >= 1
+		! 华丽金星 main >= 1
+		! 烈焰火星 main >= 1
+		! 宏大木星 main >= 1
+		! 大土星 main >= 1
+		! 绝望天王星 main >= 1
+		! 暴君海王星 main >= 1
+		! 镇压冥王星 main >= 1
+		! 至尊太阳 main >= 1
+	refuse: 至尊太阳
+	refuse: 天王星
 
 ## 表/里电子流 将在疑难区收录（屁啦无限万岁）
 ## Ex 破坏
