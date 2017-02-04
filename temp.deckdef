@@ -684,6 +684,5 @@ set: 凡骨配套
 	!马骨的对价
 tag: 凡骨
 	config: global
-	config: prefix
+	config: upgrade
 	! [凡骨配套] >= 6
-	
