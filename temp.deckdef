@@ -683,6 +683,5 @@ set: 凡骨配套
 	三白骨区
 	马骨的对价
 tag: 凡骨
-	config: global
 	config: upgrade
 	! [凡骨配套] >= 6
