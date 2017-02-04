@@ -657,3 +657,17 @@ tag: 天轮
 	or:
 		! 花札卫-雨四光- >= 1
 		! 花札卫-五光- >= 1
+
+set: 岩石boss
+	地球巨人
+	积木龙
+	巨岩龙
+
+deck: 岩石族
+	! [岩石boss] >= 3
+
+tag: 狂暴死龙
+	config: global
+	config: upgrade
+	! 狂暴死龙 main >= 1
+	! 与恶魔的暗中交易 main >= 1
