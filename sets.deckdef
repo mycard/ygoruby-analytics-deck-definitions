@@ -674,12 +674,12 @@ tag: 电子化天使
 ## 电子鱼人 被忽略
 
 deck: 古遗物（AF）
-	! [古遗物] main > 12	
+	! [古遗物] main > 10
 #	! 古遗物-商神杖 >= 1
 tag: AF
 	config: global
 	! [古遗物] main >= 3
-	! [古遗物] main <= 12
+	! [古遗物] main <= 10
 
 deck: 魔术师
 	! [魔术师] main >= 9
