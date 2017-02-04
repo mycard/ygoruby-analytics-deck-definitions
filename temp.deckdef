@@ -670,6 +670,16 @@ tag: 狂暴死龙
 	! 狂暴死龙 main >= 1
 	! 与恶魔的暗中交易 main >= 1
 
+set: 凡骨配套
+	魔之试衣间
+	三白骨区
+	马骨的对价
+
+tag: 凡骨
+	config: global
+	config: upgrade
+	! [凡骨配套] main >= 6
+
 deck: 钢炎魔王burn
 	! 真红眼钢炎龙 >= 1
 	! 魔王龙 蝇王 >= 1
@@ -677,12 +687,3 @@ deck: 钢炎魔王burn
 		! 紫炎之间者 >= 1
 		! 强制转移 >= 1
 		! 死之魔术箱 >= 1
-
-set: 凡骨配套
-	魔之试衣间
-	三白骨区
-	马骨的对价
-tag: 凡骨
-	config: global
-	config: upgrade
-	! [凡骨配套] >= 6
