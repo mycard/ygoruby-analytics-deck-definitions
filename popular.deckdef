@@ -184,10 +184,10 @@ deck: 十二兽月光 [10]
 
 deck: 圣遗 [10]
 	! [圣刻] >= 4
-	! [遗式] main >= 5
+	! [遗式] main >= 4
 	refuse: 圣刻
 	refuse: 遗式
-	refuse: 6轴
+	refuse: 六轴
 
 deck: 红莲法老 [10]
 	! 红莲共鸣者 main >= 2
