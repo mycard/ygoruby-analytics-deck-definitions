@@ -245,3 +245,9 @@ deck: HAT [20]
 	! 火焰手 >= 1
 	refuse: 冰火手
 	refuse: AF
+
+deck: 圣刻白龙 [10]
+	! [圣刻] main >= 4
+	! 青眼白龙 >= 2
+	refuse: 圣刻
+	refuse: 白龙
