@@ -334,10 +334,19 @@ tag: 猴树
 deck: ABC
 	! 同盟格纳库 >= 1
 	! ABC-神龙歼灭者 >= 2
-	
+tag: ABC
+	config: global
+	config: upgrade
+	! 同盟格纳库 < 1
+	! A-突击核 >= 1
+	! B-破坏龙兽 >= 1
+	! C-粉碎翼龙 >= 1
+	! ABC-神龙歼灭者 >= 1
+
 deck: 灵魂鸟
 	! 灵魂的降神 >= 2
-	
+	refuse: 灵魂
+
 tag: 削命
 	config: global
 	! 削命的宝札 >= 2
