@@ -504,17 +504,19 @@ tag: 灵魂
 	config: upgrade
 	! [常见灵魂] >= 6
 
-set: 旧吃货
+set: 吃货
 	溶岩魔神
 	火山女王
 	撒旦老人
+	[坏兽]
 set: 回收控制权
 	所有者的刻印
 	洗脑解除
 	救援战士
 deck: 吃货
-	! [旧吃货] main >= 3
+	! [吃货] main >= 3
 	! [回收控制权] main >= 3
+	refuse: 坏兽
 
 deck: 悠悠
 	! 悠悠 main >= 2
