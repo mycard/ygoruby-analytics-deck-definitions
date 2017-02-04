@@ -679,8 +679,10 @@ tag: AF
 deck: 魔术师
 	! [魔术师] main >= 9
 	! 星刻之魔术师 >= 1
+	refuse: 灵摆读阵
 tag: 魔术师
 	config: global
+	config: upgrade
 	! [魔术师] main >= 6
 	! 星刻之魔术师 < 1
 tag: 灵摆读阵
@@ -762,12 +764,13 @@ deck: 栗子球
 ## 兰斯洛特 被忽略
 
 deck: 毛绒
-	! [毛绒动物] main >= 12
-	! [魔玩具] ex >= 4
+	! [毛绒动物] main >= 10
+	! [魔玩具] ex >= 6
 tag: 毛绒
 	config: global
 	! [毛绒动物] main > 4
-	! [毛绒动物] main < 12	
+	! [毛绒动物] main < 10
+	! [魔玩具] ex < 6
 
 deck: 机壳
 	! [机壳] > 5
