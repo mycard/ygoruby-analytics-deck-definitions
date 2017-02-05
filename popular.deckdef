@@ -252,6 +252,35 @@ deck: 银河电子 [10]
 	refuse: 银河
 	refuse: 电子龙
 
+deck: 银河ABC [10]
+	! 银河战士 >= 3
+	! A-突击核 >= 1
+	! B-破坏龙兽 >= 1
+	! C-粉碎翼龙 >= 1
+	! ABC-神龙歼灭者 >= 1
+	refuse: 银河
+	refuse: ABC
+
+deck: 电子ABC [10]
+	! [电子龙] main >= 3
+	! A-突击核 >= 1
+	! B-破坏龙兽 >= 1
+	! C-粉碎翼龙 >= 1
+	! ABC-神龙歼灭者 >= 1
+	refuse: 电子龙
+	refuse: ABC
+
+deck: 银河电子ABC [20]
+	! 银河战士 >= 3
+	! [电子龙] main >= 3
+	! A-突击核 >= 1
+	! B-破坏龙兽 >= 1
+	! C-粉碎翼龙 >= 1
+	! ABC-神龙歼灭者 >= 1
+	refuse: 银河
+	refuse: 电子龙
+	refuse: ABC
+
 deck: HAT [20]
 	! [古遗物] >= 6
 	! [虫惑魔] >= 3
