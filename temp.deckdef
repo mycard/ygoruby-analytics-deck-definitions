@@ -624,6 +624,9 @@ set: 残骸爆破burn
 	魔力爆发
 deck: 残骸爆破
 	! [残骸爆破burn] main >= 2
+deck: 魔力爆发
+	! 魔力爆发 main >= 1
+	! 黑暗中的陷阱 main >= 1
 
 deck: 狂战士之魂
 	! 狂战士之魂 main >= 1
