@@ -642,6 +642,7 @@ deck: 鬼计
 
 deck: 吸血鬼
 	! [吸血鬼] > 10
+	refuse: 不死族
 
 ## 刷拉拉 被忽略
 
@@ -1000,6 +1001,7 @@ deck: 雾动机龙
 
 deck: 不知火
 	! [不知火] >= 9
+	refuse: 不死族
 tag: 不知火
 	config: global
 	! 不知火的隐者 main >= 1
@@ -1187,12 +1189,12 @@ tag: 真龙皇
 	config: upgrade
 	! [真龙] <= 12
 	! 真龙剑皇 卓辉星·拼图 < 1
-	! [真龙皇] >= 3 
+	! [真龙皇] >= 5
 tag: 真龙剑皇
 	config: global
 	config: upgrade
 	! [真龙] <= 15
-	! [真龙皇] < 8 
+	! [真龙皇] < 8
 	! 真龙剑皇 卓辉星·拼图 >= 1
 
 deck: 幻煌龙
