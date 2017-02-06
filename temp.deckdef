@@ -734,5 +734,7 @@ set: 不死族系列
 	僵尸带菌者
 	哥布林僵尸
 	齐唱僵尸
-deck: 不死族
-	! [不死族系列] main >= 12
+tag: 不死族
+	config: global
+	config: upgrade
+	! [不死族系列] main >= 8
