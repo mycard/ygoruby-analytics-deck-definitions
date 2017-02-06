@@ -738,3 +738,8 @@ tag: 不死族
 	config: global
 	config: upgrade
 	! [不死族系列] main >= 8
+
+tag: 御用
+	config: global
+	config: upgrade
+	! [御用] >= 6
