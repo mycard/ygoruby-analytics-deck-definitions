@@ -656,7 +656,7 @@ set: 说书同调终端
 tag: 说书同调 # 待定
 	config: global
 	config: upgrade
-	! [说书同调跳板] ex >= 7
+	! [说书同调跳板] ex >= 6
 	! [说书同调终端] ex >= 3
 deck: 光神抽
 	! 光神 忒堤斯 >= 3
