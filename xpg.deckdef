@@ -583,7 +583,7 @@ set: 攻击限制
 tag: 攻击封锁
 	config: global
 	config: upgrade
-	! [攻击限制] >= 8
+	! [攻击限制] >= 6
 	
 tag: 世界锁
 	config: global
