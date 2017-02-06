@@ -262,7 +262,7 @@ deck: 银河ABC [10]
 	refuse: ABC
 
 deck: 电子ABC [10]
-	! [电子龙] main >= 3
+	! [电子龙] main >= 2
 	! A-突击核 >= 1
 	! B-破坏龙兽 >= 1
 	! C-粉碎翼龙 >= 1
@@ -294,3 +294,8 @@ deck: 圣刻白龙 [10]
 	! 青眼白龙 >= 2
 	refuse: 圣刻
 	refuse: 白龙
+
+deck: AF先史 [10]
+	! [古遗物] main >= 6
+	! [先史遗产] main >= 6
+	refuse: AF
