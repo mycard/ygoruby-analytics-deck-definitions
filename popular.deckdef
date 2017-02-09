@@ -126,14 +126,14 @@ deck: 十二兽狱火机 [10]
 
 deck: 割草狱火机 [10]
 	! [狱火机] main >= 6
-	! [邻家割草] main >= 2
+	! 邻家割草 main >= 2
 	refuse: 割草
 	refuse: 狱火机
 
 deck: 割草十二兽狱火机 [20]
 	! [十二兽] main > 2
 	! [狱火机] main >= 6
-	! [邻家割草] main >= 2
+	! 邻家割草 main >= 2
 	refuse: 割草
 	refuse: 十二兽
 	refuse: 狱火机
