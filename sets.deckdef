@@ -702,16 +702,13 @@ tag: AF
 
 deck: 魔术师
 	! [魔术师] main >= 9
+	! [灵摆读阵] main >= 2
 	! 星刻之魔术师 >= 1
-	refuse: 灵摆读阵
+	refuse: 魔术师
 tag: 魔术师
 	config: global
 	config: upgrade
 	! [魔术师] main >= 6
-	! 星刻之魔术师 < 1
-tag: 灵摆读阵
-	config: global
-	! [灵摆读阵] >= 2
 
 tag: 异色眼
 	config: global
