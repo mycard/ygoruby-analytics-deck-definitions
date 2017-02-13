@@ -921,10 +921,12 @@ tag: 狮子男巫
 	config: global
 	config: upgrade
 	! 狮子男巫 main >= 2
+
 tag: 海马兽
 	config: global
 	config: upgrade
 	! 海马兽 main >= 2
+
 deck: 神兽
 	! 狮子男巫 main >= 1
 	! 海马兽 main >= 1
