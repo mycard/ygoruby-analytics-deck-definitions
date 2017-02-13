@@ -159,7 +159,8 @@ deck: 疾行机人（SR）
 tag: 同调士
 	config: global
 	config: upgrade
-	! [同调士] > 6
+	! [同调士] main > 6
+	! 调律 main >= 1
 
 deck: 云魔物
 	! [云魔物] > 10
