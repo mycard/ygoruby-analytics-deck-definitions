@@ -555,13 +555,15 @@ deck: ChainBeat
 ## Cure
 ## Burn 将在特殊战术区收录
 
-deck: ChainBurn
+deck: burn
+	! [内置式] main >= 4
+deck: ChainBurn [10]
 	! 连锁爆击 >= 2
 #	! 积累的幸福 >= 1
-deck: 削命Burn
+deck: 削命Burn [10]
 	! 削命的宝札 main >= 2
 	! 连锁爆击 main < 1
-	! [内置式] main >= 5
+	! [内置式] main >= 4
 	refuse: 削命
 tag: 大逆转
 	config: global
