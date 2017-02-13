@@ -114,8 +114,12 @@ set: 产毛卡
 	河马狂欢节
 	黑色花园
 	替罪羊
+	迷途的羔羊
 	替罪鬼羊
 	蒲公英狮
+	史莱姆增殖炉
+	芙莉嘉的苹果
+	
 tag: 史莱姆beat
 	config: global
 	config: upgrade
@@ -562,7 +566,7 @@ deck: 和修吉
 deck: 弗兰克特化
 	! 恶魔科学怪人 main >= 1
 	or:
-		! 念动增幅装置 main >= 2
+		! 念动增幅装置 main >= 1
 		! 脑开发研究所 main >= 1
 
 deck: 螺丝刺猬
@@ -715,15 +719,20 @@ set: 凡骨配套
 	弱肉一色
 	下克上的首饰
 	给恶魔的贡物
+	正义雷破
+	决战之火盖
+	正统的血统
 tag: 凡骨
 	config: global
 	config: upgrade
 	! [凡骨配套] main >= 6
 
-deck: 钢炎魔王burn
+deck: 钢炎burn
 	! 真红眼钢炎龙 >= 1
-	! 魔王龙 蝇王 >= 1
 	or:
+		! 魔王龙 蝇王 >= 1
+		! 铁骑士 基亚·弗里德 >= 1
+ 	or:
 		! 紫炎之间者 >= 1
 		! 强制转移 >= 1
 		! 死之魔术箱 >= 1
@@ -766,6 +775,7 @@ set: 不死族系列
 	僵尸带菌者
 	哥布林僵尸
 	齐唱僵尸
+	僵尸之主
 tag: 不死族
 	config: global
 	config: upgrade
@@ -892,3 +902,71 @@ set: 凡骨P
 	德拉科尼亚的海龙骑兵
 deck: 凡骨P
 	! [凡骨P] main >= 8
+
+set: 跳舞怪兽
+	杀人小丑
+	梦幻小丑
+	剑齿兔
+deck: 变更形式
+	! [跳舞怪兽] main >= 6
+
+deck: 龙大神
+	! 龙大神 main >= 1
+	or:
+		! 紫炎之间者 >= 1
+		! 强制转移 >= 1
+		! 死之魔术箱 >= 1
+
+tag: 狮子男巫
+	config: global
+	config: upgrade
+	! 狮子男巫 main >= 2
+tag: 海马兽
+	config: global
+	config: upgrade
+	! 海马兽 main >= 2
+deck: 神兽
+	! 狮子男巫 main >= 1
+	! 海马兽 main >= 1
+	refuse: 狮子男巫
+	refuse: 海马兽
+
+tag: 暴风burn
+	config: global
+	config: upgrade
+	! 暴风魔术师 ex >= 1
+	or:
+		! 魔力诱导者 main >= 1
+		! 魔法都市 恩底弥翁 main >= 1
+
+set:手坑
+	蛇神 格
+	特拉戈迪亚
+	护封剑之剑士	
+	冥府之使者 格斯
+	古遗物-圣枪
+	刻印之调停者
+	妖形杵
+	应战的G
+	DD 俄耳托斯
+	疾行机人 出局画片
+	白骨公主
+	工作列车 红色信号
+	正义盟军 周期解读虫
+	飞翔的G
+	超重武者 心构-A
+	幽鬼兔
+	浮幽樱
+	灰流丽
+	自然甜菜菊
+	增殖的G
+	机皇帝 神智∞
+	D.D.乌鸦
+	速攻稻草人
+	小丑与锁鸟
+	洁净栗子球
+	消战者	
+	效果遮蒙者
+	台风
+deck: 全手坑
+	! [手坑] main >= 25
