@@ -207,6 +207,12 @@ deck: 十二兽月光 [10]
 	refuse: 十二兽
 	refuse: 月光
 
+deck: 十二兽影依 [10]
+	! [十二兽] main >= 2
+	! [影依] main >= 6
+	refuse: 十二兽
+	refuse: 影依
+
 deck: 圣遗 [10]
 	! [圣刻] >= 4
 	! [遗式] main >= 4
