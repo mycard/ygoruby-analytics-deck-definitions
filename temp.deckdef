@@ -983,3 +983,8 @@ set:手坑
 	台风
 deck: 全手坑
 	! [手坑] main >= 25
+
+tag: 幻想召唤师
+	config: global
+	config: upgrade
+	! 幻想召唤师 main >= 2
