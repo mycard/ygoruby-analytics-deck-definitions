@@ -988,3 +988,16 @@ tag: 幻想召唤师
 	config: global
 	config: upgrade
 	! 幻想召唤师 main >= 2
+
+tag: 极龙
+	config: global
+	config: upgrade
+	! 青眼混沌极龙 main >= 2
+
+tag: 暗同调
+	config: global
+	config: upgrade
+	! 命运英雄 魔性人 main >= 3
+	! 僵尸带菌者 main >= 1
+	! [不死族系列] main <= 4
+	! [六轴部件] main <= 4
