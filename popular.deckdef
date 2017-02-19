@@ -241,6 +241,12 @@ deck: WWSR [10]
 	refuse: 陀螺
 	refuse: 风魔女
 
+deck: WW威风 [10]
+	! [风魔女] main >= 3
+	! [威风妖怪] main >= 6
+	refuse: 风魔女
+	refuse: 威风妖怪
+
 deck: 异色眼魔术师 [10]
 	! 天空的虹彩 >= 1
 	! [异色眼] >= 3
