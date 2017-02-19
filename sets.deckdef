@@ -841,7 +841,7 @@ deck: 超级运动员（UA）
 deck: 妖仙兽
 	! [妖仙兽] >= 6
 
-deck: 影灵衣
+deck: 影灵衣 [5]
 	! [影灵衣] >= 10
 tag: 影灵衣
 	config: global
@@ -903,6 +903,7 @@ set: 怪兽帝
 set: 报社魔人
 	虚无魔人
 	威光魔人
+	虚无之统括者
 deck: 帝	
 #	! 天帝 埃忒耳 >= 1		
 #	! 冥帝 厄瑞玻斯 >= 1
@@ -1190,6 +1191,7 @@ deck: 堕天使
 
 tag: 风魔女
 	config: global
+	config: upgrade
 	! [风魔女] main >= 4
 
 deck: 十二兽
