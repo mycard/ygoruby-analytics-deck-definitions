@@ -1022,7 +1022,8 @@ deck: 坏兽
 	refuse: 坏兽
 tag: 坏兽
 	config: global
-	! [坏兽] main >= 2
+	config: upgrade
+	! [坏兽] main >= 4
 	! 遭受妨碍的坏兽安眠 main >= 1
 
 deck: 伯吉斯异兽
