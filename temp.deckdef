@@ -332,9 +332,11 @@ deck: 惰天使
 tag: 除外向念动力
 	config: global
 	config: upgrade
-	! 沉默的念力男巫 >= 1
-	! 静寂的念力魔女 >= 1
-	! 念之少女 >= 1
+	restrains: >= 2
+		! 沉默的念力男巫 >= 1
+		! 静寂的念力魔女 >= 1
+		! 念之少女 >= 1
+		! 25343017 >= 1
 
 deck: 罗宾
 	! 异次元喷气机·大铁号 main >= 1
@@ -646,7 +648,6 @@ set: 六轴部件
 	幻想之见习魔导师
 	魔轰神 索尔基乌斯
 	圣刻龙-泰芙龙
-	圣刻龙-舒龙
 	拉长石龙
 tag: 六轴
 	config: global
@@ -705,7 +706,7 @@ set: 说书终端
 	流天类星龙
 	圣珖神龙 星尘·零
 	星尘战士
-	宇宙耀变龙
+	21123811
 	科技属 戟炮手
 tag: 说书同调
 	config: global
@@ -849,6 +850,8 @@ set: 老式burn
 	日珥龙
 	波动加农炮
 	死亡树熊
+	剑之女王
+	剧毒木乃伊
 	棉花糖
 	昼夜的大火灾
 	球体时限炸弹
@@ -859,6 +862,8 @@ set: 老式burn
 	噩梦之拷问室
 	漏雷
 	公墓炸弹
+	哥布林小役人
+	
 deck: 老式burn
 	! [老式burn] main >= 12
 
@@ -1018,3 +1023,23 @@ tag: 暗同调
 	! 僵尸带菌者 main >= 1
 	! [不死族系列] main <= 4
 	! [六轴部件] main <= 4
+
+tag: 卡通加农炮兵
+	config: global
+	config: upgrade
+	! [加农炮兵] main >= 1
+
+tag: 神殿守卫者
+	config: global
+	config: upgrade
+	! 神殿守卫者 main >= 1
+
+tag: 传说的战士
+	config: global
+	config: upgrade
+	! 69933858 main >= 1
+
+deck: 坏兽(闪光吸收) [10]
+	! [坏兽] main >= 6
+	! 闪光吸收 main >= 2
+	refuse: 坏兽
