@@ -968,13 +968,13 @@ deck: 芳香
 
 ## 以太神兵龙 被忽略
 
-deck: 占术姬
-	! [占术姬] >= 6
-	refuse: 圣占术姬
 tag: 圣占术姬
 	config: global
 	config: upgrade
 	! 圣占术姬 塔罗光巫女 main >= 1
+deck: 占术姬
+	! [占术姬] >= 6
+	refuse: 圣占术姬
 
 deck: 水族馆
 	! [水伶女] >= 6
