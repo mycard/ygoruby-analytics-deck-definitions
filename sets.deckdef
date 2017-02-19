@@ -805,11 +805,12 @@ deck: 栗子球
 deck: 毛绒
 	! [毛绒动物] main >= 10
 	! [魔玩具] ex >= 6
+	refuse: 毛绒
 tag: 毛绒
+	config: global
 	config: global
 	! [毛绒动物] main > 4
 	! [毛绒动物] main < 10
-	! [魔玩具] ex < 6
 
 deck: 机壳
 	! [机壳] > 5
