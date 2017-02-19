@@ -127,6 +127,10 @@ tag: 征龙
 	config: global
 	! [征龙] >= 4
 	! [征龙] <= 7
+tag: 征龙
+	config: global
+	config: upgrade
+	! [征龙] main >= 8
 
 ## 发条 已被系列收录
 ## C 链 已被系列收录
