@@ -1230,7 +1230,6 @@ deck: 抒情歌鸲
 tag: 独立夜莺(海王星)
 	config: global
 	config: upgrade
-	! [抒情歌鸲] main < 1
 	! 简易融合 >= 1
 	! 抒情歌鸲-独立夜莺 >= 1
 	! 暴君海王星 >= 1
