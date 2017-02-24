@@ -273,10 +273,6 @@ tag: 巨神龙
 	config: upgrade
 	! 巨神龙 闪耀 >= 1
 
-tag: 虹龙
-	config: global
-	! [究极宝玉神] >= 1
-
 ## 炼装 将在疑难区收录
 
 tag: 真红王
