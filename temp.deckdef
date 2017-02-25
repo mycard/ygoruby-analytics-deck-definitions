@@ -146,7 +146,7 @@ set: 堕天药副
 	堕天使护士-蕾菲库儿
 	药物的副作用
 deck: 堕天药副
-	! [堕天药副] main >= 3
+	! [堕天药副] main >= 2
 
 tag: 传说的渔人
 	config: global
@@ -426,7 +426,7 @@ set: 超時空戦闘機
 	大刀β
 	罗德不列颠号
 deck: 超時空戦闘機
-	! [超時空戦闘機] main >= 9
+	! [超時空戦闘機] main >= 6
 
 tag: 珂珑公主
 	config: global
@@ -1167,9 +1167,14 @@ tag: 防护罩
 	! [防护罩] main >= 6
 
 deck: lock [5]
-	! 33746252 main >= 1 # 威光
-	! 20174189 main >= 1 # 竹笋
-	
+	or:
+		and:
+			! 33746252 main >= 1 # 威光
+			! 20174189 main >= 1 # 竹笋
+		and:
+			! 11366199 main >= 1 # 暗鸟
+			! 58921041 main >= 1 # 魔封
+			! 86099788 main >= 1 # 异星
 deck: 虹皇 [10]
 	! 89943723 main >= 1 # 奥特曼
 	! [究极宝玉神] main >= 1
@@ -1191,3 +1196,6 @@ tag: 二重
 	config: global
 	config: upgrade
 	! [二重相关] main >= 8
+
+deck: 虫G
+	! [的G] main >= 8
