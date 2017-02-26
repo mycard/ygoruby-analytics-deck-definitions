@@ -304,6 +304,11 @@ deck: 银河电子ABC [20]
 	refuse: 电子龙
 	refuse: ABC
 
+deck: 虫惑魔古遗物 [10]
+	! [古遗物] >= 6
+	! [虫惑魔] >= 3
+	refuse: AF
+
 deck: HAT [20]
 	! [古遗物] >= 6
 	! [虫惑魔] >= 3
