@@ -1064,7 +1064,7 @@ tag: 伯吉斯异兽
 deck: 破坏剑
 	! [破坏剑] >= 6
 	! [巴斯达·布雷达] >= 2
-	refuse: 破坏剑	
+	refuse: 破坏剑
 	(灵堂)
 		! 光之灵堂 >= 1
 tag: 破坏剑
@@ -1081,11 +1081,11 @@ tag: 雾动机龙
 deck: 不知火
 	! [不知火] >= 9
 	refuse: 不死族
+	refuse: 不知火
 tag: 不知火
 	config: global
 	! 不知火的隐者 main >= 1
 	! 不知火的宫司 main >= 1
-	! [不知火] main < 9
 
 tag: 幻影骑士团
 	config: global
