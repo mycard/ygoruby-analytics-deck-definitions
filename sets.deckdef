@@ -602,7 +602,10 @@ deck: 圣骑士
 	! [圣剑] >= 5
 
 deck: 银河
-	! 银河眼光子龙 >= 2
+	or:
+		! 银河眼光子龙 >= 2
+		and:
+			! [银河] main >= 8
 tag: 银河
 	config: global
 	! [银河] main <= 9
