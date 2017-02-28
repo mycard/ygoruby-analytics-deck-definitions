@@ -657,19 +657,20 @@ tag: 羽翼栗子球
 	! 羽翼栗子球 LV10 main >= 1
 
 set: 植物族均	
-	蔷薇恋人
+	89252157 # 蔷薇恋人
 	蔷薇之圣弓手
 	暗绿芽
 	凤凰石蒜花
 	植物少女
 	毒根王
 	再开的大朵蔷薇
-	世界树
+	5973663 # 世界树
 	增草剂
 	蔷薇刻印
 	芳香风暴
 	棘之壁
-	花粉症
+	91078716 # 花粉症
+	28529976 # 超营养太阳
 tag: 植物族
 	config: global
 	config: upgrade
@@ -1291,3 +1292,9 @@ tag: 最终一战
 	config: global
 	config: upgrade
 	! 28566710 main >= 1
+
+tag: 上海王
+	config: global
+	config: upgrade
+	! 40732515 main >= 1 # 上海王
+	! 39910367 main >= 1 # 魔都
