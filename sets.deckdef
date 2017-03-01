@@ -1083,6 +1083,11 @@ tag: 威风妖怪
 
 deck: 灰篮
 	! [灰篮] >= 8
+	refuse: 灰篮
+tag: 灰篮
+	config: global
+	config: upgrade
+	! [灰篮] >= 6
 
 deck: 星际仙踪（星兹）
 	! [星际仙踪] >= 10
