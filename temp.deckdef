@@ -839,7 +839,9 @@ deck: 钢炎burn
 		! 强制转移 >= 1
 		! 死之魔术箱 >= 1
 
-deck: 升阶
+tag: 升阶
+	config: global
+	config: upgrade
 	! [混沌No.] >= 4
 	! [升阶魔法] >= 3
 
