@@ -684,7 +684,7 @@ deck: 木灵植物
 	! 成长的鳞茎 >= 1
 	! 孢子 >= 1
 	! 蒲公英狮 >= 1
-	refuse: 植物族均
+	refuse: 植物族
 
 tag: 地狱暴风
 	config: global
