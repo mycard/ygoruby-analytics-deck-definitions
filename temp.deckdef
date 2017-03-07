@@ -190,10 +190,11 @@ tag: 大革命
 tag: 纸飞机人
 	config: global
 	config: upgrade
-	! 何者 >= 1
-	! 他者 >= 1
-	! 此者 >= 1
-	! 彼者 >= 1
+	restrains: >= 2
+		! 何者 >= 1
+		! 他者 >= 1
+		! 此者 >= 1
+		! 彼者 >= 1
 
 tag: 要塞鲸
 	config: global
