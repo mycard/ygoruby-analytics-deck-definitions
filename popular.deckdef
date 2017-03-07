@@ -55,6 +55,12 @@ deck: 十二兽真龙坏兽 [20]
 	refuse: 真龙剑皇
 	refuse: 坏兽
 
+deck: 十二兽kozmo [10]
+	! [十二兽] main > 2
+	! [星际仙踪] main >= 8
+	refuse: 十二兽
+	refuse: kozmo
+
 deck: kozmo真龙 [10]
 	! [星际仙踪] main >= 8
 	! [真龙皇] main >= 2
