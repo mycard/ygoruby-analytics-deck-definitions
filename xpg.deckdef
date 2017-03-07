@@ -436,26 +436,24 @@ tag: 神炎皇
 	config: global
 	config: upgrade
 	! 6007213 >= 1 # 神炎皇
-	restrains: <= 2
-		! 43378048 < 1 # 混沌幻魔
+	or:
 		! 32491822 < 1 # 降雷皇
 		! 69890967 < 1 # 幻魔皇
 tag: 幻魔皇
 	config: global
 	config: upgrade
 	! 69890967 >= 1 # 幻魔皇
-	restrains: <= 2
-		! 43378048 < 1 # 混沌幻魔
+	or:
 		! 32491822 < 1 # 降雷皇
 		! 6007213 < 1 # 神炎皇
 tag: 降雷皇
 	config: global
 	config: upgrade
 	! 32491822 >= 1 # 降雷皇
-	restrains: <= 2
-		! 43378048 < 1 # 混沌幻魔
+	or:
 		! 69890967 < 1 # 幻魔皇
 		! 6007213 < 1 # 神炎皇
+
 tag: 三幻魔
 	config: global
 	config: upgrade
@@ -464,7 +462,7 @@ tag: 三幻魔
 	! 6007213 >= 1 # 神炎皇
 	! 43378048 < 1 # 混沌幻魔
 
-tag: 艾托斯
+##tag: 艾托斯
 
 tag: 赠剑兵
 	config: global
