@@ -750,7 +750,9 @@ tag: 暗电子
 	! 电子暗黑冲击！ main >= 1
 	! 铠黑龙-电子暗黑龙 >= 1
 
-deck: 电子化天使
+deck: 电子化
+	! [电子化] >= 6
+deck: 电子化天使 [2]
 	! [电子化天使] >= 6
 tag: 电子化天使
 	config: global
@@ -1143,6 +1145,7 @@ deck: 不知火
 	refuse: 不知火
 tag: 不知火
 	config: global
+	config: upgrade
 	! 不知火的隐者 main >= 1
 	! 不知火的宫司 main >= 1
 
