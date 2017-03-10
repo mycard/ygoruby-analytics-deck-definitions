@@ -1,3 +1,5 @@
+# for https://api.mycard.moe/ygopro/analytics/deckIdentifier/console/index.html
+
 tag: 混沌龙
 	config: global
 	config: upgrade
@@ -784,13 +786,12 @@ tag: 说书同调
 tag: 同调系
 	config: global
 	config: upgrade
+	restrains: < 2
+		! [说书跳板] ex >= 6
+		! [说书终端] ex >= 3
 	or:
-		and:
-			! [说书跳板] ex >= 6
-			! [同调终端] ex < 3
-		and:
-			! [说书跳板] ex <= 5
-			! [同调终端] ex >= 3
+		! [说书跳板] ex >= 6
+		! [同调终端] ex >= 3
 
 deck: 光神抽
 	! 光神 忒堤斯 >= 3
