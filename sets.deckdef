@@ -283,6 +283,9 @@ deck: 大日
 deck: 命运女郎
 	! [命运女郎] >= 6
 
+deck: 火山
+	! [火山] main >= 10
+	refuse: 火山(烈焰加农炮)
 tag: 火山(烈焰加农炮)
 	config: global
 	config: upgrade
@@ -399,6 +402,11 @@ tag: 六武众
 
 deck: 异虫
 	! [异虫] >= 7
+	refuse: 异虫
+tag: 异虫
+	config: global
+	config: upgrade
+	! [异虫] main >= 4
 
 tag: 救世
 	config: global
@@ -553,7 +561,9 @@ deck: 鹰身
 ## 战士 被忽略
 
 tag: 战士(同调)
-	! [战士] ex >= 7
+	config: global
+	config: upgrade
+	! [战士] ex >= 5
 deck: 音响战士
 	! [音响战士] >= 8
 	! 音响放大器 >= 1
