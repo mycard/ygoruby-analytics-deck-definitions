@@ -86,6 +86,12 @@ deck: 真龙炼装 [10]
 	refuse: 真龙剑皇
 	refuse: 炼装
 
+deck: 真龙古机 [10]
+	! [真龙] main >= 2
+	! [古代的机械] main >= 4
+	refuse: 真龙皇
+	refuse: 真龙剑皇
+
 deck: 十二兽真龙炼装 [20]
 	! [十二兽] main > 2
 	! [炼装] main >= 12
