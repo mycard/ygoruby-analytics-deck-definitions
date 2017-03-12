@@ -552,6 +552,8 @@ deck: 鹰身
 ## 侵略的 被忽略
 ## 战士 被忽略
 
+tag: 战士(同调)
+	! [战士] ex >= 7
 deck: 音响战士
 	! [音响战士] >= 8
 	! 音响放大器 >= 1
@@ -574,6 +576,7 @@ deck: 圣刻
 	! [圣刻] >= 12
 tag: 圣刻
 	config: global
+	config: upgrade
 	! [圣刻] >= 4
 	! [圣刻] < 12
 
@@ -645,8 +648,8 @@ deck: 圣骑士
 deck: 银河
 	or:
 		! 93717133 >= 2 # 银河眼光子龙
-		and:
-			! [银河] main >= 8
+		! [银河] main >= 8
+
 tag: 银河
 	config: global
 	config: prefix
