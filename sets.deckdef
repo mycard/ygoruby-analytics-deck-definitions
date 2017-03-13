@@ -560,10 +560,6 @@ deck: 鹰身
 ## 侵略的 被忽略
 ## 战士 被忽略
 
-tag: 战士(同调)
-	config: global
-	config: upgrade
-	! [战士] ex >= 5
 deck: 音响战士
 	! [音响战士] >= 8
 	! 音响放大器 >= 1
@@ -805,6 +801,8 @@ deck: 幻奏
 	! [幻奏] main >= 6
 	! [幻奏] > 8
 tag: 幻奏
+	config: global
+	config: upgrade
 	! [幻奏] <= 10
 	! [幻奏] > 5
 
