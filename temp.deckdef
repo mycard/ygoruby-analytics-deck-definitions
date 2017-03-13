@@ -799,10 +799,16 @@ tag: 同调系
 	config: upgrade
 	restrains: < 2
 		! [说书跳板] ex >= 6
-		! [说书终端] ex >= 3
+		! [说书终端] ex >= 2
 	or:
 		! [说书跳板] ex >= 6
-		! [同调终端] ex >= 3
+		! [同调终端] ex >= 2
+	
+#tag: 战士(同调)
+#	config: global
+#	config: upgrade
+#	! [战士] ex >= 5
+
 
 deck: 光神抽
 	! 光神 忒堤斯 >= 3
@@ -855,10 +861,16 @@ deck: 钢炎burn
 		! 强制转移 >= 1
 		! 死之魔术箱 >= 1
 
+set: 升阶系
+	inner set: 混沌No.
+	inner set: 混沌超量
+	52653092 # 教主
+	51543904 # 99龙
+
 tag: 升阶
 	config: global
 	config: upgrade
-	! [混沌No.] >= 4
+	! [升阶系] >= 4
 	! [升阶魔法] >= 3
 
 deck: 33特化
