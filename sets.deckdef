@@ -122,7 +122,7 @@ tag: 电气
 	! [电气] main >= 4
 
 deck: 扰乱
-	! [扰乱] main > 12
+	! [扰乱] main > 9
 	refuse: 扰乱
 tag: 扰乱
 	config: global
