@@ -290,7 +290,7 @@ deck: 命运女郎
 
 deck: 火山
 	! [火山] main >= 10
-	refuse: 火山(烈焰加农炮)
+	refuse: 火山
 tag: 火山
 	config: global
 	config: upgrade
