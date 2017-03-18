@@ -492,12 +492,12 @@ deck: 蛇毒
 	! [蛇毒] main >= 6
 
 deck: 齿轮
-	! [齿轮] >= 9
+	! [齿轮] main >= 9
 
 tag: 齿轮
 	config: global
-	! [齿轮] >= 5
-	! [齿轮] < 9
+	! [齿轮] main >= 5
+	! [齿轮] main < 9
 
 ## 守护者 被忽略
 
@@ -519,7 +519,7 @@ tag: 甲虫装机
 
 tag: 共鸣者
 	config: global
-	! [共鸣者] >= 3
+	! [共鸣者] main >= 3
 
 deck: 遗式 [2]
 	! [遗式] main >= 8
