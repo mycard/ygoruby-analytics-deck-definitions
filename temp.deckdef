@@ -914,7 +914,7 @@ tag: 御用
 deck: 妖精传姬
 	! [妖精传姬] main >= 5
 	! 妖精传姬-辉夜 main >= 2
-	refuse: 白学家
+	refuse: 白雪
 set: 老式burn
 	火炎地狱
 	不幸
