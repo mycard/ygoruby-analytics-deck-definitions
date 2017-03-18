@@ -19,6 +19,7 @@ deck: sample1(白龙) [999]
 	! 5851097 main >= 1  # 虚无
 	! 84749824 main >= 1 # 神警
 	! 神之通告 main < 1   # 用于辨认
+	refuse: 白龙
 
 deck: sample2 [999]
 	! 38517737 main >= 3 # 亚白
@@ -40,6 +41,7 @@ deck: sample2 [999]
 	! 54447022 main >= 1 # SC
 	! 凤翼的爆风 main < 1 # 用于辨认
 	! 虚无空间 main < 1   # 用于辨认
+	refuse: 白龙
 	
 deck: sample3 [999]
 	! 16178681 main <= 1 # P龙 # 辨认对象
@@ -66,6 +68,7 @@ deck: sample3 [999]
 	! 41420027 main >= 1 # 神宣	
 	! 84749824 main >= 1 # 神警
 	! 神之通告 main < 1   # 用于辨认
+	refuse: 威风妖怪
 	
 deck: sample4 [999]
 	! 96570609 main >= 3 # 天帝
@@ -159,7 +162,8 @@ deck: sample7 [999]
 	! 7394770 main >= 2  # 魔杖	
 	! 35480699 main >= 2 # 日全食
 	! 47457347 main <= 2 # 魔法 # 辨认对象
-	
+	refuse: 召唤兽
+
 deck: sample8 [999]
 	! 77150143 main >= 3 # 马
 	! 31755044 main >= 3 # 蛇
