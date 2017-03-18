@@ -277,6 +277,7 @@ tag: 真红王
 ## 异色眼 将在疑难区收录
 ## 方界 已被系列收录
 ## 混沌战士 将在疑难区收录
+
 set: 特召限制像
 	豪雨之结界像
 	干旱之结界像
@@ -298,7 +299,7 @@ deck: 结界像控制
 ## 星际仙踪 已被系列收录
 ## 坏兽 已被系列收录
 
-tag: 白学家
+tag: 白雪
 	config: global
 	! 妖精传姬-白雪 >= 1
 
@@ -328,10 +329,10 @@ tag: 猴树
 deck: ABC
 	! 同盟格纳库 >= 1
 	! ABC-神龙歼灭者 >= 2
+	refuse: ABC
 tag: ABC
 	config: global
 	config: upgrade
-	! 同盟格纳库 < 1
 	! A-突击核 >= 1
 	! B-破坏龙兽 >= 1
 	! C-粉碎翼龙 >= 1
@@ -412,7 +413,7 @@ tag: 病毒
 	config: global
 	! [卡组破坏病毒] >= 1
 
-deck: 通灵盘
+deck: 通灵盘 [2]
 	! 通灵盘 >=1
 	(圣域)
 		! 暗黑圣域 >= 1
@@ -456,13 +457,16 @@ tag: 三幻魔
 	! 6007213 >= 1 # 神炎皇
 	! 43378048 < 1 # 混沌幻魔
 
-##tag: 艾托斯
+tag: 艾托斯
+	config: global
+	config: upgrade
+	! 34022290 main >= 1 # 艾托斯
+	! 55569674 main >= 1 # 鹰灵
 
 tag: 赠剑兵
 	config: global
 	config: upgrade
 	! 英豪挑战者 赠剑兵 >= 2
-	! [英豪] main <= 6
 
 ## 艾克佐迪亚 已被系列收录
 tag: 海洋侠
@@ -508,7 +512,7 @@ tag: 大天使
 ## 栗子球
 ## 仙鹤
 ## 花园 ——带这个的卡组我们肯定认不出来放弃
-tag: 天枪龙
+##tag: 天枪龙
 
 tag: 融合之门
 	config: global
@@ -578,10 +582,10 @@ deck: ChainBeat
 
 deck: burn
 	! [内置式] main >= 4
-deck: ChainBurn [10]
+deck: ChainBurn [5]
 	! 连锁爆击 >= 2
 #	! 积累的幸福 >= 1
-deck: 削命Burn [10]
+deck: 削命Burn [5]
 	! 削命的宝札 main >= 2
 	! 连锁爆击 main < 1
 	! [内置式] main >= 4
@@ -653,12 +657,12 @@ set: 次元斩三人组
 	异次元的战士
 	异次元的女战士
 	D.D.暗杀者
-
 tag: 次元斩
 	config: global
 	config: upgrade
 	! [次元斩三人组] >= 5
-## 行星 不是一个卡组
+
+## 行星
 tag: 至尊太阳
 	config: global
 	config: upgrade
