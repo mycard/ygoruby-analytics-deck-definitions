@@ -53,6 +53,15 @@ set: 除外鱼
 deck: 除外鱼 [10]
 	! [除外鱼] main >= 10
 
+set: 拟声系列
+	inner set: 我我我
+	inner set: 怒怒怒
+	inner set: 隆隆隆
+	inner set: 刷拉拉
+tag: 拟声
+	config: global
+	config: upgrade
+	! [拟声系列] main >= 9
 tag: 鱼王
 	config: global
 	config: upgrade
@@ -1057,6 +1066,7 @@ set: 九阶套件
 	1992816  # No.9 天盖星 戴森球
 	95113856 # 幻子力空母 进取神船号
 	88581108 # 真龙皇 法·王·兽
+	4904633  # 影依的原核
 tag: 九阶
 	config: global
 	config: upgrade
