@@ -516,6 +516,7 @@ deck: 星圣
 
 deck: 我我我
 	! [我我我] >= 9
+	refuse: 拟声
 
 deck: 光子
 	! [光子] main >= 7
@@ -545,6 +546,7 @@ deck: 发条
 deck: 隆隆隆
 	! [隆隆隆] main >= 8
 	refuse: 隆隆隆
+	refuse: 拟声
 tag: 隆隆隆
 	config: global
 	! [隆隆隆] main >= 4
@@ -696,6 +698,7 @@ tag: 炎王
 
 deck: 怒怒怒
 	! [怒怒怒] main >= 6
+	refuse: 拟声
 
 deck: 机关傀儡
 	! [机关傀儡] > 6
