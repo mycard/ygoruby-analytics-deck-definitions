@@ -163,6 +163,7 @@ deck: 机人
 
 deck: 疾行机人 [2]
 	! [疾行机人] main > 8
+	refuse: 陀螺
 #	! 疾行再生 main >= 1
 
 tag: 同调士
@@ -581,7 +582,7 @@ deck: 音响战士
 tag: 音响战士
 	config: global
 	config: upgrade
-	! [音响战士] >= 5	
+	! [音响战士] >= 5
 
 deck: 磁石战士
 	or:
