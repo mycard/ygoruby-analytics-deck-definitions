@@ -239,6 +239,7 @@ deck: WW召唤兽 [10]
 	! 召唤魔术 >= 1
 	refuse: 风魔女
 	refuse: 召唤兽
+	refuse: 同调系
 
 deck: AFWW召唤兽 [20]
 	! [古遗物] main >= 4
@@ -281,11 +282,14 @@ deck: 红莲法老 [10]
 	! 红莲共鸣者 main >= 2
 	! 法老的化身 main >= 2
 	refuse: 共鸣者
+	refuse: 同调系
+	refuse: 说书同调
 
 deck: 红龙DH [10]
 	! 命运英雄 魔性人 main >= 3
 	! 命运英雄 绝命人 >= 1
 	! 奥特玛雅·卓尔金 >= 1
+	refuse: 同调系
 	or:
 		! 瑚之龙 >= 1
 		and:
@@ -297,6 +301,7 @@ deck: WWSR [10]
 	! [疾行机人] main >= 6
 	refuse: 陀螺
 	refuse: 风魔女
+	refuse: 同调系
 
 deck: WW威风 [10]
 	! [风魔女] main >= 3
