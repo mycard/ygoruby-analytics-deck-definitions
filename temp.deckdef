@@ -829,6 +829,7 @@ deck: 蟹同调
 deck: 废品战士 [2]
 	! 废品战士 >= 1
 	! 废铁拳 >= 2
+	refuse: 同调士
 
 deck: 光神抽 [6]
 	! 光神 忒堤斯 >= 3
@@ -1246,7 +1247,7 @@ tag: 暗同调
 	! [不死族系列] main <= 4
 	! [六轴部件] main <= 4
 
-tag: 卡通加农炮兵
+tag: 加农炮兵
 	config: global
 	config: upgrade
 	! [加农炮兵] main >= 1
