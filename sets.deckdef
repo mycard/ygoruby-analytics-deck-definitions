@@ -833,6 +833,11 @@ tag: 幻奏
 deck: 星守
 	! [星守] main > 6
 	! [星守] ex >= 2
+	refuse: 星守
+tag: 星守
+	config: global
+	config: upgrade
+	! [星守] main >= 4
 
 deck: 影依
 	! [影依] > 10
