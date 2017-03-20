@@ -262,6 +262,7 @@ deck: 电池人
 deck: 龙骑兵团
 	! [龙骑兵团] > 10
 	refuse: 龙骑兵团
+	refuse: 同调系
 tag: 龙骑兵团
 	config: global
 	config: upgrade
@@ -308,6 +309,7 @@ tag: 火山
 
 deck: 黑羽
 	! [黑羽] > 10
+	refuse: 同调系
 	(旋风BF)
 		! 91351370 >= 2 # 黑旋风
 	(墓地BF)
@@ -898,7 +900,7 @@ deck: 栗子球
 ## 阿托利斯 被忽略
 ## 兰斯洛特 被忽略
 
-deck: 毛绒
+deck: 魔玩具
 	! [毛绒动物] main >= 10
 	! [魔玩具] ex >= 6
 	refuse: 毛绒
@@ -1273,6 +1275,7 @@ deck: 沉默 [2]
 deck: 水晶机巧
 	! [水晶机巧|非「机巧」] main > 10
 	refuse: 水晶机巧
+	refuse: 同调系
 tag: 水晶机巧
 	config: global
 	config: upgrade
