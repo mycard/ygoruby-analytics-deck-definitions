@@ -821,11 +821,11 @@ set: 蟹哥
 	inner set: 战士
 	inner set: 星尘一家
 	inner set: 废品
+	inner set: 同调士
 	29071332 # 武器手套
 deck: 蟹同调
-	config: global
-	config: upgrade
-	! [蟹哥] ex >= 10
+	! [蟹哥] ex >= 8
+	refuse: 星尘
 deck: 废品战士 [2]
 	! 废品战士 >= 1
 	! 废铁拳 >= 2
@@ -1462,3 +1462,25 @@ tag: 次元金字塔
 	! 17787975 main >= 1 # 斯芬克斯
 	! 54175023 main >= 1 # 守护者
 	! 80560728 main >= 1 # 海市蜃楼
+
+deck: 大狼雷鸣
+	! 13683298 main >= 1 # 大狼雷鸣
+	or:
+		! 97077563 main >= 2 # 活死人的呼声
+		! 39122311 main >= 2 # 龙魂之幻泉
+
+tag: 龙魔人
+	config: global
+	config: upgrade
+	! 62113340 main >= 1 # 神龙 末日龙
+	! 17985575 main >= 1 # 龙之支配者
+	! 13756293 main >= 1 # 龙魔人 龙骑士之王
+
+tag: 仪式魔人
+	config: global
+	! [仪式魔人] main >= 4
+	! [仪式魔人] main <= 7
+tag: 仪式魔人
+	config: global
+	config: upgrade
+	! [仪式魔人] main >= 8
