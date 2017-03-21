@@ -63,9 +63,9 @@ deck: 十二兽kozmo [10]
 
 deck: kozmo真龙 [10]
 	! [星际仙踪] main >= 8
-	! [真龙皇] main >= 2
+	! 龙神阵·略图 main >= 2
+	! [真龙] main >= 2
 	refuse: kozmo
-	refuse: 真龙皇
 
 deck: 真龙龙星 [10]
 	! [真龙] main >= 3
