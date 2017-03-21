@@ -82,6 +82,15 @@ deck: 十二兽炼装 [10]
 deck: 真龙炼装 [10]
 	! [炼装] main >= 12
 	! [真龙] main >= 2
+	! [星际仙踪] main >= 6
+	refuse: 真龙皇
+	refuse: 真龙剑皇
+	refuse: kozmo
+	refuse: 炼装
+
+deck: 真龙炼装kozmo [20]
+	! [炼装] main >= 12
+	! [真龙] main >= 2
 	refuse: 真龙皇
 	refuse: 真龙剑皇
 	refuse: 炼装
@@ -290,6 +299,7 @@ deck: 红龙DH [10]
 	! 命运英雄 绝命人 >= 1
 	! 奥特玛雅·卓尔金 >= 1
 	refuse: 同调系
+	refuse: 六轴
 	or:
 		! 瑚之龙 >= 1
 		and:
@@ -423,3 +433,8 @@ deck: 光二B [5]
 	! 69884162 >= 2 # 元素英雄 次新宇侠
 	! 33846209 >= 2 # 二重电光
 	refuse: hero
+
+deck: PKRR [10]
+	! [幻影] main >= 9
+	! [急袭猛禽] main >= 6
+	refuse: 幻影骑士团
