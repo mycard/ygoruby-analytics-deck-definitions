@@ -718,7 +718,7 @@ deck: 超级防卫机器人
 	! 77799846 >= 1 # 废品眼太鼓龙
 
 deck: 光天使
-	! [光天使] main > 6
+	! [光天使] main > 8
 	refuse: 杖座
 tag: 杖座	
 	config: global
@@ -956,6 +956,7 @@ deck: 妖仙兽
 deck: 影灵衣 [5]
 	! [影灵衣] >= 10
 	refuse: 影灵衣
+	refuse: 同调系
 tag: 影灵衣
 	config: global
 	! [影灵衣] main >= 2
