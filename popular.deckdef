@@ -300,6 +300,7 @@ deck: 红龙DH [10]
 	! 奥特玛雅·卓尔金 >= 1
 	refuse: 同调系
 	refuse: 六轴
+	refuse: hero
 	or:
 		! 瑚之龙 >= 1
 		and:
