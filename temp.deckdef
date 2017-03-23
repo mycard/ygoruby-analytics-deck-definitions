@@ -834,7 +834,7 @@ set: 蟹哥
 	inner set: 同调士
 	29071332 # 武器手套
 deck: 蟹同调
-	! [蟹哥] ex >= 8
+	! [蟹哥] ex >= 9
 	! [同调士] main >= 3
 	refuse: 星尘
 	refuse: 同调系
