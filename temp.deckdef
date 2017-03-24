@@ -202,6 +202,11 @@ tag: 要塞鲸
 	config: upgrade
 	! 要塞鲸 main >= 2
 
+tag: 饥饿的汉堡
+	config: global
+	config: upgrade
+	! 30243636 main >= 2 # 饥饿的汉堡
+
 tag: 索菲娅
 	config: global
 	config: upgrade
@@ -836,6 +841,13 @@ set: 蟹哥
 deck: 蟹同调
 	! [蟹哥] ex >= 9
 	! [同调士] main >= 3
+	refuse: 星尘
+	refuse: 同调系
+	refuse: 同调士
+deck: 聚集的祈愿 [2]
+	! 20007374 main >= 1 # 聚集的祈愿
+	! 44508094 ex >= 1  # 星尘龙
+	! 87602890 main >= 1 # 轰雷帝
 	refuse: 星尘
 	refuse: 同调系
 	refuse: 同调士
