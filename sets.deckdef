@@ -960,7 +960,8 @@ deck: 影灵衣 [5]
 	refuse: 同调系
 tag: 影灵衣
 	config: global
-	! [影灵衣] main >= 2
+	config: upgrade
+	! [影灵衣] main >= 4
 
 deck: 灵兽
 	! [精灵兽] >= 4
@@ -1035,17 +1036,26 @@ deck: 魔人beat
 	! [报社魔人] main >= 3
 	! [怪兽帝] < 3
 
-deck: 灵使/凭依装着
-	! [凭依装着] >= 1
-	! [灵使] >= 1
 tag: 灵使
 	config: global
 	config: upgrade
 	! [灵使] main >= 1
-	! [凭依装着] main < 1
+tag: 凭依装着
+	config: global
+	config: upgrade
+	! [凭依装着] main >= 3
+deck: 灵使/凭依装着
+	! [凭依装着] >= 1
+	! [灵使] >= 1
+	refuse: 灵使
+	refuse: 凭依装着
 
 deck: PSY骨架
 	! [PSY骨架] > 12
+	refuse: PSY
+tag: PSY
+	config: global
+	! [PSY骨架] main >= 3
 
 ## 动力工具 被忽略
 ## 锋利小鬼 被忽略
@@ -1413,3 +1423,8 @@ deck: 幻煌龙
 	! 56649609 main >= 1 # 幻煌龙 螺旋
 	! 2819435 main >= 2
  	! [幻煌龙] >= 5
+	refuse: 幻煌
+tag: 幻煌
+	config: global
+	config: upgrade
+	! [幻煌龙] main >= 4
