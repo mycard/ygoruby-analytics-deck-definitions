@@ -510,12 +510,12 @@ deck: 蛇毒
 	! [蛇毒] main >= 6
 
 deck: 齿轮
-	! [齿轮] main >= 9
+	! [ガジェット] main >= 9
 	refuse: 齿轮
 
 tag: 齿轮
 	config: global
-	! [齿轮] main >= 5
+	! [ガジェット] main >= 5
 
 ## 守护者 被忽略
 
