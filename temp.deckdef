@@ -178,7 +178,7 @@ deck: 衍生物beat
 		! [产毛卡] main >= 10
 		and:
 			! 暴走斗君 main >= 2
-			! [产毛卡] main >= 6
+			! [产毛卡] main >= 5
 		
 deck: 衍生物对调英雄
 	! [产毛卡] main >= 6
