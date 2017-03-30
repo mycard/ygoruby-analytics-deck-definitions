@@ -102,6 +102,7 @@ deck: 永火
 
 tag: 永火
 	config: global
+	config: upgrade
 	! [永火] main >= 2 # 恶魔罩子
 
 deck: 外星
@@ -1229,7 +1230,9 @@ deck: 白龙
 tag: 白龙
 	config: global
 	config: upgrade
-	! 青眼白龙 >= 2
+	or:
+		! 青眼白龙 >= 2
+		! [青眼] main >= 4
 
 deck: 月光
 	! [月光] > 10
