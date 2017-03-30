@@ -1640,3 +1640,8 @@ set: 巨手系列
 deck: 手
 	! [巨手系列] main >= 8
 	refuse: 冰火手
+
+tag: 处刑人
+	config: global
+	config: upgrade
+	! 21593977 main >= 1 # 处刑人-摩休罗
