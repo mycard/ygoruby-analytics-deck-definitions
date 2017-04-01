@@ -123,11 +123,11 @@ tag: 电气
 	! [电气] main >= 4
 
 deck: 扰乱
-	! [扰乱] main > 9
+	! [扰乱] main > 7
 	refuse: 扰乱
 tag: 扰乱
 	config: global
-	! [扰乱] main >= 6
+	! [扰乱] main >= 5
 
 deck: 薰风
 	! [薰风] > 10
