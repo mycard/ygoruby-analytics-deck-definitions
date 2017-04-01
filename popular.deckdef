@@ -403,6 +403,13 @@ deck: HAT [20]
 	refuse: 冰火手
 	refuse: AF
 
+deck: AF冰火手 [10]
+	! [古遗物] >= 6
+	! 寒冰手 >= 1
+	! 火焰手 >= 1
+	refuse: 冰火手3
+	refuse: AF
+
 deck: 圣刻白龙 [10]
 	! [圣刻] main >= 4
 	! 青眼白龙 >= 2
