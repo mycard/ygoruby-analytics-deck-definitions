@@ -58,6 +58,9 @@ deck: 元素英雄 [2]
 	refuse: hero
 	(到来)
 		! 8949584 > 1 # 英雄到来
+set: DH系列
+	inner set: 命运英雄
+	99357565 # D3
 deck: 命运英雄 [2]
 	! [命运英雄] > 6
 	refuse: hero
