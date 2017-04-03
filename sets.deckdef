@@ -62,7 +62,7 @@ set: DH系列
 	inner set: 命运英雄
 	99357565 # D3
 deck: 命运英雄 [2]
-	! [命运英雄] > 6
+	! [DH系列] > 6
 	refuse: hero
 deck: 假面英雄 [3]
 	! [假面英雄] >= 5
