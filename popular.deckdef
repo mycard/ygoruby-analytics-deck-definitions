@@ -79,6 +79,12 @@ deck: 十二兽炼装 [10]
 	refuse: 十二兽
 	refuse: 炼装
 
+deck: 削命真龙 [5]
+	! [真龙] main >= 10
+	! 削命的宝札 main >= 2
+	refuse: 真龙剑皇
+	refuse: 削命
+
 deck: 真龙炼装 [10]
 	! [炼装] main >= 12
 	! [真龙] main >= 2
