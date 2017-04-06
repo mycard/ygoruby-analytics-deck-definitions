@@ -589,7 +589,10 @@ deck: ChainBurn [5]
 deck: 削命Burn [5]
 	! 削命的宝札 main >= 2
 	! 连锁爆击 main < 1
-	! [内置式] main >= 4
+	restrains: >= 2
+		! [内置式] main >= 3
+		! 55623480 main >= 1 # 妖精传姬-白雪
+		! 60990740 main >= 1 # 绝对王 J革命
 	refuse: 削命
 tag: 大逆转
 	config: global
