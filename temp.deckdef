@@ -304,35 +304,11 @@ tag: 水龙
 	! 氧素龙 main >= 2
 	! 化学结合-H2O main >= 1
 
-tag: 素材门
-	config: global
-	config: upgrade
-	! 39980304 main >= 2 # 连锁素材
-	! 33550694 >= 2 # 融合之门
-deck: 永生炮
-	! 39980304 main >= 1 # 连锁素材
-	! 33550694 main >= 1 # 融合之门
-	! 29343734 ex >= 2 # 永生
-	refuse: 素材门
-
-tag: 星见炮
-	config: global
-	config: upgrade
-	! 核成恶魔 main >= 1
-	! 盟军·次世代鸟人兵 >= 1
-	! 星见兽 加里斯 >= 1
-
 tag: 捕食
 	config: global
 	config: upgrade
 	! 捕食植物 蜂兰蝎 >= 1
 	! 捕食植物 蛇瓶草眼镜蛇 >= 1
-
-tag: 地灵雪虎
-	config: global
-	config: upgrade
-	! 地灵神 格兰索尔 main >= 1
-	! 冰结界的虎王 雪虎 >= 1
 
 tag: 龙姬神
 	config: global
@@ -687,12 +663,6 @@ tag: 邪神
 	config: global
 	config: upgrade
 	! [三邪神] main >= 1
-
-deck: 黑炎弹 [20]
-	! 真红眼黑龙 >= 1
-	! 流星龙 流星黑龙 >= 1
-	! 黑炎弹 >= 1
-	! 连续魔法 >= 1
 
 tag: 羽翼栗子球
 	config: global
@@ -1279,15 +1249,6 @@ deck: 神兽
 	refuse: 狮子男巫
 	refuse: 海马兽
 
-tag: 暴风burn
-	config: global
-	config: upgrade
-	! 暴风魔术师 ex >= 1
-	or:
-		! 魔力诱导者 main >= 1
-		! 魔法都市 恩底弥翁 main >= 1
-		! 魔力引导者 main >= 1
-
 set:手坑
 	82103466 # 蛇神 格
 	98777036 # 特拉戈迪亚
@@ -1362,11 +1323,6 @@ tag: 暗同调
 	! 僵尸带菌者 main >= 1
 	! [不死族系列] main <= 4
 	! [六轴部件] main <= 4
-
-tag: 加农炮兵
-	config: global
-	config: upgrade
-	! [加农炮兵] main >= 1
 
 tag: 神殿守卫者
 	config: global
@@ -1557,22 +1513,6 @@ tag: 冀望皇86
 	! 63504681 ex >= 1 # 86
 	! 92365601 main >= 1 # 限制RUM
 
-deck: C9特化
-	! [十二兽] ex >= 4
-	! [升阶魔法] main >= 2
-	! 32559361 ex >= 1 # C9
-
-deck: 惰天使特化
-	! 鬼计惰天使 >= 1
-	or:
-		and:
-			! 混沌超量 冀望皇 异晶人 >= 1
-			! No.69 纹章神 盾徽 >= 1
-		and:
-			! [十二兽] ex >= 4
-			! 53334641 ex >= 1 # 惰天使
-			! 71345905 main >= 1 # RDM
-
 tag: 寄生融合虫
 	config: global
 	config: upgrade
@@ -1670,11 +1610,6 @@ deck: 手
 	! [巨手系列] main >= 8
 	refuse: 冰火手
 
-tag: 处刑人
-	config: global
-	config: upgrade
-	! 21593977 main >= 1 # 处刑人-摩休罗
-
 deck: 王样 [4]
 	restrains: >= 20
 		! 39256679 main >= 1 # 磁石战士β
@@ -1730,12 +1665,14 @@ deck: 王样 [4]
 		! 50725996 main >= 1 # 黑魔术骑士
 		! 25774450 main >= 1 # 死之魔术箱
 		! 87910978 main >= 1 # 洗脑
+		! 死者苏生 main >= 1
 		! 42664989 main >= 1 # 天降的宝札
 		! 1784686  main >= 1 # 蒂迈欧之眼
 		! 64047146 main >= 1 # 独角兽之角
 		! 44095762 main >= 1 # 圣防
 		! 62279055 main >= 1 # 魔法筒
 		! 18807108 main >= 1 # 六芒星之咒缚
+		! 49587034 main >= 1 # 光之封札剑
 		! 81210420 main >= 1 # 魔术礼帽
 		! 9287078  main >= 1 # 黑魔族复活之棺
 		! 32754886 main >= 1 # 黑魔导幻像
@@ -1773,13 +1710,6 @@ tag: 王宫神殿
 	config: upgrade
 	! 29762407 main >= 1 # 王家的神殿
 	! 89194033 main >= 1 # 圣兽 塞勒凯特
-
-deck: 光波burn
-	! 81974607 main >= 1 # 光波翼机
-	! 80925836 main >= 1 # 核成恶魔
-	! 64034255 main >= 1 # 盟军·次世代鸟人兵
-	! 63477921 main >= 1 # 电子召唤爆破器
-
 
 tag: 除外向念动力
 	config: global
