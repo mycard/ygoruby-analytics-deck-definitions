@@ -457,3 +457,9 @@ deck: PKRR [10]
 	! [幻影] main >= 9
 	! [急袭猛禽] main >= 6
 	refuse: 幻影骑士团
+
+deck: 炼装甲虫 [10]
+	! [甲虫装机] main >= 6
+	! [炼装] main >= 4
+	refuse: 甲虫装机
+	refuse: 炼装
