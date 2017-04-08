@@ -108,12 +108,16 @@ tag: 永火
 	config: upgrade
 	! [永火] main >= 2 # 恶魔罩子
 
+set: 外星系列
+	inner set: 外星
+	51192573 # 宇宙兽 冈吉尔
+	68319538 # 宇宙城 哥尔加
 deck: 外星
-	! [外星] > 10
+	! [外星系列] > 10
 	refuse: 外星
 tag: 外星
 	config: global
-	! [外星] > 5
+	! [外星系列] > 5
 
 deck: X-剑士
 	! [X-剑士] > 10
