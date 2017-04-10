@@ -863,7 +863,7 @@ tag: 影依
 	! [影依] > 4
 
 deck: 龙星
-	! [龙星] main > 12
+	! [龙星] main > 10
 	refuse: 龙星
 tag: 龙星
 	config: global
