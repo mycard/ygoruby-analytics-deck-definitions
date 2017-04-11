@@ -865,9 +865,14 @@ tag: 影依
 deck: 龙星
 	! [龙星] main > 10
 	refuse: 龙星
+	refuse: 源龙星
 tag: 龙星
 	config: global
 	! [龙星] main >= 4
+	restrains: < 1
+		! 44335251 main >= 2 # 食魂窃蛋龙
+		! 41386308 main >= 2 # 数学家
+		! 46796664 main >= 2 # DD 魔导贤者 哥白尼
 
 deck: 娱乐伙伴
 	! [娱乐伙伴] >= 9
