@@ -1191,6 +1191,9 @@ deck: 技抽beat
 	! [技抽人] main >= 6
 	! 技能抽取 main >= 2
 	refuse: 技抽beat
+deck: 没技抽的技抽beat
+	! [技抽人] main >= 6
+	! 技能抽取 main = 0
 
 tag: 艾托斯
 	config: global
@@ -1706,6 +1709,7 @@ deck: 均卡beat
 	refuse: Metabeat
 deck: Metabeat
 	! [均beat部件] main >= 3
+	! 42009836 main >= 1
 
 deck: 地外生命
 	! 64382839 main >= 2 # 网罟座泽塔星人
@@ -1830,7 +1834,7 @@ deck: 爆走特急
 deck: 芬里尔
  	! 218704 main >= 2
 
-tag: (复古混沌)
+tag: 复古混沌
 	config: global
 	config: upgrade
 	restrains: >= 1
