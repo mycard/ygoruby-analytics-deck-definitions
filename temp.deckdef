@@ -1824,18 +1824,19 @@ tag: 魔里
 	config: upgrade
 	! 68462976 main >= 1
 
-tag: 爆走特急
-	config: global
-	config: upgrade
-	! 79850798 main = 3
+deck: 爆走特急
+	! 79850798 main >= 2
+	
+deck: 芬里尔
+ 	! 218704 >= 1
 
 tag: (复古混沌)
 	config: global
 	config: upgrade
-	restrains: >= 2
+	restrains: >= 1
 		! 72989439 main >= 2 # 混沌战士 -开辟的使者-
 		! 82301904 main >= 2 # 混沌帝龙 -终焉的使者-
-		! 9596126  main >= 2 # 混沌巫师
+		! 9596126  main = 3 # 混沌巫师
 
 tag: 延迟
 	config: global
