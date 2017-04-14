@@ -580,7 +580,11 @@ deck: 斯芬克斯
 
 tag: 竹光
 	config: global
+	config: upgrade
+	restrains: >= 1
+	! 42199039 > 2
 	! [竹光] >= 5
+## 妖刀竹光登场后竹光系统的构成方法多样化
 
 ## 忍法 被忽略
 
@@ -1497,8 +1501,3 @@ tag: 星杯
 	config: global
 	config: upgrade
 	! [星杯] main > 2
-	
-tag: 竹光
-	config: global
-	config: upgrade
-	! [竹光] > 4
