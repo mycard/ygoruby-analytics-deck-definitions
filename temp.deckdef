@@ -1800,3 +1800,53 @@ deck: 食人鱼beat
 		and:
 			! 295517   main >= 1 # 传说之都 亚特兰蒂斯
 			! 44762290 main >= 1 # 光学迷彩铠甲
+			
+deck: Metabeat
+    ! [均beat部件] main <= 11
+	! 42009836 main >= 3
+	! 71564252 main >= 1
+
+tag: 雪貂
+	config: global
+	config: upgrade
+	! 56343672 main >= 2
+
+tag: 防火
+	config: global
+	config: upgrade
+	! 05043010 = 3
+
+tag: 七皇剑
+	config: global
+	config: upgrade
+	! 57734012 main >= 1
+	
+tag: 魔里
+	config: global
+	config: upgrade
+	! 68462976 main >= 1
+
+deck: 爆走特急
+	! 79850798 main >= 2
+	
+deck: 芬里尔
+ 	! 218704 main >= 2
+
+tag: 复古混沌
+	config: global
+	config: upgrade
+	restrains: >= 1
+		! 72989439 main >= 2 # 混沌战士 -开辟的使者-
+		! 82301904 main >= 2 # 混沌帝龙 -终焉的使者-
+		! 9596126 main = 3 # 混沌巫师
+
+tag: 延迟
+	config: global
+	config: upgrade
+	restrains: >= 3
+		! 98777036 main >= 2 # 特拉戈迪亚
+		! 44330098 main >= 1 # 冥府之使者 格斯
+		! 19665973 main >= 2 # 消战者
+		! 18964575 main >= 2 # 速攻稻草人
+		! 27769400 main >= 1 # 图拉丁
+		! 17988746 main >= 2 # パーリィナイツ
