@@ -1496,7 +1496,7 @@ deck: 星杯
 tag: 星杯
 	config: global
 	config: upgrade
-	! [星杯] > 2
+	! [星杯] main > 2
 
 tag: 雪貂
 	config: global
