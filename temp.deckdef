@@ -1813,3 +1813,8 @@ tag: 防火
 	config: global
 	config: upgrade
 	! 05043010 = 3
+
+tag: 七皇剑
+	config: global
+	config: upgrade
+	! 57734012 >= 1
