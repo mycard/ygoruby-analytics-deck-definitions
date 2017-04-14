@@ -1703,6 +1703,9 @@ set: 均beat部件
 	电子龙
 deck: 均卡beat
 	! [均beat部件] main >= 12
+	refuse: Metabeat
+deck: Metabeat
+	! [均beat部件] main >= 3
 
 deck: 地外生命
 	! 64382839 main >= 2 # 网罟座泽塔星人
@@ -1800,3 +1803,13 @@ deck: 食人鱼beat
 		and:
 			! 295517   main >= 1 # 传说之都 亚特兰蒂斯
 			! 44762290 main >= 1 # 光学迷彩铠甲
+
+tag: 雪貂
+	config: global
+	config: upgrade
+	! 56343672 main >= 2
+
+tag: 防火
+	config: global
+	config: upgrade
+	! 05043010 = 3
