@@ -1497,13 +1497,3 @@ tag: 星杯
 	config: global
 	config: upgrade
 	! [星杯] main > 2
-
-tag: 雪貂
-	config: global
-	config: upgrade
-	! 56343672 main >= 2
-
-tag: 防火
-	config: global
-	config: upgrade
-	! 05043010 = 3
