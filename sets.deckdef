@@ -1471,3 +1471,29 @@ tag: 幻煌
 	config: global
 	config: upgrade
 	! [幻煌龙] main >= 4
+
+deck: 淘气仙星
+	! 61283655 main >= 1 # 淘气仙星·坎迪娜
+	! 35199656 main >= 1 # 淘气仙星·曼珠诗华
+ 	! [淘气仙星] >= 6
+        refuse: 淘气仙星
+tag: 淘气仙星
+	config: global
+	config: upgrade
+	! [淘气仙星] main > 2
+
+deck: 刚鬼
+ 	! [刚鬼] >= 6
+        refuse: 刚鬼
+tag: 刚鬼
+	config: global
+	config: upgrade
+	! [刚鬼] main > 2
+
+deck: 星杯
+ 	! [星杯] >= 9
+        refuse: 星杯
+tag: 星杯
+	config: global
+	config: upgrade
+	! [星杯] main > 2
