@@ -1497,3 +1497,8 @@ tag: 星杯
 	config: global
 	config: upgrade
 	! [星杯] main > 2
+	
+tag: 竹光
+	config: global
+	config: upgrade
+	! [竹光] > 4
