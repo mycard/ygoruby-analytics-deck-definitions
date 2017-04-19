@@ -255,7 +255,7 @@ tag: 饥饿的汉堡
 tag: 救世美神
 	config: global
 	config: upgrade
-	! 66625883 main >= 2 # 救世之美神 诺斯维姆科
+	! 61757117 main >= 2 # 救世之美神 诺斯维姆科
 	! 60234913 main >= 2 # 救世的仪式
 
 tag: 索菲娅
