@@ -93,3 +93,9 @@ deck: 射手loop [2]
 	! 1274455 main >= 3 # 星际仙踪-飞猴队
 	! 4423206 ex   >= 1 # 失X-剑士 招来者
 	! 91869203 main >= 1 # 亚马逊射手
+
+tag: 明融盆回
+	config: global
+	config: upgrade
+	! 7394770 main >= 1 # 明亮融合
+	! 73468603 main >= 1 # 盆回
