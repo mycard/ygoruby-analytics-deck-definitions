@@ -169,7 +169,9 @@ tag: 天空龙
 tag: 翼神龙
 	config: global
 	config: upgrade
-	! 太阳神之翼神龙 main >= 1
+	or:
+		! 太阳神之翼神龙 main >= 1
+		! [太阳神之翼神龙] main >= 3
 	or:
 		! 欧贝利斯克之巨神兵 main < 1
 		! 奥西里斯之天空龙 main < 1
@@ -244,6 +246,12 @@ tag: 饥饿的汉堡
 	config: global
 	config: upgrade
 	! 30243636 main >= 2 # 饥饿的汉堡
+
+tag: 救世美神
+	config: global
+	config: upgrade
+	! 66625883 main >= 2 # 救世之美神 诺斯维姆科
+	! 60234913 main >= 2 # 救世的仪式
 
 tag: 索菲娅
 	config: global
