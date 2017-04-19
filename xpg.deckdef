@@ -669,24 +669,33 @@ tag: 次元斩
 tag: 至尊太阳
 	config: global
 	config: upgrade
-	! 至尊太阳 main >= 2
+	! 51402908 main >= 2 # 至尊太阳
 tag: 天王星
 	config: global
 	config: upgrade
-	! 绝望天王星 main >= 2
+	! 32588805 main >= 2 # 绝望天王星
+tag: 冥王星
+	config: global
+	config: upgrade
+	! 24413299 main >= 2 # 镇压冥王星
+tag: 火星
+	config: global
+	! 15033525 main >= 1 # 烈焰火星
 deck: 行星
 	restrains: >= 4
-		! 轻盈水星 main >= 1
-		! 华丽金星 main >= 1
-		! 烈焰火星 main >= 1
-		! 宏大木星 main >= 1
-		! 大土星 main >= 1
-		! 绝望天王星 main >= 1
-		! 暴君海王星 main >= 1
-		! 镇压冥王星 main >= 1
-		! 至尊太阳 main >= 1
+		! 3912064 main >= 1 # 轻盈水星
+		! 5645210 main >= 1 # 华丽金星
+		! 15033525 main >= 1 # 烈焰火星
+		! 16255173 main >= 1 # 宏大木星
+		! 34004470 main >= 1 # 大土星
+		! 32588805 main >= 1 # 绝望天王星
+		! 88071625 main >= 1 # 暴君海王星
+		! 24413299 main >= 1 # 镇压冥王星
+		! 51402908 main >= 1 # 至尊太阳
 	refuse: 至尊太阳
 	refuse: 天王星
+	refuse: 冥王星
+	refuse: 火星
 
 ## 表/里电子流 将在疑难区收录（屁啦无限万岁）
 ## Ex 破坏
