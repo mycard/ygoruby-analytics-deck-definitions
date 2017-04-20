@@ -1254,7 +1254,7 @@ deck: 小白兔
 		! 32298781 main >= 1 # 三角力量
 		! 61166988 main >= 1 # 野性解放
 	refuse: 凡骨
-deck: 凡骨beat [-1]
+deck: 凡骨beat [0]
 	restrains: >= 2
 		! 43096270 main >= 1 # 紫翠玉龙
 		! 69247929 main >= 1 # 基因狼人
