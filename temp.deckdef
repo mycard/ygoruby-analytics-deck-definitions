@@ -1917,3 +1917,11 @@ tag: 爆炎
 	config: global
 	config: upgrade
 	! 64752646 main >= 2 # 爆炎少女
+
+tag: 光之金字塔
+	config: global
+	config: upgrade
+	! 15013468 main >= 1 # 斯芬克斯·安德鲁
+	! 51402177 main >= 1 # 斯芬克斯·迪蕾雅
+	! 87997872 main >= 1 # 斯芬克斯·安德鲁吉尼斯
+	! 53569894 main >= 1 # 光之金字塔
