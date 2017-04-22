@@ -73,6 +73,13 @@ deck: 真龙龙星 [10]
 	refuse: 真龙皇
 	refuse: 龙星
 
+deck: 炼装龙星 [10]
+	! [炼装] main >= 9
+	! [龙星] main >= 6
+	refuse: 炼装
+	refuse: 龙星
+	refuse: 源龙星
+
 deck: 十二兽炼装 [10]
 	! [十二兽] main > 2
 	! [炼装] main >= 12
