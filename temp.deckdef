@@ -103,7 +103,13 @@ deck: 二重植物
 
 tag: 天魔神
 	config: global
-	! 天魔神 诺雷拉斯 >= 1
+	! 48453776 main >= 1 # 天魔神 诺雷拉斯
+	! 30312361 main < 1 # 混沌幻影
+tag: 天魔神
+	config: global
+	config: upgrade
+	! 48453776 main >= 1 # 天魔神 诺雷拉斯
+	! 30312361 main >= 1 # 混沌幻影
 
 tag: 猫僧
 	config: global
