@@ -31,7 +31,7 @@ deck: 暗黑界
 tag: 暗黑界
 	config: global
 	config: upgrade
-	! [暗黑界] > 4
+	! [暗黑界] > 7
 #	or:
 #		! [暗黑界] <= 10
 #		! 34230233 < 2 # 暗黑界的龙神 格拉法
