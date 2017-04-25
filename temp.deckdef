@@ -1113,6 +1113,9 @@ tag: 四阶
 	config: global
 	config: upgrade
 	! [四阶套件] main >= 8
+	restrains: < 2
+		! [希望皇 霍普] ex >= 5
+		! 11705261 >= 2 # 超量变身战术
 set: 五阶套件
 	33911264 # 太阳风帆船
 	迷雾恶魔
