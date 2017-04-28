@@ -119,6 +119,7 @@ deck: 外星
 	refuse: 外星
 tag: 外星
 	config: global
+	config: upgrade
 	! [外星系列] > 5
 
 deck: X-剑士
