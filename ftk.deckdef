@@ -1,0 +1,112 @@
+# some avaliable ftk combo
+
+tag: 素材门
+	config: global
+	config: upgrade
+	! 39980304 main >= 2 # 连锁素材
+	! 33550694 >= 2 # 融合之门
+deck: 永生炮
+	! 39980304 main >= 1 # 连锁素材
+	! 33550694 main >= 1 # 融合之门
+	! 29343734 ex >= 2 # 永生
+	refuse: 素材门
+
+tag: 星见炮
+	config: global
+	config: upgrade
+	! 核成恶魔 main >= 1
+	! 盟军·次世代鸟人兵 >= 1
+	! 星见兽 加里斯 >= 1
+
+tag: 地灵雪虎
+	config: global
+	config: upgrade
+	! 地灵神 格兰索尔 main >= 1
+	! 冰结界的虎王 雪虎 >= 1
+
+deck: 黑炎弹 [20]
+	! 真红眼黑龙 >= 1
+	! 流星龙 流星黑龙 >= 1
+	! 黑炎弹 >= 1
+	! 连续魔法 >= 1
+
+tag: 暴风burn
+	config: global
+	config: upgrade
+	! 暴风魔术师 ex >= 1
+	or:
+		! 魔力诱导者 main >= 1
+		! 魔法都市 恩底弥翁 main >= 1
+		! 魔力引导者 main >= 1
+
+tag: 加农炮兵
+	config: global
+	config: upgrade
+	! [加农炮兵] main >= 1
+
+deck: C9特化
+	! [十二兽] ex >= 4
+	! [升阶魔法] main >= 2
+	! 32559361 ex >= 1 # C9
+
+deck: 惰天使特化
+	! 鬼计惰天使 >= 1
+	or:
+		and:
+			! 混沌超量 冀望皇 异晶人 >= 1
+			! No.69 纹章神 盾徽 >= 1
+		and:
+			! [十二兽] ex >= 4
+			! 53334641 ex >= 1 # 惰天使
+			! 71345905 main >= 1 # RDM
+
+tag: 处刑人
+	config: global
+	config: upgrade
+	! 21593977 main >= 1 # 处刑人-摩休罗
+
+deck: 光波burn [2]
+	! 81974607 main >= 1 # 光波翼机
+	! 80925836 main >= 1 # 核成恶魔
+	! 64034255 main >= 1 # 盟军·次世代鸟人兵
+	! 63477921 main >= 1 # 电子召唤爆破器
+
+deck: 骨塔削 [2]
+	! 63012333 main >= 1 # 吸收精气的骨塔
+	or:
+		and:
+			! 83986578 main >= 1 # 王虎
+			! 96864811 main >= 1 # 禁忌的圣衣
+			! 25795273 main >= 1 # 光角幻兔
+			! 4064256 main >= 1  # 不死世界
+			! 44508094 ex >= 1   # 星尘龙
+		and:
+			! 62015408 main >= 1 # 浮幽樱
+			! 25531465 main >= 1 # 魔法猫
+			! 92676637 main >= 1 # 调和支援士
+			! 32441317 main >= 1 # 同调解除
+		and:
+			! 4064256 main >= 1  # 不死世界
+			! 27970830 main >= 2 # 六武之门
+		and:
+			! 4064256 main >= 1  # 不死世界
+			! 39477584 ex >= 1 # 魔轰神 利威坦
+			! 56399890 main >= 1 # 魔轰神兽 凯希
+			! 19439119 main >= 1 # 魔轰神 克露丝
+
+deck: 射手loop [2]
+	! 1274455 main >= 3 # 星际仙踪-飞猴队
+	! 4423206 ex   >= 1 # 失X-剑士 招来者
+	! 91869203 main >= 1 # 亚马逊射手
+
+tag: 明融盆回
+	config: global
+	config: upgrade
+	! 7394770 main >= 1 # 明亮融合
+	! 73468603 main >= 1 # 盆回
+
+deck: 现冥
+	! 87602890 main >= 2 # 轰雷帝 扎博尔格
+	! 17484499 main >= 1 # 现世与冥界的逆转
+	! 29762407 main >= 1 # 王宫的神殿
+	refuse: 轰雷
