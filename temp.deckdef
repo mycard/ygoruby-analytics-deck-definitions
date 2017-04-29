@@ -147,6 +147,13 @@ tag: 光创
 	! 欧贝利斯克之巨神兵 >= 1
 	! 太阳神之翼神龙 >= 1
 
+deck: 幻神 [0]
+	! 光之创造神 哈拉克提 < 1
+	restrains: = 2
+		! 奥西里斯之天空龙 main >= 1
+		! 欧贝利斯克之巨神兵 main >= 1
+		! 太阳神之翼神龙 main >= 1
+
 deck: 三幻神
 	! 奥西里斯之天空龙 main >= 1
 	! 欧贝利斯克之巨神兵 main >= 1
@@ -160,17 +167,11 @@ tag: 巨神兵
 	config: global
 	config: upgrade
 	! 欧贝利斯克之巨神兵 main >= 1
-	or:
-		! 奥西里斯之天空龙 main < 1
-		! 太阳神之翼神龙 main < 1
 
 tag: 天空龙
 	config: global
 	config: upgrade
 	! 奥西里斯之天空龙 main >= 1
-	or:
-		! 欧贝利斯克之巨神兵 main < 1
-		! 太阳神之翼神龙 main < 1
 
 tag: 翼神龙
 	config: global
@@ -178,9 +179,6 @@ tag: 翼神龙
 	or:
 		! 太阳神之翼神龙 main >= 1
 		! [太阳神之翼神龙] main >= 3
-	or:
-		! 欧贝利斯克之巨神兵 main < 1
-		! 奥西里斯之天空龙 main < 1
 
 set: 产毛卡
 	18027138 # 河马狂欢节
@@ -383,14 +381,17 @@ deck: 神光&崇光
 		! 崇光之宣告者 main >= 1
 	! 46052429 >= 2 # 高等仪式术
 	refuse: 高仪
+
 tag: 便乘
 	config: global
 	! 便乘 main >= 2
 
 deck: 壶削
-	! 变形壶 main >= 1
-	! AD变更者 main >= 2
-	! 太阳之书 main >= 2
+	! 33508719 main >= 1 # 变形壶
+	restrains: >= 2
+		! 96146814 main >= 2 # AD变更者
+		! 38699854 main >= 2 # 太阳之书
+		! 35480699 main >= 2 # 日全食之书
 
 set: 昆虫组件
 	76039636 # 恶魔铲土虫
@@ -1945,3 +1946,9 @@ tag: 恶忍
 	config: global
 	config: upgrade
 	! 26046205 main >= 2 # 恶忍
+
+deck: 魔导兽 [0]
+	! 55424270 main >= 3 # 魔导兽 刻耳柏洛斯
+
+deck: 狮心 [0]
+	! 54366836 ex >= 2 # No.54 反骨斗士 狮心
