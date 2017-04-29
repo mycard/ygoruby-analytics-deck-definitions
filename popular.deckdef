@@ -107,6 +107,14 @@ deck: 真龙WW [10]
 	refuse: 真龙皇
 	refuse: 真龙剑皇
 
+deck: 真龙召唤兽 [10]
+	! [真龙] main >= 2
+	! 召唤师 阿莱斯特 >= 1
+	! 召唤魔术 >= 1
+	refuse: 召唤兽
+	refuse: 真龙皇
+	refuse: 真龙剑皇
+
 deck: 真龙WW召唤兽 [20]
 	! [风魔女] main >= 3
 	! [真龙] main >= 2
