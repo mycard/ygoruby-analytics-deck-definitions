@@ -142,13 +142,13 @@ deck: 大飞蛾
 tag: 光创
 	config: global
 	config: upgrade
-	! 光之创造神 哈拉克提 >= 1
-	! 奥西里斯之天空龙 >= 1
-	! 欧贝利斯克之巨神兵 >= 1
-	! 太阳神之翼神龙 >= 1
+	! 光之创造神 哈拉克提 main >= 1
+	! 奥西里斯之天空龙 main >= 1
+	! 欧贝利斯克之巨神兵 main >= 1
+	! 太阳神之翼神龙 main >= 1
 
 deck: 幻神 [0]
-	! 光之创造神 哈拉克提 < 1
+	! 光之创造神 哈拉克提 main < 1
 	restrains: = 2
 		! 奥西里斯之天空龙 main >= 1
 		! 欧贝利斯克之巨神兵 main >= 1
@@ -158,7 +158,7 @@ deck: 三幻神
 	! 奥西里斯之天空龙 main >= 1
 	! 欧贝利斯克之巨神兵 main >= 1
 	! 太阳神之翼神龙 main >= 1
-	! 光之创造神 哈拉克提 < 1
+	! 光之创造神 哈拉克提 main < 1
 	refuse: 巨神兵
 	refuse: 天空龙
 	refuse: 翼神龙
@@ -167,11 +167,19 @@ tag: 巨神兵
 	config: global
 	config: upgrade
 	! 欧贝利斯克之巨神兵 main >= 1
+	restrains: < 1
+		! 奥西里斯之天空龙 main >= 1
+		! 太阳神之翼神龙 main >= 1
+		! 光之创造神 哈拉克提 main >= 1
 
 tag: 天空龙
 	config: global
 	config: upgrade
 	! 奥西里斯之天空龙 main >= 1
+	restrains: < 1
+		! 欧贝利斯克之巨神兵 main >= 1
+		! 太阳神之翼神龙 main >= 1
+		! 光之创造神 哈拉克提 main >= 1
 
 tag: 翼神龙
 	config: global
@@ -179,6 +187,10 @@ tag: 翼神龙
 	or:
 		! 太阳神之翼神龙 main >= 1
 		! [太阳神之翼神龙] main >= 3
+	restrains: < 1
+		! 奥西里斯之天空龙 main >= 1
+		! 欧贝利斯克之巨神兵 main >= 1
+		! 光之创造神 哈拉克提 main >= 1
 
 set: 产毛卡
 	18027138 # 河马狂欢节
