@@ -970,6 +970,7 @@ deck: 机壳
 		! 27279764 main >= 1
 
 tag: 文具电子人
+	config: global
 	! [文具电子人] main >= 4
 deck: 文具电子人
 	! [文具电子人] > 10
@@ -1178,13 +1179,11 @@ deck: 混沌战士(仪式)
 			! 6628343 main >= 1
 			! 32013448 main >= 1
 	refuse: 混沌战士
-
 deck: 混沌战士(非仪式)
 	! [混沌战士的仪式] <= 1
 	! [混沌战士] main >= 2
 	! [暗黑骑士 盖亚] main >= 2
 	refuse: 混沌战士
-
 tag: 混沌战士
 	config: global
 	! [混沌战士的仪式] >= 1
@@ -1414,7 +1413,6 @@ deck: 捕食植物
 	! [捕食] main >= 8
 	refuse: 捕食
 	refuse: 奇美拉大花草
-
 tag: 奇美拉大花草
 	config: global
 	! 25586143 >= 1 # 捕食植物 奇美拉大花草
