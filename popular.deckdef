@@ -471,7 +471,7 @@ deck: 圣刻白龙 [10]
 
 deck: AF先史 [10]
 	! [古遗物] main >= 6
-	! [先史遗产] main >= 6
+	! [先史遗产] main >= 5
 	refuse: AF
 
 deck: 幻煌异兽 [10]
