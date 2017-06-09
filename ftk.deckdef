@@ -121,3 +121,9 @@ tag: 书物蠕虫兽
 	config: upgrade
 	! 6285791 main >= 1 # 邪恶蠕虫兽
 	! 61623148 main >= 1 # 暗黑界的书物
+
+tag: 裂蕈牙
+	config: global
+	config: upgrade
+	! 62543393 main >= 1 # 裂蕈牙
+	! 69832741 main >= 1 # 灵魂消灭
