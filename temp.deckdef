@@ -2023,6 +2023,11 @@ deck: 魔王龙 [0]
 	! 34408491 ex >= 2 # 魔王龙 蝇王
 	! 8763963  ex >= 2 # 魔王超龙 天蝇王
 
+tag: 凤凰神
+	config: global
+	config: upgrade
+	! 61441708 main >= 1 # 奈芙提斯之凤凰神
+	! 98446407 main >= 1 # 奈芙提斯之引导者
 tag: 恶忍
 	config: global
 	config: upgrade
