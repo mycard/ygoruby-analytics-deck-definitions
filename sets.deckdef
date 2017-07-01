@@ -554,6 +554,7 @@ deck: 隆隆隆
 	refuse: 拟声
 tag: 隆隆隆
 	config: global
+	config: upgrade
 	! [隆隆隆] main >= 4
 
 deck: 企鹅
