@@ -1313,23 +1313,23 @@ deck:花札卫
 	! [花札卫] main > 12
 
 deck: 沉默剑士
-	! [沉默剑士] > 5
+	! [沉默剑士] main > 5
 	refuse: 沉默剑士
 tag: 沉默剑士
 	config: global
 	config: upgrade
-	! 15180041 >= 1
+	! 15180041 main >= 1
 deck: 沉默魔术师
-	! [沉默魔术师] > 5
+	! [沉默魔术师] main > 5
 	refuse: 沉默剑士
 tag: 沉默魔术师
 	config: global
 	config: upgrade
-	! 41175645 >= 1
+	! 41175645 main >= 1
 deck: 沉默 [2]
-	! [沉默剑士] >= 3
-	! [沉默魔术师] >= 3
-	! 沉默魔导剑士 >= 1
+	! [沉默剑士] main >= 3
+	! [沉默魔术师] main >= 3
+	! 沉默魔导剑士 main >= 1
 	refuse: 沉默剑士
 	refuse: 沉默魔术师
 
