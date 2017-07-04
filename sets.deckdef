@@ -625,7 +625,7 @@ deck: 魔导
 tag: 魔导
 	config: global
 	config: upgrade
-	! [魔导书] >= 4
+	! [魔导书] main >= 4
 
 deck: 英豪
 	! [英豪] > 10
