@@ -19,6 +19,7 @@ deck: sample1(白龙) [999]
 	! 5851097 main >= 1  # 虚无
 	! 84749824 main >= 1 # 神警
 	! 神之通告 main < 1   # 用于辨认
+	! 55410871 main < 1
 	refuse: 白龙
 
 deck: sample2 [999]
