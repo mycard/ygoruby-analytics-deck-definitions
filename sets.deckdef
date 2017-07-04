@@ -948,9 +948,14 @@ tag: 毛绒
 	! [毛绒动物] main > 4
 
 deck: 机壳
-	! [机壳] > 5
+	! [机壳] main > 7
 	(物质主义)
 		! 27279764 main >= 1
+	refuse: 机壳
+tag: 机壳
+	config: global
+	config: upgrade
+	! [机壳] main >= 3
 
 tag: 文具电子人
 	config: global
