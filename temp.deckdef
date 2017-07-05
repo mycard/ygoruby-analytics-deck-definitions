@@ -1904,6 +1904,7 @@ set: 电子界系列
 	70238111 # 重编码存活
 deck: 电子界
 	! [电子界系列] >= 15
+	refuse: 防火
 
 tag: 碰撞月镜盾
 	config: global
@@ -1963,12 +1964,12 @@ deck: Metabeat
 tag: 雪貂
 	config: global
 	config: upgrade
-	! 56343672 main >= 2
+	! 56343672 main >= 2 # 救援雪貂
 
 tag: 防火
 	config: global
 	config: upgrade
-	! 5043010 = 3
+	! 5043010 = 3 # 防火龙
 
 tag: 七皇剑
 	config: global
