@@ -1090,7 +1090,7 @@ deck: 灵使/凭依装着
 	refuse: 凭依装着
 
 deck: PSY骨架
-	! [PSY骨架] > 12
+	! [PSY骨架] main >= 10
 	refuse: PSY
 tag: PSY
 	config: global
