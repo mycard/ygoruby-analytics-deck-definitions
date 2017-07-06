@@ -335,16 +335,19 @@ tag: 猴树
 	! 狒狒面包树 >= 3
 
 deck: ABC
-	! 同盟格纳库 >= 1
-	! ABC-神龙歼灭者 >= 2
+	! 同盟格纳库 main >= 1
+	! ABC-神龙歼灭者 ex >= 2
+	! A-突击核 main >= 1
+	! B-破坏龙兽 main >= 1
+	! C-粉碎翼龙 main >= 1
 	refuse: ABC
 tag: ABC
 	config: global
 	config: upgrade
-	! A-突击核 >= 1
-	! B-破坏龙兽 >= 1
-	! C-粉碎翼龙 >= 1
-	! ABC-神龙歼灭者 >= 1
+	! A-突击核 main >= 1
+	! B-破坏龙兽 main >= 1
+	! C-粉碎翼龙 main >= 1
+	! ABC-神龙歼灭者 ex >= 1
 
 deck: 灵魂鸟
 	! 灵魂的降神 >= 2
