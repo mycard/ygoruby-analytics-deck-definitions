@@ -96,6 +96,14 @@ deck: 真龙炼装 [10]
 	refuse: 真龙皇
 	refuse: 真龙剑皇
 	refuse: 炼装
+deck: 真龙炼装神数 [20]
+	! [炼装] main >= 12
+	! [真龙] main >= 2
+	! [神数] main >= 5
+	refuse: 真龙皇
+	refuse: 真龙剑皇
+	refuse: 炼装
+	refuse: 神数
 
 deck: 真龙WW [10]
 	! [风魔女] main >= 3
