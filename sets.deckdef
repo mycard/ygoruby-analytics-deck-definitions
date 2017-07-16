@@ -305,6 +305,11 @@ deck: 守墓
 
 deck: 冰结界
 	! [冰结界] > 10
+	refuse: 冰结界
+tag: 冰结界
+	config: globla
+	config: upgrade
+	! [冰结界] main >= 5
 
 deck: 大日
 	! [大日] > 10
