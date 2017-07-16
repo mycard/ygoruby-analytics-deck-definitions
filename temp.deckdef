@@ -366,10 +366,12 @@ deck: 黑炎龙
 tag: 水龙
 	config: global
 	config: upgrade
-	! 水龙 main >= 1
-	! 氢素龙 main >= 2
-	! 氧素龙 main >= 2
-	! 化学结合-H2O main >= 1
+	! 22587018 main >= 1 # 氢素龙
+	! 58071123 main >= 1 # 氧素龙
+	! [化学结合] main >= 1
+	or:
+		! 6022371 main >= 1  # 水龙-团簇
+		! 85066822 main >= 1 # 水龙
 
 tag: 捕食
 	config: global
