@@ -1723,8 +1723,10 @@ tag: 大要塞鲸
 tag: 传说的渔人
 	config: global
 	config: upgrade
-	! 传说的渔人 main >= 1
-	! 传说的渔人三世 main >= 1
+	! 44968687 main >= 1 # 传说的渔人三世
+	or:
+		! 19801646 main >= 1 # 传说的渔人二世
+		! 3643300 main >= 1  # 传说的渔人
 tag: 海龙神
 	config: global
 	config: upgrade
