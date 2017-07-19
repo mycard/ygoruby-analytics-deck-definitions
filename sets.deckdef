@@ -1422,7 +1422,12 @@ tag: 夜莺海王星
 
 tag: 霸王门
 	config: global
-	! [霸王门] >= 1
+	! [霸王门] main >= 1
+	! [霸王门] main <= 4
+tag: 霸王门
+	config: global
+	config: upgrade
+	! [霸王门] main >= 5
 
 ## 霸王眷龙 被忽略
 
