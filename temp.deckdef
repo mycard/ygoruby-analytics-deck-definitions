@@ -2095,3 +2095,8 @@ tag: 九头蛇
 	config: global
 	config: upgrade
 	! 44009443 main >= 1 # 影星轨道兵器 着陆九头蛇
+
+tag: 反目
+	config: global
+	config: upgrade
+	! 21702241 main >= 2 # 反目的从者
