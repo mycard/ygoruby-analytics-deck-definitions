@@ -284,7 +284,6 @@ deck: 十二兽魔术师 [10]
 	! [灵摆读阵] main >= 2
 	refuse: 十二兽
 	refuse: 魔术师
-
 deck: 十二兽魔术师坏兽 [20]
 	! [十二兽] main > 2
 	! [魔术师] main >= 9
@@ -316,13 +315,11 @@ deck: 十二兽狱火机 [10]
 	! [狱火机] main >= 6
 	refuse: 十二兽
 	refuse: 狱火机
-
 deck: 割草狱火机 [10]
 	! [狱火机] main >= 6
 	! 邻家割草 main >= 2
 	refuse: 割草
 	refuse: 狱火机
-
 deck: 割草十二兽狱火机 [20]
 	! [十二兽] main > 2
 	! [狱火机] main >= 6
@@ -338,7 +335,6 @@ deck: 光白火 [20]
 	refuse: 光道
 	refuse: 白雪
 	refuse: 不知火
-
 deck: 十二兽光白火 [30]
 	! [十二兽] main > 2
 	! [光道] main >= 3
@@ -364,7 +360,6 @@ deck: AF召唤兽 [10]
 	! 召唤魔术 >= 1
 	refuse: AF
 	refuse: 召唤兽
-
 deck: WW召唤兽 [10]
 	! [风魔女] main >= 3
 	! 召唤师 阿莱斯特 >= 1
@@ -382,7 +377,6 @@ deck: 魔导WW召唤兽 [20]
 	refuse: 召唤兽
 	refuse: 同调系
 	refuse: 魔导
-
 deck: AFWW召唤兽 [20]
 	! [古遗物] main >= 4
 	! [风魔女] main >= 3
@@ -459,7 +453,6 @@ deck: 异色眼魔术师 [10]
 	! [魔术师] main >= 8
 	refuse: 魔术师
 	refuse: 异色眼
-
 deck: EM异色眼魔术师 [20]
 	! 天空的虹彩 >= 1
 	! [异色眼] >= 3
@@ -480,7 +473,6 @@ deck: 恐魔占术姬 [10]
 	! [地底恐魔] >= 6
 	! 圣占术姬 塔罗光巫女 >= 2
 	refuse: 圣占术姬
-
 deck: 影依占术姬 [10]
 	! [影依] main >= 6
 	! 圣占术姬 塔罗光巫女 >= 2
@@ -553,6 +545,16 @@ deck: 幻煌异兽 [10]
 	! [幻煌龙] main >= 4
 	! [伯吉斯异兽] main >= 4
 	refuse: 伯吉斯异兽
+deck: 青蛙异兽 [10]
+	! [青蛙] main >= 3
+	! [伯吉斯异兽] >= 5
+	refuse: 青蛙
+	refuse: 伯吉斯异兽
+deck: 扰乱异兽 [10]
+	! [扰乱] main >= 5
+	! [伯吉斯异兽] >= 5
+	refuse: 扰乱
+	refuse: 伯吉斯异兽
 
 deck: 银河光子 [10]
 	! [银河] main >= 6
@@ -584,12 +586,6 @@ deck: 炼装甲虫 [10]
 	! [炼装] main >= 4
 	refuse: 甲虫装机
 	refuse: 炼装
-
-deck: 青蛙异兽 [10]
-	! [青蛙] main >= 3
-	! [伯吉斯异兽] >= 5
-	refuse: 青蛙
-	refuse: 伯吉斯异兽
 
 deck: 机巧齿轮齿轮 [10]
 	! [机巧] main >= 3
