@@ -81,6 +81,7 @@ set: 拟声系列
 	inner set: 怒怒怒
 	inner set: 隆隆隆
 	inner set: 刷拉拉
+	6595475 # 拟声连携
 tag: 拟声
 	config: global
 	config: upgrade
@@ -98,8 +99,8 @@ deck: OZ之主
 	! 78613627 main >= 1 # 死亡袋鼠
 	! 27134689 ex >= 1   # OZ之主
 deck: 二重植物
-	! 53257892 >= 2
-	! 95750695 >= 2
+	! 53257892 main >= 2
+	! 95750695 main >= 2
 
 tag: 天魔神
 	config: global
@@ -119,21 +120,21 @@ tag: 猫僧
 tag: 天照大神
  	config: global
 	config: upgrade
-	! 天照大神 >= 2
+	! 天照大神 main >= 2
 
 deck: 魔杰拉
-	! 大魔王 魔杰拉 >= 2
-	! 杰拉的战士 >= 2
-	! 万魔殿-恶魔的巢窟- >= 1
+	! 大魔王 魔杰拉 main >= 2
+	! 杰拉的战士 main >= 2
+	! 万魔殿-恶魔的巢窟- main >= 1
 
 deck: 假面魔兽
 	! [假面魔兽] main >= 3
 
 deck: 门之守护神
-	! 门之守护神 >= 1
-	! 雷魔神-桑迦 >= 1
-	! 水魔神-斯迦 >= 1
-	! 风魔神-修迦 >= 1
+	! 门之守护神 main >= 1
+	! 雷魔神-桑迦 main >= 1
+	! 水魔神-斯迦 main >= 1
+	! 风魔神-修迦 main >= 1
 
 tag: 机炮龙
 	config: global
@@ -143,8 +144,8 @@ tag: 机炮龙
 	! 25551951 main >= 1 # 回膛手枪龙
 
 deck: 大飞蛾
-	! 幼虫宝宝 >= 1
-	! 进化之茧 >= 1
+	! 幼虫宝宝 main >= 1
+	! 进化之茧 main >= 1
 
 tag: 光创
 	config: global
@@ -248,19 +249,19 @@ deck: 堕天药副
 tag: 大革命
 	config: global
 	config: upgrade
-	! 大革命 >= 1
-	! 团结的反抗军 >= 1
-	! 流离的饥民 >= 1
-	! 受弹压的民众 >= 1
+	! 大革命 main >= 1
+	! 团结的反抗军 main >= 1
+	! 流离的饥民 main >= 1
+	! 受弹压的民众 main >= 1
 
 tag: 纸飞机人
 	config: global
 	config: upgrade
 	restrains: >= 2
-		! 何者 >= 1
-		! 他者 >= 1
-		! 此者 >= 1
-		! 彼者 >= 1
+		! 何者 main >= 1
+		! 他者 main >= 1
+		! 此者 main >= 1
+		! 彼者 main >= 1
 
 tag: 要塞鲸
 	config: global
@@ -288,11 +289,11 @@ tag: 索菲娅
 	config: global
 	config: upgrade
 	! 创星神 索菲娅 main >= 1
-
 tag: 提耶拉
 	config: global
 	config: upgrade
 	! 创星神 提耶拉 main >= 1
+
 set: 二轴兽族
 	25716180 # 发条猫
 	92729410 # 子狸 嘭嘭
@@ -334,35 +335,30 @@ set: LV系列
 	90500169 # 等级下降
 deck: LV
 	! [LV系列] main >= 6
-
 tag: 武装龙
 	config: global
 	! [武装龙 LV] main >= 3
 deck: 武装龙
 	! [武装龙 LV] main >= 6
 	refuse: 武装龙
-
 tag: 漆黑之魔王
 	config: global
 	! [漆黑之魔王] main >= 3
 deck: 漆黑之魔王
 	! [漆黑之魔王] >= 6
 	refuse: 漆黑之魔王
-
 tag: 魅惑的女王
 	config: global
 	! [魅惑的女王] main >= 3
 deck: 魅惑的女王
 	! [魅惑的女王] main >= 6
 	refuse: 魅惑的女王
-
 tag: 究极昆虫
 	config: global
 	! [究极昆虫] main >= 3
 deck: 究极昆虫
 	! [究极昆虫] main >= 5
 	refuse: 究极昆虫
-
 tag: 黑炎龙
 	config: global
 	! [荷鲁斯之黑炎龙] main >= 3
@@ -377,14 +373,14 @@ tag: 水龙
 	! 58071123 main >= 1 # 氧素龙
 	! [化学结合] main >= 1
 	or:
-		! 6022371 main >= 1  # 水龙-团簇
+		! 6022371  main >= 1  # 水龙-团簇
 		! 85066822 main >= 1 # 水龙
 
 tag: 捕食
 	config: global
 	config: upgrade
-	! 捕食植物 蜂兰蝎 >= 1
-	! 捕食植物 蛇瓶草眼镜蛇 >= 1
+	! 捕食植物 蜂兰蝎 main >= 1
+	! 捕食植物 蛇瓶草眼镜蛇 main >= 1
 
 tag: 龙姬神
 	config: global
@@ -418,7 +414,7 @@ deck: 神光&崇光
 	or:
 		! 神光之宣告者 main >= 2
 		! 崇光之宣告者 main >= 1
-	! 46052429 >= 2 # 高等仪式术
+	! 46052429 main >= 2 # 高等仪式术
 	refuse: 高仪
 
 tag: 便乘
@@ -467,7 +463,7 @@ deck: 昆虫族
 tag: 针虫	
 	config: global
 	config: upgrade
-	! 针虫 >= 2
+	! 针虫 main >= 2
 
 deck: 混沌壶
 	! 混沌壶 main >= 1
@@ -480,12 +476,6 @@ tag: 骷髅炎鬼
 	config: global
 	config: upgrade
 	! [骷髅炎鬼] main >= 2
-
-tag: 魔力指示物
-	config: global
-	config: upgrade
-	! 魔法都市 恩底弥翁 >= 2
-	! 魔力掌握 >= 2
 
 deck: 罗宾
 	! 异次元喷气机·大铁号 main >= 1
@@ -507,10 +497,10 @@ tag: 王虎世界树
 	! 5973663 main >= 1 # 世界树
 
 deck: 天位骑士
-	! 卫兵骑士 >= 1
-	! 国王骑士 >= 1
-	! 王后骑士 >= 1
-	! 天位骑士 >= 1
+	! 卫兵骑士 main >= 1
+	! 国王骑士 main >= 1
+	! 王后骑士 main >= 1
+	! 天位骑士 ex >= 1
 
 tag: 黑白龙
 	config: global
@@ -522,7 +512,7 @@ tag: VW
 	config: upgrade
 	! V-喷气虎 main >= 1
 	! W-弹射飞翼 main >= 1
-	! VW-强击虎 >= 1
+	! VW-强击虎 ex >= 1
 
 tag: XYZ
 	config: global
@@ -542,7 +532,7 @@ deck: 野蛮人
 tag: 终焉之王
 	config: global
 	config: upgrade
-	! 终焉之王 迪米斯 >= 2
+	! 终焉之王 迪米斯 main >= 2
 
 tag: 头奖壶
 	config: global
@@ -550,7 +540,7 @@ tag: 头奖壶
 	! 头奖壶7 main >= 3
 
 deck: 打火石
-	! [火石] >= 6
+	! [火石] main >= 6
 
 set: 超時空戦闘機
 	胜利蛇XX03
@@ -568,22 +558,21 @@ deck: 超時空戦闘機
 tag: 珂珑公主
 	config: global
 	config: upgrade
-	! 珂珑公主 >= 2
-	! 玩具盒 >= 2
+	! 珂珑公主 ex >= 2
+	! 玩具盒 main >= 2
 
 tag: 大凛魔天使
 	config: global
 	config: upgrade
-	! 大凛魔天使 蔷薇仙 >= 1
-	! 魔天使 蔷薇之巫师 >= 1
-	! 凛天使 蔷薇之女王 >= 1
+	! 大凛魔天使 蔷薇仙 main >= 1
+	! 魔天使 蔷薇之巫师 main >= 1
+	! 凛天使 蔷薇之女王 main >= 1
 
 set: 花姬
 	椿姬 提泰妮娅
 	姬葵 玛丽娜
 	樱姬 塔利亚
 	红姬 知流姬
-
 tag: 花姬
 	config: global
 	config: upgrade
@@ -645,14 +634,14 @@ tag: 石头人
 	! 多块石人 main >= 1
 
 deck: 伪骸神
-	! No.53 伪骸神 心地心 >= 2
-	! No.92 伪骸神龙 心地心龙 >= 1
+	! No.53 伪骸神 心地心 ex >= 2
+	! No.92 伪骸神龙 心地心龙 ex >= 1
 
 tag: 该隐亚伯
 	config: global
 	config: upgrade
-	! No.13 该隐恶魔 >= 1
-	! No.31 亚伯恶魔 >= 1
+	! No.13 该隐恶魔 ex >= 1
+	! No.31 亚伯恶魔 ex >= 1
 
 tag: 法老之灵
 	config: global
@@ -721,7 +710,7 @@ deck: 蜂鸟侠
 	! 元素英雄 新宇侠 main >= 2
 	! 新空间侠·天空蜂鸟 main >= 2
 	! [新空间侠] main <= 6
-	! 元素英雄 天空新宇侠 >= 1
+	! 元素英雄 天空新宇侠 ex >= 1
 
 deck: 和修吉
 	! 爬虫妖女·和修吉 main >= 2
@@ -811,17 +800,17 @@ tag: 植物族
 	config: upgrade
 	! [植物族均] >= 9
 deck: 木灵植物
-	! 孤火花 >= 2
-	! 墨利亚之木灵 >= 1
-	! 成长的鳞茎 >= 1
-	! 孢子 >= 1
-	! 蒲公英狮 >= 1
+	! 孤火花 main >= 2
+	! 墨利亚之木灵 ex >= 1
+	! 成长的鳞茎 main >= 1
+	! 孢子 main >= 1
+	! 蒲公英狮 main >= 1
 	refuse: 植物族
 
 tag: 地狱暴风
 	config: global
 	config: upgrade
-	! 地狱暴风 >= 2
+	! 地狱暴风 main >= 2
 
 set: 六轴部件
 	命运英雄 魔性人
@@ -832,7 +821,7 @@ set: 六轴部件
 tag: 六轴
 	config: global
 	config: upgrade
-	! [六轴部件] >= 5
+	! [六轴部件] main >= 5
 
 set: 雷beat
 	雷王
@@ -840,7 +829,7 @@ set: 雷beat
 	电光－雪花－
 	放电枪野马
 deck: 雷族beat
-	! [雷beat] >= 6
+	! [雷beat] main >= 6
 
 set: 次元贴纸
 	大宇宙
@@ -895,7 +884,9 @@ tag: 魔力爆发
 	config: upgrade
 	! 魔力爆发 main >= 1
 
-deck: 狂战士之魂
+tag: 狂战士之魂
+	config: global
+	config: upgrade
 	! 狂战士之魂 main >= 1
 
 set: 说书跳板
@@ -975,27 +966,27 @@ deck: 聚集的祈愿 [2]
 	refuse: 同调系
 	refuse: 同调士
 deck: 废品战士 [2]
-	! 废品战士 >= 1
-	! 废铁拳 >= 2
+	! 废品战士 ex >= 1
+	! 废铁拳 main >= 2
 	refuse: 同调士
 
 deck: 光神抽 [6]
-	! 光神 忒堤斯 >= 3
+	! 光神 忒堤斯 main >= 3
 
 tag: 天轮
 	config: global
 	config: upgrade
-	! 天轮之双星道士 >= 1
+	! 天轮之双星道士 ex >= 1
 	or:
-		! 花札卫-雨四光- >= 1
-		! 花札卫-五光- >= 1
+		! 花札卫-雨四光- ex >= 1
+		! 花札卫-五光- ex >= 1
 
 set: 岩石boss
 	地球巨人
 	积木龙
 	巨岩龙
 deck: 岩石族
-	! [岩石boss] >= 3
+	! [岩石boss] main >= 4
 
 tag: 狂暴死龙
 	config: global
@@ -1004,14 +995,14 @@ tag: 狂暴死龙
 	! 与恶魔的暗中交易 main >= 1
 
 deck: 钢炎burn
-	! 真红眼钢炎龙 >= 1
+	! 真红眼钢炎龙 ex >= 1
 	or:
-		! 魔王龙 蝇王 >= 1
-		! 铁骑士 基亚·弗里德 >= 1
+		! 魔王龙 蝇王 ex >= 1
+		! 铁骑士 基亚·弗里德 main >= 1
  	or:
-		! 紫炎之间者 >= 1
-		! 强制转移 >= 1
-		! 死之魔术箱 >= 1
+		! 紫炎之间者 main >= 1
+		! 强制转移 main >= 1
+		! 死之魔术箱 main >= 1
 
 set: 升阶系
 	inner set: 混沌No.
@@ -1022,14 +1013,14 @@ set: 升阶系
 tag: 升阶
 	config: global
 	config: upgrade
-	! [升阶系] >= 4
-	! [升阶魔法] >= 3
+	! [升阶系] ex >= 4
+	! [升阶魔法] main >= 3
 
 deck: 33特化
-	! No.33 先史遗产-超兵器 气能 >= 1
+	! No.33 先史遗产-超兵器 气能 ex >= 1
 	or:
-		! 魔界的足枷 >= 1
-		! 迷你胆识 >= 1
+		! 魔界的足枷 main >= 1
+		! 迷你胆识 main >= 1
 
 set: 陷阱怪兽
 	3129635  # 诅咒之像
@@ -1077,7 +1068,7 @@ tag: 不死族
 tag: 御用
 	config: global
 	config: upgrade
-	! [御用] >= 6
+	! [御用] ex >= 6
 
 deck: 妖精传姬
 	! [妖精传姬] main >= 5
@@ -1275,7 +1266,7 @@ deck: 十阶
 	! [十阶套件] main >= 9
 
 deck: 列车 [2]
-	! 回转调车 >= 2
+	! 回转调车 main >= 2
 
 tag: 赌博
 	config: global
@@ -1291,11 +1282,11 @@ tag: 赌博
 			! 89718302 main >= 1 # 暴走牛鬼
 			! 37812118 main >= 1 # 圣杯A
 			! 21598948 main >= 1 # 怪兽箱
-			! 2196767 main >= 1  # 传说的赌博师
+			! 2196767  main >= 1  # 传说的赌博师
 			! 50593156 main >= 1 # 沙之赌徒
 			! 86767655 main >= 1 # 审判女士
 			! 37313786 main >= 1 # 赌博
-			! 3493058 main >= 1  # 骰子旋风
+			! 3493058  main >= 1  # 骰子旋风
 			! 42421606 ex >= 1   # No.85 狂箱
 			! 81172176 main >= 1 # 恶魔喜剧演员
 			
@@ -1329,11 +1320,11 @@ deck: 岩石反伤
 		! 2396042 main >= 1 # 迪隆的钢铁骑兵
 		! 65240384 main >= 1 # 巨盾守卫者
 	restrains: >= 2
-		! 19254117 >= 1 # 仁王立
-		! 23535429 >= 1 # 牙城守护者
-		! 断层地带 >= 1
-		! 37083210 >= 1 # 交叉反击
-		! 71249758 >= 1 # D2护盾
+		! 19254117 main >= 1 # 仁王立
+		! 23535429 main >= 1 # 牙城守护者
+		! 断层地带  main >= 1
+		! 37083210 main >= 1 # 交叉反击
+		! 71249758 main >= 1 # D2护盾
 
 set: 凡骨配套
 	911883 # 粗人预料
@@ -1389,9 +1380,9 @@ deck: 变更形式
 deck: 龙大神
 	! 63737050 main >= 1 # 龙大神
 	or:
-		! 紫炎之间者 >= 1
-		! 强制转移 >= 1
-		! 死之魔术箱 >= 1
+		! 紫炎之间者 main >= 1
+		! 强制转移 main >= 1
+		! 死之魔术箱 main >= 1
 		! 55465441 main >= 1 # 平等交换
 
 tag: 狮子男巫
@@ -1602,7 +1593,7 @@ tag: 恐龙
 	! [恐龙族系列] main >= 8
 
 deck: 西格马beat [2]
-	! 48370501 >= 1 # 西格马大日
+	! 48370501 ex >= 1 # 西格马大日
 	restrains: >= 3
 		! 20474741 main >= 1 # 三叉戟战士
 		! 19182751 main >= 1 # 次世代中子人
@@ -1616,6 +1607,12 @@ tag: 最终一战
 	config: upgrade
 	! 28566710 main >= 1
 
+tag: 魔力指示物
+	config: global
+	config: upgrade
+	! 魔法都市 恩底弥翁 main >= 2
+	! 魔力掌握 main >= 2
+	! 40732515 main < 1 # 上海王
 tag: 上海王
 	config: global
 	config: upgrade
@@ -1694,7 +1691,7 @@ tag: 龙魔人
 	config: upgrade
 	! 62113340 main >= 1 # 神龙 末日龙
 	! 17985575 main >= 1 # 龙之支配者
-	! 13756293 main >= 1 # 龙魔人 龙骑士之王
+	! 13756293 ex >= 1 # 龙魔人 龙骑士之王
 
 tag: 仪式魔人
 	config: global
@@ -1723,7 +1720,6 @@ set: 海系列
 	90337190 # 鱼雷鱼
 	95614612 # 炮弹枪贝
 	18605135 # 龙卷海流壁
-
 deck: 海系
 	! [海系列] main >= 12
 	refuse: 海龙神
@@ -1866,15 +1862,6 @@ tag: 王宫神殿
 	! 29762407 main >= 1 # 王家的神殿
 	! 89194033 main >= 1 # 圣兽 塞勒凯特
 
-tag: 除外向念动力
-	config: global
-	config: upgrade
-	restrains: >= 2
-		! 62950604 >= 1 # 沉默的念力男巫
-		! 静寂的念力魔女 >= 1
-		! 念之少女 >= 1
-		! 25343017 >= 1 # 寡默的念力祭司
-
 set: 念动力系列
 	16191953 # 吉格大王
 	77600660 # 念力帝皇
@@ -1901,6 +1888,14 @@ set: 念动力系列
 	59718521 # 布朗宁力
 deck: 念动力
 	! [念动力系列] main >= 15
+tag: 除外向念动力
+	config: global
+	config: upgrade
+	restrains: >= 2
+		! 62950604 main >= 1 # 沉默的念力男巫
+		! 静寂的念力魔女 main >= 1
+		! 念之少女 main >= 1
+		! 25343017 main >= 1 # 寡默的念力祭司
 
 set: 电子界系列
 	32295838 # 数字机灵
@@ -1993,7 +1988,7 @@ tag: 雪貂
 tag: 防火
 	config: global
 	config: upgrade
-	! 5043010 = 3 # 防火龙
+	! 防火龙 ex = 3
 
 tag: 七皇剑
 	config: global
@@ -2059,6 +2054,7 @@ tag: 凤凰神
 	config: upgrade
 	! 61441708 main >= 1 # 奈芙提斯之凤凰神
 	! 98446407 main >= 1 # 奈芙提斯之引导者
+
 tag: 恶忍
 	config: global
 	config: upgrade
