@@ -2,24 +2,24 @@
 # This line is testing update.
 
 deck: 正义盟军
-	! [正义盟军] > 10
+	! [正义盟军] ori > 10
 
 deck: 次世代
-	! [次世代] > 10
+	! [次世代] ori > 10
 	refuse: 次世代
 tag: 次世代
 	config: global
 	! [次世代] main >= 3
 
 deck: 亚马逊
-	! [亚马逊] > 10
+	! [亚马逊] ori > 10
 	refuse: 亚马逊
 tag: 亚马逊
 	config: global
 	! [亚马逊] main >= 2
 
 deck: 秘仪之力
-	! [秘仪之力] > 10
+	! [秘仪之力] main > 10
 
 deck: 暗黑界
 	refuse: 暗黑界
@@ -37,7 +37,7 @@ tag: 暗黑界
 #		! 34230233 < 2 # 暗黑界的龙神 格拉法
 
 deck: 古代机械
-	! [古代的机械] > 9
+	! [古代的机械] ori > 9
 	refuse: 古代机械
 tag: 古代机械
 	config: config
@@ -45,26 +45,26 @@ tag: 古代机械
 	! [古代的机械] main >= 4
 
 deck: 英雄
-	! [英雄] > 9
+	! [英雄] ori > 9
 	refuse: hero
 tag: hero
 	config: global
 	config: upgrade
 	! [英雄] main >= 4
 	or:
-		! 213326 >= 2 # E-紧急呼唤
-		! 8949584 >= 2 # 英雄到来
+		! 213326 main >= 2 # E-紧急呼唤
+		! 8949584 main >= 2 # 英雄到来
 
 deck: 元素英雄 [2]
-	! [元素英雄] > 6
+	! [元素英雄] ori > 6
 	refuse: hero
 	(到来)
-		! 8949584 > 1 # 英雄到来
+		! 8949584 main > 1 # 英雄到来
 set: DH系列
 	inner set: 命运英雄
 	99357565 # D3
 deck: 命运英雄 [2]
-	! [DH系列] > 6
+	! [DH系列] ori > 6
 	refuse: hero
 deck: 假面英雄 [3]
 	! [假面英雄] ex >= 5
@@ -75,7 +75,7 @@ tag: 假面
 	config: global
 	config: upgrade
 	! [假面英雄] >= 1
-	! [变化] >= 1
+	! [变化] main >= 1
 tag: 新宇
 	config: global
 	! [新宇] > 8
@@ -675,7 +675,7 @@ deck: 炎星
 ## 圣 被忽略
 
 deck: 圣骑士
-	! [圣骑士] >= 6
+	! [圣骑士] ori >= 6
 	! [圣剑] main >= 5
 
 deck: 银河
@@ -754,7 +754,7 @@ deck: 虫惑魔
 tag: 虫惑魔
 	config: global
 	config: upgrade
-	! [虫惑魔] main >= 4
+	! [虫惑魔] ori >= 4
 
 deck: 恶餐
 	! [恶餐] main >= 6
@@ -769,7 +769,7 @@ deck: 鬼计
 	! [鬼计] > 10
 
 deck: 吸血鬼
-	! [吸血鬼] main > 10
+	! [吸血鬼] main >= 8
 	refuse: 不死族
 
 ## 刷拉拉 被忽略
