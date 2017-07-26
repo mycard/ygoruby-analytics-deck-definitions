@@ -6,8 +6,8 @@
 
 tag: 推理门
 	config: global
-	! 名推理 >= 1
-	! 怪兽之门 >= 1
+	! 名推理 main >= 1
+	! 怪兽之门 main >= 1
 
 ## 古遗物 已被系列收录
 ## 正义盟军 已被系列收录
@@ -16,12 +16,12 @@ tag: 推理门
 ## 暗黑界 已被系列收录
 
 deck: 邪心英雄
-	! 暗黑融合 >= 1
+	! 暗黑融合 main >= 1
 
 tag: 神召	
 	config: global
 	config: upgrade
-	! 暗黑神召 >= 1
+	! 暗黑神召 main >= 1
 	
 ## 阴影 已被系列收录
 ## 甲虫装机 已被系列收录
@@ -87,15 +87,15 @@ deck: 蜘蛛
 tag: 迅捷
 	config: global
 	config: upgrade
-	! [迅捷] >= 6
+	! [迅捷] main >= 6
 
 ## 史莱姆 不认识的玩意
 
 ## 异热同心武器 不是一个卡组
 # 但是这个是
 deck: 神装霍普
-	! [异热同心武器] >= 3
-	! [希望皇 霍普] >= 4
+	! [异热同心武器] main>= 3
+	! [希望皇 霍普] ex >= 4
 	refuse: 霍普
 	refuse: 四阶
 	(花园)
@@ -104,7 +104,7 @@ deck: 神装霍普
 tag: 霍普
 	config: global
 	config: upgrade
-	! [希望皇 霍普] >= 5		
+	! [希望皇 霍普] ex >= 5		
 	! 11705261 main >= 2 # 超量变身战术
 
 ## 圣骑士 已被系列收录
@@ -134,8 +134,8 @@ tag: 征龙
 			! 风征龙-霆龙 >= 2
 tag: 征龙
 	config: global
-	! [征龙] >= 4
-	! [征龙] <= 7
+	! [征龙] main >= 4
+	! [征龙] main <= 7
 
 ## 发条 已被系列收录
 ## C 链 已被系列收录
@@ -159,10 +159,10 @@ tag: 死灵之颜
 ## 吸血鬼 已被系列收录
 
 deck: 漏洞人
-	! 漏洞人X >= 2
-	! 漏洞人Y >= 2
-	! 漏洞人Z >= 2
-	! 超级漏洞人 >= 1
+	! 漏洞人X main >= 2
+	! 漏洞人Y main >= 2
+	! 漏洞人Z main >= 2
+	! 超级漏洞人 main >= 1
 
 ## 爆裂体 已被系列收录
 ## 灵使 已被系统收录
@@ -194,15 +194,15 @@ tag: 毛扎
 	! 毛兽之王 main >= 1
 
 deck: 于贝尔
-	! 于贝尔 >= 1
-	! 于贝尔-被憎恶的骑士 >= 1
-	! 于贝尔-极度悲伤的魔龙 >= 1
+	! 于贝尔 main >= 1
+	! 于贝尔-被憎恶的骑士 main >= 1
+	! 于贝尔-极度悲伤的魔龙 main >= 1
 
 tag: 独角兽
 	config: global
 	config: upgrade
-	! 雷电独角兽 >= 1
-	! 闪电三角兽 >= 1
+	! 雷电独角兽 ex >= 1
+	! 闪电三角兽 ex >= 1
 
 ## 光道 将在疑难区收录
 ## 熔岩 已被系列收录
@@ -220,7 +220,7 @@ deck: 白骨
 	refuse: 不死族
 	or:
 		! [白骨] main >= 9
-		! 白骨王 >= 2
+		! 白骨王 main >= 2
 
 ## 龙星 已被系列收录
 ## 影依 已被系列收录
@@ -229,8 +229,8 @@ deck: 白骨
 
 tag: 冰火手
 	config: global
-	! 寒冰手 >= 2
-	! 火焰手 >= 2
+	! 寒冰手 main >= 2
+	! 火焰手 main >= 2
 
 ## 毛绒动物 已被系列收录
 ## 娱乐伙伴 将在疑难区收录
@@ -253,8 +253,8 @@ tag: 冰火手
 
 tag: 小丑千刀
 	config: global
-	! 娱乐法师 戏法小丑 >= 1
-	! 英豪挑战者 千刀兵 >= 1
+	! 娱乐法师 戏法小丑 main >= 1
+	! 英豪挑战者 千刀兵 main >= 1
 
 ## 水族馆 已被系列收录
 ## 占术姬 已被系列收录
@@ -273,14 +273,14 @@ tag: 小丑千刀
 tag: 巨神龙
 	config: global
 	config: upgrade
-	! 巨神龙 闪耀 >= 1
+	! 巨神龙 闪耀 main >= 1
 
 ## 炼装 将在疑难区收录
 
 tag: 真红王
 	config: global
 	config: upgrade
-	! 真红王 >= 1
+	! 真红王 main >= 1
 
 ## 异色眼 将在疑难区收录
 ## 方界 已被系列收录
@@ -295,7 +295,7 @@ set: 特召限制像
 	深渊之结界像
 	化石恐龙 肿头龙
 deck: 结界像控制
-	! [特召限制像] >= 4
+	! [特召限制像] main >= 4
 	# 我不知道怎样处理
 
 ## 花札卫 已被系列收录
@@ -309,7 +309,7 @@ deck: 结界像控制
 
 tag: 白雪
 	config: global
-	! 妖精传姬-白雪 >= 1
+	! 妖精传姬-白雪 main >= 1
 
 ## 伯吉斯异兽 已被系列收录
 ## 风魔女 已被系统收录
@@ -318,21 +318,21 @@ tag: 白雪
 
 tag: 割草
 	config: global
-	! 邻家割草 >= 2
+	! 邻家割草 main >= 2
 
 tag: 吸毒壶
 	config: global
-	! 强欲而贪欲之壶 >= 2
+	! 强欲而贪欲之壶 main >= 2
 	
 tag: 滤抽
 	config: global
-	! 星球改造 >= 1
-	! 试胆竞速 >= 1
-	! 哥布林暴发户 >= 1
+	! 星球改造 main >= 1
+	! 试胆竞速 main >= 1
+	! 哥布林暴发户 main >= 1
 
 tag: 猴树
 	config: global
-	! 狒狒面包树 >= 3
+	! 狒狒面包树 main >= 3
 
 deck: ABC
 	! 同盟格纳库 main >= 1
@@ -340,6 +340,8 @@ deck: ABC
 	! A-突击核 main >= 1
 	! B-破坏龙兽 main >= 1
 	! C-粉碎翼龙 main >= 1
+	(亡龙)
+		! 5560911 main >= 1 # 亡龙之战栗-死欲龙
 	refuse: ABC
 tag: ABC
 	config: global
@@ -350,7 +352,7 @@ tag: ABC
 	! ABC-神龙歼灭者 ex >= 1
 
 deck: 灵魂鸟
-	! 灵魂的降神 >= 2
+	! 灵魂的降神 main >= 2
 	refuse: 灵魂
 
 ## 召唤兽 已被系列收录
@@ -392,19 +394,19 @@ deck: 灵魂鸟
 
 tag: 削命
 	config: global
-	! 削命的宝札 >= 2
+	! 削命的宝札 main >= 2
 
 tag: 陀螺
 	config: global
-	! 疾行机人 贝陀螺集合体 >= 1
+	! 疾行机人 贝陀螺集合体 main >= 1
 
 tag: 混沌幻魔
 	config: global
 	config: upgrade
-	! 混沌幻魔 阿米泰尔 >= 1
-	! 神炎皇 乌利亚 >= 1
-	! 降雷皇 哈蒙 >= 1
-	! 幻魔皇 拉比艾尔 >= 1
+	! 混沌幻魔 阿米泰尔 ex >= 1
+	! 神炎皇 乌利亚 main >= 1
+	! 降雷皇 哈蒙 main >= 1
+	! 幻魔皇 拉比艾尔 main >= 1
 
 tag: 盟军头脑
 	config: global
@@ -416,7 +418,7 @@ tag: 盟军头脑
 
 tag: 大气圈神鸟
 	config: global
-	! 大气圈神鸟 >= 1
+	! 大气圈神鸟 main >= 1
 
 ## 传说之都
 ## 石蒜花
@@ -425,63 +427,60 @@ tag: 大气圈神鸟
 tag: 异星
 	config: global
 	config: upgrade
-	! [融合] >= 1
-	! 异星的最终战士 >= 1
-	#tag: 异星的最终战士
-	#tag: 一族的团结
-		# config:global
+	! [融合] main >= 1
+	! 异星的最终战士 main >= 1
 
 deck: 日月龙
-	! 太阳龙 因蒂 >= 1
-	! 月影龙 基利亚 >= 1
+	! 太阳龙 因蒂 ex >= 1
+	! 月影龙 基利亚 ex >= 1
 
 tag: 病毒
 	config: global
-	! [卡组破坏病毒] >= 1
+	! [卡组破坏病毒] main >= 1
 
 deck: 通灵盘 [2]
-	! 通灵盘 >=1
+	! 通灵盘 main >= 1
 	(圣域)
-		! 暗黑圣域 >= 1
+		! 暗黑圣域 main >= 1
 	(PSY)
-		! PSY骨架驱动者 >= 1
+		! PSY骨架驱动者 main >= 1
 	(宣告者)
 		! [宣告者] main >= 3
 
 tag: 兔
 	config: global
 	config: upgrade
-	! 救援兔 >= 1
+	! 救援兔 main >= 1
 
 tag: 神炎皇
 	config: global
 	config: upgrade
-	! 6007213 >= 1 # 神炎皇
+	! 6007213 main >= 1 # 神炎皇
 	or:
-		! 32491822 < 1 # 降雷皇
-		! 69890967 < 1 # 幻魔皇
+		! 32491822 main < 1 # 降雷皇
+		! 69890967 main < 1 # 幻魔皇
 tag: 幻魔皇
 	config: global
 	config: upgrade
-	! 69890967 >= 1 # 幻魔皇
+	! 69890967 main >= 1 # 幻魔皇
 	or:
-		! 32491822 < 1 # 降雷皇
-		! 6007213 < 1 # 神炎皇
+		! 32491822 main < 1 # 降雷皇
+		! 6007213 main < 1 # 神炎皇
 tag: 降雷皇
 	config: global
 	config: upgrade
-	! 32491822 >= 1 # 降雷皇
+	! 32491822 main >= 1 # 降雷皇
 	or:
-		! 69890967 < 1 # 幻魔皇
-		! 6007213 < 1 # 神炎皇
+		! 69890967 main < 1 # 幻魔皇
+		! 6007213  main < 1 # 神炎皇
 
 tag: 三幻魔
 	config: global
 	config: upgrade
-	! 32491822 >= 1 # 降雷皇
-	! 69890967 >= 1 # 幻魔皇
-	! 6007213 >= 1 # 神炎皇
-	! 43378048 < 1 # 混沌幻魔
+	! 32491822 main >= 1 # 降雷皇
+	! 69890967 main >= 1 # 幻魔皇
+	! 6007213  main >= 1 # 神炎皇
+	! 43378048 ex < 1 # 混沌幻魔
 
 tag: 艾托斯
 	config: global
@@ -492,7 +491,7 @@ tag: 艾托斯
 tag: 赠剑兵
 	config: global
 	config: upgrade
-	! 英豪挑战者 赠剑兵 >= 2
+	! 英豪挑战者 赠剑兵 main >= 2
 
 ## 艾克佐迪亚 已被系列收录
 tag: 海洋侠
@@ -502,22 +501,22 @@ tag: 卡姆
 
 tag: 导游
 	config: global
-	! 由魔界到现世的死亡导游 >= 1
+	! 由魔界到现世的死亡导游 main >= 1
 
 deck: 倒计时
-	! 终焉的倒计时 >= 1
+	! 终焉的倒计时 main >= 1
 
 ## 弹射龟
 
 tag: 杯面
 	config: global
-	! 简易融合 >= 1
+	! 简易融合 main >= 1
 
 ## 齿车 # 这明明是时代的眼泪！
 
 tag: 金华猫
 	config: global
-	! 金华猫 >= 1
+	! 金华猫 main >= 1
 
 ## 银河眼 已被系列收录
 ## 速攻 将在疑难区收录
@@ -533,7 +532,7 @@ tag: 清净
 
 tag: 大天使
 	config: global
-	! 大天使 克里斯提亚 >= 1
+	! 大天使 克里斯提亚 main >= 1
 
 ## 栗子球
 ## 仙鹤
@@ -542,23 +541,23 @@ tag: 大天使
 
 tag: 融合之门
 	config: global
-	! 融合之门 >= 2
-	! 连锁素材 < 2
+	! 融合之门 main >= 2
+	! 连锁素材 main < 2
 
 tag: 幻想召唤师
 	config: global
-	! 幻想召唤师 >= 2
+	! 幻想召唤师 main >= 2
 
 tag: 纳祭之魔
 	config: global
 	config: upgrade
-	! 纳祭之魔 >= 1
+	! 纳祭之魔 main >= 1
 
 tag: 萨图嗯 ## ？？？
 
 tag: 魔杂 # 俗话说得好杂货毁构筑
 	config: global
-	! 魔导杂货商人 >= 1
+	! 魔导杂货商人 main >= 1
 
 deck: 鱼王同调
 ## 小丑王 什么鬼啦！
@@ -592,7 +591,7 @@ tag: 技抽beat
 	config: global
 	config: upgrade
 	! 技能抽取 main >= 2
-	! 神兽王 巴巴罗斯 >= 1
+	! 神兽王 巴巴罗斯 main >= 1
 
 ## Low Level
 ## Chain
@@ -600,7 +599,7 @@ set: 兔鸟二人组
 	发条兔
 	入魔雷神鸟
 deck: ChainBeat
-	! [兔鸟二人组] >= 5
+	! [兔鸟二人组] main >= 5
 
 ## Turbo
 ## Cure
@@ -609,8 +608,8 @@ deck: ChainBeat
 deck: burn
 	! [内置式] main >= 4
 deck: ChainBurn [5]
-	! 连锁爆击 >= 2
-#	! 积累的幸福 >= 1
+	! 连锁爆击 main >= 2
+#	! 积累的幸福 main >= 1
 deck: 削命Burn [5]
 	! 削命的宝札 main >= 2
 	! 连锁爆击 main < 1
@@ -639,17 +638,17 @@ set: 攻击限制
 tag: 攻击封锁
 	config: global
 	config: upgrade
-	! [攻击限制] >= 6
+	! [攻击限制] main >= 6
 	
 tag: 世界锁
 	config: global
 	config: upgrade
-	! 秘仪之力21-世界 >= 2
-	! [秘仪之力] <= 10
+	! 秘仪之力21-世界 main >= 2
+	! [秘仪之力] main <= 10
 
 deck: 时间吞噬者
-	! 时间吞噬者 >= 1
-	! 终端世界 >= 1
+	! 时间吞噬者 main >= 1
+	! 终端世界 main >= 1
 
 ## Control
 ## Handeath（手札破坏）
@@ -668,12 +667,12 @@ set: 冰指
 	雪龙
 	雪尘巨人
 deck: 冰指示物
-	! [冰指] >= 8
+	! [冰指] main >= 8
 
 ## Couter Angel（反击天使）
 
 deck: 反击天使
-	! 32296881 >= 2
+	! 32296881 main >= 2
 
 ## Standard（均卡）
 ## Good Stuff（勇德）
@@ -688,7 +687,7 @@ set: 次元斩三人组
 tag: 次元斩
 	config: global
 	config: upgrade
-	! [次元斩三人组] >= 5
+	! [次元斩三人组] main >= 5
 
 ## 行星
 tag: 至尊太阳
@@ -726,7 +725,7 @@ deck: 行星
 ## Ex 破坏
 tag: 轰雷
 	config: global
-	! 轰雷帝 扎博尔格 >= 1
+	! 轰雷帝 扎博尔格 main >= 1
 
 tag: 毒蛾
 	config: global
