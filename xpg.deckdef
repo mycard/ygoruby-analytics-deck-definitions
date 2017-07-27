@@ -428,7 +428,7 @@ tag: 异星
 	config: global
 	config: upgrade
 	! [融合] main >= 1
-	! 异星的最终战士 main >= 1
+	! 86099788 ex >= 1 # 异星的最终战士
 
 deck: 日月龙
 	! 太阳龙 因蒂 ex >= 1
