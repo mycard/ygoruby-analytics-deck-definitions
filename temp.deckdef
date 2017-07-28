@@ -369,6 +369,12 @@ tag: 黑炎龙
 deck: 黑炎龙
 	! [荷鲁斯之黑炎龙] main >= 6
 	refuse: 黑炎龙
+tag: 谜之剑士
+	config: global
+	! [谜之剑士] main >= 3
+deck: 谜之剑士
+	! [谜之剑士] main >= 6
+	refuse: 谜之剑士
 
 tag: 水龙
 	config: global
