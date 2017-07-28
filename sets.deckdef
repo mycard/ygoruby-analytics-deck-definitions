@@ -567,6 +567,7 @@ deck: 斯芬克斯
 tag: 竹光
 	config: global
 	! [竹光] main >= 3
+	! 54631834 main < 1 # 终端世界
 	
 ## 忍法 被忽略
 
