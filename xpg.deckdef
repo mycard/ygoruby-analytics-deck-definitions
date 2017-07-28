@@ -605,16 +605,22 @@ deck: ChainBeat
 ## Cure
 ## Burn 将在特殊战术区收录
 
+set: burn陷阱
+	27053506 # 内置式机枪
+	18252559 # 内置式爆弹
+	83555666 # 破坏轮
+	24068492 # 自业自得
+	36468556 # 停战协定
+	75249652 # 业炎防护罩 -火焰之力-
 deck: burn
-	! [内置式] main >= 4
+	! [burn陷阱] main >= 6
 deck: ChainBurn [5]
 	! 连锁爆击 main >= 2
-#	! 积累的幸福 main >= 1
 deck: 削命Burn [5]
 	! 削命的宝札 main >= 2
 	! 连锁爆击 main < 1
 	restrains: >= 2
-		! [内置式] main >= 3
+		! [burn陷阱] main >= 3
 		! 55623480 main >= 1 # 妖精传姬-白雪
 		! 60990740 main >= 1 # 绝对王 J革命
 	refuse: 削命
