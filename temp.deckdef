@@ -2137,3 +2137,9 @@ tag: 连接拷问巨人
 	config: upgrade
 	! 75732622 main >= 2 # 拷问巨人
 	! 28776350 ex >= 1 # 虚空俏丽魔术师
+
+tag: 竹光lock
+	config: global
+	config: upgrade
+	! 54631834 main >= 1 # 终端世界
+	! 55870497 main >= 1 # 燃烧的竹光
