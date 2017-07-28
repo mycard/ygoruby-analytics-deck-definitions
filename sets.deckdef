@@ -1473,7 +1473,7 @@ deck: 幻煌龙
 tag: 幻煌
 	config: global
 	config: upgrade
-	! [幻煌龙] main >= 4
+	! [幻煌] main >= 4
 
 deck: 淘气仙星
 	! 61283655 main >= 1 # 淘气仙星·坎迪娜
