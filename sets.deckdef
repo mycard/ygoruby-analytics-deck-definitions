@@ -1512,14 +1512,22 @@ set: 时械神系列
 deck: 时械神
 	! [时械神系列] main >= 8
 
+tag: 弹丸
+	config: global
+	! [弹丸] main >= 3
 deck: 弹丸
 	! [弹丸] main >= 6
+	refuse: 弹丸
 
 deck: 幻变骚灵
 	! [幻变骚灵] main >= 8
 
+tag: 机怪虫
+	config: global
+	! [机怪虫] ori >= 6
 deck: 机怪虫
-	! [机怪虫] main >= 8
+	! [机怪虫] ori >= 12
+	refuse: 机怪虫
 
 deck: 玄化
 	! [玄化] main >= 8
