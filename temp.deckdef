@@ -2149,3 +2149,14 @@ tag: 竹光lock
 	config: upgrade
 	! 54631834 main >= 1 # 终端世界
 	! 55870497 main >= 1 # 燃烧的竹光
+
+set: 龙族装备者
+	6075801  # 巨龙之圣骑士
+	33460840 # 巨龙之守护骑士
+	63487632 # 灾魔剑
+
+tag: 光暗剑
+	config: global
+	config: upgrade
+	! [龙族装备者] main >= 4
+	! 47297616 main >= 1 # 熊猫龙
