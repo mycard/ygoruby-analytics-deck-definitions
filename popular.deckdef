@@ -270,13 +270,13 @@ deck: 恐龙龙星 [10]
 		! 30106950 main >= 1 # 炎龙星-狻猊
 		! 66500065 main >= 1 # 地龙星-狴犴
 		! 57831349 main >= 1 # 龙星的九支
-	refuse: 恐龙
+	refuse: 恐龙族
 	refuse: 龙星
 	refuse: 源龙星
 deck: 恐龙真龙 [10]
 	! [恐龙族系列] main >= 6
 	! [真龙] main >= 2
-	refuse: 恐龙
+	refuse: 恐龙族
 	refuse: 真龙皇
 deck: 恐龙真龙龙星 [20]
 	! [恐龙族系列] main >= 6
@@ -284,7 +284,7 @@ deck: 恐龙真龙龙星 [20]
 	or:
 		! 66500065 main >= 1 # 地龙星-狴犴
 		! 57831349 main >= 1 # 龙星的九支
-	refuse: 恐龙
+	refuse: 恐龙族
 	refuse: 真龙皇
 	refuse: 龙星
 	refuse: 源龙星
