@@ -633,8 +633,13 @@ tag: 魔导
 deck: 英豪
 	! [英豪] > 10
 
+tag: 先史遗产
+	config: global
+	config: upgrade
+	! [先史遗产] ori >= 6
 deck: 先史遗产
-	! [先史遗产] > 10
+	! [先史遗产] ori > 10
+	refuse: 先史遗产
 
 deck: 魔偶甜点
 	! [魔偶甜点] > 10
