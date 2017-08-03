@@ -879,10 +879,16 @@ deck: 次元系
 	refuse: 红莲魔兽
 	refuse: 次元场
 
+tag: 同调融合
+	config: global
+	config: upgrade
+	! 15839054 main >= 2 # 同调融合者
+	! 1845204  main >= 1 # 简易融合
 deck: 废品融合者
 	! 废品同调士 main >= 2
-	! 同调融合者 main >= 2
+	! 15839054 main >= 2 # 同调融合者
 	refuse: 同调士
+	refuse: 同调融合
 
 set: 残骸爆破burn
 	残骸爆破
