@@ -1374,7 +1374,7 @@ tag: 暗同调
 	config: upgrade
 	! 命运英雄 魔性人 main >= 3
 	! 僵尸带菌者 main >= 1
-	! [不死族系列] main <= 4
+#	! [不死族系列] main <= 4
 	! [六轴部件] main <= 4
 
 tag: 神殿守卫者
