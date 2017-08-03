@@ -459,91 +459,96 @@ deck: WW威风 [10]
 	refuse: 威风妖怪
 
 deck: 异色眼魔术师 [10]
-	! 天空的虹彩 >= 1
-	! [异色眼] >= 3
+	! 天空的虹彩 main >= 1
+	! [异色眼] ori >= 3
 	! [魔术师] main >= 8
 	refuse: 魔术师
 	refuse: 异色眼
-deck: EM异色眼魔术师 [20]
-	! 天空的虹彩 >= 1
-	! [异色眼] >= 3
+deck: EM魔术师 [10]
 	! [魔术师] main >= 8
-	! [娱乐伙伴] >= 6
+	! [娱乐伙伴] main >= 6
+	refuse: 魔术师
+	refuse: EM
+deck: EM异色眼魔术师 [20]
+	! 天空的虹彩 main >= 1
+	! [异色眼] ori >= 3
+	! [魔术师] main >= 8
+	! [娱乐伙伴] main >= 6
 	refuse: 魔术师
 	refuse: 异色眼
 	refuse: EM
 
 deck: 射手65 [10]
 	! 六武之门 >= 2
-	! 亚马逊射手 >= 1
-	! 失X-剑士 招来者 >= 1
+	! 亚马逊射手 main >= 1
+	! 失X-剑士 招来者 ex >= 1
 	refuse: 六武众
 	refuse: 亚马逊
 
 deck: 恐魔占术姬 [10]
-	! [地底恐魔] >= 6
-	! 圣占术姬 塔罗光巫女 >= 2
+	! [地底恐魔] main >= 6
+	! 圣占术姬 塔罗光巫女 main >= 2
 	refuse: 圣占术姬
 deck: 影依占术姬 [10]
 	! [影依] main >= 6
-	! 圣占术姬 塔罗光巫女 >= 2
+	! 圣占术姬 塔罗光巫女 main >= 2
 	refuse: 圣占术姬
 	refuse: 影依
 
 deck: 银河电子 [10]
-	! 银河战士 >= 3
+	! 银河战士 main >= 3
 	! [电子龙] main >= 3
 	refuse: 银河
 	refuse: 电子龙
 
 deck: 银河ABC [10]
-	! 银河战士 >= 3
-	! A-突击核 >= 1
-	! B-破坏龙兽 >= 1
-	! C-粉碎翼龙 >= 1
-	! ABC-神龙歼灭者 >= 1
+	! 银河战士 main >= 3
+	! A-突击核 main >= 1
+	! B-破坏龙兽 main >= 1
+	! C-粉碎翼龙 main >= 1
+	! ABC-神龙歼灭者 ex >= 1
 	refuse: 银河
 	refuse: ABC
 deck: 电子ABC [10]
 	! [电子龙] main >= 2
-	! A-突击核 >= 1
-	! B-破坏龙兽 >= 1
-	! C-粉碎翼龙 >= 1
-	! ABC-神龙歼灭者 >= 1
+	! A-突击核 main >= 1
+	! B-破坏龙兽 main >= 1
+	! C-粉碎翼龙 main >= 1
+	! ABC-神龙歼灭者 ex >= 1
 	refuse: 电子龙
 	refuse: ABC
 deck: 银河电子ABC [20]
-	! 银河战士 >= 3
+	! 银河战士 main >= 3
 	! [电子龙] main >= 3
-	! A-突击核 >= 1
-	! B-破坏龙兽 >= 1
-	! C-粉碎翼龙 >= 1
-	! ABC-神龙歼灭者 >= 1
+	! A-突击核 main >= 1
+	! B-破坏龙兽 main >= 1
+	! C-粉碎翼龙 main >= 1
+	! ABC-神龙歼灭者 ex >= 1
 	refuse: 银河
 	refuse: 电子龙
 	refuse: ABC
 
 deck: 虫惑魔古遗物 [10]
-	! [古遗物] >= 6
-	! [虫惑魔] >= 3
+	! [古遗物] main >= 6
+	! [虫惑魔] main >= 3
 	refuse: AF
 deck: AF冰火手 [10]
-	! [古遗物] >= 6
-	! 寒冰手 >= 1
-	! 火焰手 >= 1
+	! [古遗物] main >= 6
+	! 寒冰手 main >= 1
+	! 火焰手 main >= 1
 	refuse: 冰火手
 	refuse: AF
 deck: HAT [20]
-	! [古遗物] >= 6
-	! [虫惑魔] >= 3
-	! 寒冰手 >= 1
-	! 火焰手 >= 1
+	! [古遗物] main >= 6
+	! [虫惑魔] main >= 3
+	! 寒冰手 main >= 1
+	! 火焰手 main >= 1
 	refuse: 冰火手
 	refuse: AF
 
 deck: 圣刻白龙 [10]
 	! [圣刻] main >= 4
-	! 青眼白龙 >= 2
+	! 青眼白龙 main >= 2
 	refuse: 圣刻
 	refuse: 白龙
 
