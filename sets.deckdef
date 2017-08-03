@@ -1408,7 +1408,7 @@ deck: 电子光虫
 	! [电子光虫] >= 9
 	
 deck: 捕食植物	
-	! [捕食] main >= 8
+	! [捕食] ori >= 8
 	refuse: 捕食
 	refuse: 奇美拉大花草
 tag: 奇美拉大花草
@@ -1422,7 +1422,7 @@ tag: 甘多拉
 	! [甘多拉] main >= 2
 
 deck: 抒情歌鸲 [2]
-	! [抒情歌鸲] main >= 6
+	! [抒情歌鸲] ori >= 9
 tag: 夜莺海王星
 	config: global
 	config: upgrade
@@ -1490,7 +1490,7 @@ tag: 幻煌
 deck: 淘气仙星
 	! 61283655 main >= 1 # 淘气仙星·坎迪娜
 	! 35199656 main >= 1 # 淘气仙星·曼珠诗华
- 	! [淘气仙星] >= 6
+ 	! [淘气仙星] ori >= 7
         refuse: 淘气仙星
 tag: 淘气仙星
 	config: global
@@ -1498,7 +1498,7 @@ tag: 淘气仙星
 	! [淘气仙星] main > 2
 
 deck: 刚鬼
- 	! [刚鬼] >= 6
+ 	! [刚鬼] ori >= 8
         refuse: 刚鬼
 tag: 刚鬼
 	config: global
@@ -1506,7 +1506,7 @@ tag: 刚鬼
 	! [刚鬼] main > 2
 
 deck: 星杯
- 	! [星杯] >= 9
+ 	! [星杯] ori >= 9
         refuse: 星杯
 tag: 星杯
 	config: global
