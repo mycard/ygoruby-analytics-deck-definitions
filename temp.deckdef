@@ -866,6 +866,7 @@ tag: 说书同调
 tag: 同调系
 	config: global
 	config: upgrade
+	! 62015408 < 3 # 浮幽樱
 	restrains: < 2
 		! [说书跳板] ex >= 6
 		! [说书终端] ex >= 3
