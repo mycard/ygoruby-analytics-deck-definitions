@@ -1510,11 +1510,15 @@ set: 时械神系列
 deck: 时械神
 	! [时械神系列] main >= 8
 
+set: 弹丸系列
+	inner set: 弹丸
+	31443476 # 速攻旋转
+	54458867 # 爆竹弹抽卡
 tag: 弹丸
 	config: global
-	! [弹丸] main >= 3
+	! [弹丸系列] main >= 3
 deck: 弹丸
-	! [弹丸] main >= 6
+	! [弹丸系列] main >= 6
 	refuse: 弹丸
 
 deck: 幻变骚灵
