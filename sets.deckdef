@@ -129,6 +129,7 @@ deck: 扰乱
 	refuse: 扰乱
 tag: 扰乱
 	config: global
+	config: upgrade
 	! [扰乱] main >= 5
 
 deck: 薰风
