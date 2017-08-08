@@ -1198,8 +1198,11 @@ tag: kozmo
 	! [星际仙踪] main >= 3
 
 deck: 坏兽
-	! [坏兽] main >= 6
-	! 56111151 main >= 1
+	or:
+		and:
+			! [坏兽] main >= 6
+			! 56111151 main >= 1
+		! [坏兽] main >= 15
 	refuse: 坏兽
 tag: 坏兽
 	config: global
