@@ -1923,6 +1923,12 @@ set: 直接攻击系列
 deck: 直接攻击 [0]
 	! [直接攻击系列] main >= 5
 
+tag: 流星龙
+	config: global
+	config: upgrade
+	! 62312469 main >= 1 # 暗黑树精
+	! 24696097 ex >= 1   # 流星龙
+	
 # 误伤可能
 
 tag: 最终一战
@@ -1930,10 +1936,14 @@ tag: 最终一战
 	config: upgrade
 	! 28566710 main >= 1
 
+tag: 早埋
+	config: global
+	config: upgrade
+	! 70828912 = 1 # 过早的埋葬
 tag: 大风暴
 	config: global
 	config: upgrade
-	! 19613556 =  1 # 大风暴
+	! 19613556 = 1 # 大风暴
 
 deck: GX遗老游街会 [100]
 	restrains: >= 2
@@ -1946,3 +1956,4 @@ deck: GX遗老游街会 [100]
 		! 72302403 = 1 # 光之护封剑
 		! 44095762 = 1 # 圣防
 	refuse: 大风暴
+	refuse: 早埋
