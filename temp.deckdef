@@ -315,19 +315,19 @@ tag: 武装龙
 	config: global
 	! [武装龙 LV] main >= 3
 deck: 武装龙
-	! [武装龙 LV] main >= 6
+	! [武装龙 LV] main >= 5
 	refuse: 武装龙
 tag: 漆黑之魔王
 	config: global
 	! [漆黑之魔王] main >= 3
 deck: 漆黑之魔王
-	! [漆黑之魔王] >= 6
+	! [漆黑之魔王] main >= 5
 	refuse: 漆黑之魔王
 tag: 魅惑的女王
 	config: global
 	! [魅惑的女王] main >= 3
 deck: 魅惑的女王
-	! [魅惑的女王] main >= 6
+	! [魅惑的女王] main >= 5
 	refuse: 魅惑的女王
 tag: 究极昆虫
 	config: global
@@ -339,13 +339,13 @@ tag: 黑炎龙
 	config: global
 	! [荷鲁斯之黑炎龙] main >= 3
 deck: 黑炎龙
-	! [荷鲁斯之黑炎龙] main >= 6
+	! [荷鲁斯之黑炎龙] main >= 5
 	refuse: 黑炎龙
 tag: 谜之剑士
 	config: global
 	! [谜之剑士] main >= 3
 deck: 谜之剑士
-	! [谜之剑士] main >= 6
+	! [谜之剑士] main >= 5
 	refuse: 谜之剑士
 
 tag: 水龙
