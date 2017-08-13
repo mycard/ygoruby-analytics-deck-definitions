@@ -44,7 +44,7 @@ tag: 古代机械
 	config: upgrade
 	! [古代的机械] main >= 4
 
-deck: 英雄
+deck: 英雄 [0]
 	! [英雄] ori > 9
 	refuse: hero
 tag: hero
