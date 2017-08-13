@@ -1219,14 +1219,18 @@ tag: 伯吉斯异兽
 	
 ## 但丁 被忽略
 
+set: 破坏剑系列
+	inner set: 破坏剑
+	inner set: 巴斯达·布雷达
 deck: 破坏剑
-	! [破坏剑] main >= 6
-	! [巴斯达·布雷达] main >= 2
+	! [破坏剑系列] ori >= 6
+	! 11790356 ex >= 1 # 破戒蛮龙-破坏龙
 	refuse: 破坏剑
 	(灵堂)
 		! 24382602 main >= 1 # 光之灵堂
 tag: 破坏剑
 	config: global
+	config: upgrade
 	! [破坏剑] main >= 3
 
 deck: 雾动机龙
