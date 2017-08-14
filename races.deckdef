@@ -1,4 +1,4 @@
-# definition of type-related decks
+# definition of race-related decks
 
 set: 昆虫族系列
 	76039636 # 恶魔铲土虫
@@ -277,5 +277,8 @@ set: 战士族系列
 	10375182 # 指挥骑士
 	83602069 # 共同战斗的地星剑士
 	403847   # 联合军
+	61405855 # 杀龙剑
+	61854111 # 传说之剑
+	55226821 # 闪电之剑
 deck: 战士族 [0]
 	! [战士族系列] main >= 6
