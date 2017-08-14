@@ -1928,9 +1928,13 @@ tag: 流星龙
 	config: upgrade
 	! 62312469 main >= 1 # 暗黑树精
 	! 24696097 ex >= 1   # 流星龙
-	
-# 误伤可能
 
+tag: 假面斩杀
+	config: global
+	config: upgrade
+	! 87350908 main >= 2 # 假面斩杀者
+
+# 误伤可能
 tag: 最终一战
 	config: global
 	config: upgrade
