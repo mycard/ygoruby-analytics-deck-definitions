@@ -16,7 +16,8 @@ deck: 亚马逊
 	refuse: 亚马逊
 tag: 亚马逊
 	config: global
-	! [亚马逊] main >= 2
+	config: upgrade
+	! [亚马逊] ori >= 6
 
 deck: 秘仪之力
 	! [秘仪之力] main > 10
