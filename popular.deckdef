@@ -485,8 +485,8 @@ deck: 射手65 [10]
 	refuse: 六武众
 	refuse: 亚马逊
 
-deck: 恐魔占术姬 [10]
-	! [地底恐魔] main >= 6
+deck: 地中占术姬 [10]
+	! [地中族] main >= 6
 	! 圣占术姬 塔罗光巫女 main >= 2
 	refuse: 圣占术姬
 deck: 影依占术姬 [10]
