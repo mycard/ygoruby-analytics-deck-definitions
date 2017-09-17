@@ -1583,6 +1583,7 @@ deck: 玄化
 deck: 复仇死者
 	! [复仇死者] main >= 10
 	refuse: 复仇死者
+	refuse: 不死族
 
 tag: 复仇死者
 	config: global
