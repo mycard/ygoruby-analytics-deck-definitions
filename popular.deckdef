@@ -105,6 +105,12 @@ deck: 真龙炼装神数 [20]
 	refuse: 炼装
 	refuse: 神数
 
+deck: 真龙六武众 [10]
+	! [真龙] main >= 3
+	! [六武众] main >= 6
+	refuse: 六武众
+	refuse: 真龙皇
+
 deck: 真龙WW [10]
 	! [风魔女] main >= 3
 	! [真龙] main >= 2
