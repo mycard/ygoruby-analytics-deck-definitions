@@ -635,3 +635,38 @@ deck: 拷问秘旋谍 [10]
 	! [秘旋谍] ori >= 10
 	! 75732622 main >= 1 # 拷问巨人
 	refuse: 连接拷问巨人
+
+
+#### 从sets.deckdef中摘出来的疑难杂症人群(共计4枚)
+
+deck: 电子光虫
+	! [电子光虫] >= 9
+
+deck: 灵使/凭依装着
+	! [凭依装着] main >= 1
+	! [灵使] main >= 1
+	refuse: 灵使
+	refuse: 凭依装着
+
+deck: 沉默 [2]
+	! [沉默剑士] main >= 3
+	! [沉默魔术师] main >= 3
+	! 沉默魔导剑士 main >= 1
+	refuse: 沉默剑士
+	refuse: 沉默魔术师
+
+tag: 扎克
+	config: global
+	config: upgrade
+	! 霸王龙 扎克 ex >= 1
+	or:
+		or:
+			! [融合] main >= 1
+			! 71490127 main >= 1 # 龙之镜
+		and:
+			! [魔术士] main >= 1
+			! [灵摆龙] main >= 1
+			! [超量龙] main >= 1
+			! [同调龙] main >= 1
+			! [融合龙] main >= 1
+
