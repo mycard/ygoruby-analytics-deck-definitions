@@ -417,7 +417,6 @@ deck: 十二兽海王星 [10]
 	! 暴君海王星 >= 1
 	refuse: 十二兽
 	refuse: 杯面
-	refuse: 夜莺海王星
 
 deck: 十二兽月光 [10]
 	! [十二兽] main > 2
