@@ -53,17 +53,17 @@ deck: 十二兽真龙坏兽 [20]
 	#refuse: 真龙剑皇
 	refuse: 坏兽
 
-deck: 十二兽kozmo [10]
+deck: 十二兽Kozmo [10]
 	! [十二兽] main > 2
 	! [星际仙踪] main >= 8
 	refuse: 十二兽
-	refuse: kozmo
+	refuse: Kozmo
 
-deck: kozmo真龙 [10]
+deck: Kozmo真龙 [10]
 	! [星际仙踪] main >= 8
 	! 龙神阵·略图 main >= 2
 	! [真龙] main >= 2
-	refuse: kozmo
+	refuse: Kozmo
 
 deck: 真龙龙星 [10]
 	! [真龙] main >= 3
@@ -201,13 +201,13 @@ deck: 魔导真龙WW召唤兽 [30]
 	#refuse: 真龙剑皇
 	refuse: 魔导
 
-deck: 真龙炼装kozmo [20]
+deck: 真龙炼装Kozmo [20]
 	! [炼装] main >= 6
 	! [真龙] main >= 2
 	! [星际仙踪] main >= 6
 	refuse: 真龙皇
 	#refuse: 真龙剑皇
-	refuse: kozmo
+	refuse: Kozmo
 	refuse: 炼装
 
 deck: 真龙古机 [10]
