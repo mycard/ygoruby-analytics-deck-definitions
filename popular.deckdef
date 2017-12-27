@@ -101,7 +101,7 @@ deck: 真龙炼装神数 [20]
 	! [真龙] main >= 2
 	! [神数] main >= 5
 	refuse: 真龙皇
-	refuse: 真龙剑皇
+	#refuse: 真龙剑皇
 	refuse: 炼装
 	refuse: 神数
 
