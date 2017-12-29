@@ -378,7 +378,7 @@ deck: 汉诺骑士
 		! 16114248 ex >= 1
 		! 75433814 ex >= 1
 		! 88120966 ex >= 1
-	refuse: kozmo
+	refuse: Kozmo
 
 deck: 卡表
 	or:
