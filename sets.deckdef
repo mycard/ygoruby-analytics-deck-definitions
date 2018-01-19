@@ -2066,9 +2066,14 @@ deck: 天气
 deck: 廷达魔三角
 	! [廷达魔三角] ori >= 9
 
+tag: 机界骑士
+	config: global
+	! [机界骑士] ori >= 4
+
 #0x10c 机界骑士	ジャックナイツ
 deck: 机界骑士
 	! [机界骑士] ori >= 9
+	refuse: 机界骑士
 
 #0x10d 魔导兽	魔導獣
 deck: 魔导兽
