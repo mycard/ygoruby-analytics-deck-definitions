@@ -1695,6 +1695,8 @@ deck: 超量士
 	! [超级量子机兽] ex >= 3
 	refuse: 超量士
 tag: 超量士
+	config: global
+	config: upgrade
 	! 59975920 >= 2 # 超级量子战士 红光层
 	! 12369277 >= 1 # 超级量子战士 蓝光层
 	#0x10dc 超级量子战士	超量士
@@ -2068,6 +2070,7 @@ deck: 廷达魔三角
 
 tag: 机界骑士
 	config: global
+	config: upgrade
 	! [机界骑士] ori >= 4
 
 #0x10c 机界骑士	ジャックナイツ
@@ -2077,9 +2080,10 @@ deck: 机界骑士
 
 #0x10d 魔导兽	魔導獣
 deck: 魔导兽
-	! [魔导兽] main >= 10
+	! [魔导兽] main >= 9
 	refuse: 魔导兽
 tag: 魔导兽
+	config: global
 	! [魔导兽] main >= 4
 
 #0x10e 进化药	進化薬
