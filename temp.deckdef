@@ -1947,6 +1947,11 @@ deck: 纳祭魔
 	! 64631466 main >= 1 # 纳祭之魔
 	refuse: 纳祭之魔
 
+tag: 本我
+	config: global
+	config: upgrade
+	! 35984222 main >= 2 # 超魔神 本我
+
 # 误伤可能
 tag: 最终一战
 	config: global
