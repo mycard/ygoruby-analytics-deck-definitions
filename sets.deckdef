@@ -1181,7 +1181,7 @@ tag: 暗电子
 
 #0x97 古遗物	アーティファクト
 deck: 古遗物
-	! [古遗物] main > 10
+	! [古遗物] ori >= 10
 	refuse: AF
 tag: AF
 	config: global
@@ -1859,8 +1859,11 @@ deck: 魔界剧团
 
 #0xed 地中族	サブテラー
 deck: 地中族
-	! [地中族] ori > 5
-	! 5697558 main >= 1 # 地中界 香巴拉
+	or:
+		and:
+			! [地中族] ori > 5
+			! 5697558 main >= 1 # 地中界 香巴拉
+		! [地中族] ori >= 12
 	#0x10ed 地中族邪界	サブテラーマリス
 
 #0xee 秘旋谍	SPYRAL
