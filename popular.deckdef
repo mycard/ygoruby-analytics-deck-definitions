@@ -282,6 +282,7 @@ deck: 恐龙龙星 [10]
 	refuse: 恐龙族
 	refuse: 龙星
 	refuse: 源龙星
+	refuse: 进化药
 deck: 恐龙真龙 [10]
 	! [恐龙族系列] main >= 6
 	! [真龙] main >= 2
