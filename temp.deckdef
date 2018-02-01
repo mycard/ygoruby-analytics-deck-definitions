@@ -1993,6 +1993,13 @@ tag: 五虹暗鸟
 	! 11366199 main >= 2 # 暗黑神鸟 斯摩夫
 	! 19619755 main >= 2 # 娱乐伙伴 五虹之魔术师
 
+tag: 有翼幻兽
+	config: global
+	config: upgrade
+	! 4796100 ex >= 2 # 有翼幻兽 奇美拉
+	! 5818798 main >= 2 # 幻兽王 加泽尔
+	! 77207191 main >= 2 # 巴风特
+
 # 误伤可能
 tag: 最终一战
 	config: global
