@@ -1036,10 +1036,12 @@ deck: 圣骑士
 	#0x207a 圣剑	聖剣（せいけん）
 
 #0x7b 银河	ギャラクシー
-deck: 银河
-	or:
-		! 93717133 main >= 2 # 银河眼光子龙
-		! [银河] main >= 8
+deck: 银河 [0]
+	! 93717133 main >= 2 # 银河眼光子龙
+	refuse: 银河
+
+deck: 银河 [1]
+	! [银河] main >= 8
 	refuse: 银河
 tag: 银河
 	config: global
