@@ -21,6 +21,7 @@ tag: 次世代
 deck: 亚马逊
 	! [亚马逊] ori > 10
 	refuse: 亚马逊
+	refuse: 反伤 # 亚马逊剑士
 tag: 亚马逊
 	config: global
 	config: upgrade
