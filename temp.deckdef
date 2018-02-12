@@ -2004,6 +2004,11 @@ tag: 有翼幻兽
 	! 5818798 main >= 2 # 幻兽王 加泽尔
 	! 77207191 main >= 2 # 巴风特
 
+tag: 雪花
+	config: global
+	config: upgrade
+	! 24940422 main >= 3 # 雪花之光
+
 # 误伤可能
 tag: 最终一战
 	config: global
