@@ -159,6 +159,16 @@ deck: X-剑士
 
 #0x300d XX-剑士	XX－セイバー
 
+#0x400d 元素灵剑士	エレメントセイバー
+tag: 元素灵剑士
+	config: global
+	config: upgrade
+	! [元素灵剑士] main >= 6
+deck: 元素灵剑士
+	! [元素灵剑士] main >= 9
+	refuse: 灵神
+	refuse: 元素灵剑士
+
 #0xe 电气	エレキ
 deck: 电气
 	! [电气] > 6
@@ -2143,3 +2153,16 @@ tag: 进化药
 #0x111 武装龙	アームド・ドラゴン
 deck: 武装龙
 	! [武装龙] main >= 4
+
+#0x112 幻崩	トロイメア
+tag: 幻崩
+	config: global
+	config: upgrade
+	! [幻崩] ex >= 5
+	! 10158145 main >= 1 # 梦幻崩界 伊娃力丝
+
+#0x113 灵神	霊神
+tag: 灵神
+	config: global
+	config: upgrade
+	! [灵神] main >= 6
