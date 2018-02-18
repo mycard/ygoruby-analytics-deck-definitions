@@ -2011,6 +2011,11 @@ tag: 雪花
 	config: upgrade
 	! 24940422 main >= 3 # 雪花之光
 
+deck: 不死link # 待议
+	! 63665875 main >= 1 # 哥布林僵尸
+	! 92826944 main >= 2 # 马头鬼
+	! 32617464 ex >= 1 # 三栅极男巫
+
 # 误伤可能
 tag: 最终一战
 	config: global
