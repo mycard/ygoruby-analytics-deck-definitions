@@ -328,22 +328,20 @@ tag: 猴树
 	config: global
 	! 狒狒面包树 main >= 3
 
-deck: ABC
-	! 同盟格纳库 main >= 1
-	! ABC-神龙歼灭者 ex >= 2
-	! A-突击核 main >= 1
-	! B-破坏龙兽 main >= 1
-	! C-粉碎翼龙 main >= 1
-	(亡龙)
-		! 5560911 main >= 1 # 亡龙之战栗-死欲龙
-	refuse: ABC
 tag: ABC
 	config: global
 	config: upgrade
-	! A-突击核 main >= 1
-	! B-破坏龙兽 main >= 1
-	! C-粉碎翼龙 main >= 1
-	! ABC-神龙歼灭者 ex >= 1
+	! 30012506 main >= 1 # A-突击核
+	! 77411244 main >= 1 # B-破坏龙兽
+	! 3405259 main >= 1 # C-粉碎翼龙
+	! 1561110 ex >= 1 # ABC-神龙歼灭者
+deck: ABC
+	! 30012506 main >= 2 # A-突击核
+	! 77411244 main >= 2 # B-破坏龙兽
+	! 3405259 main >= 2 # C-粉碎翼龙
+	! 66399653 main >= 2 # 同盟格纳库
+	! 1561110 ex >= 1 # ABC-神龙歼灭者
+	refuse: ABC
 
 deck: 灵魂鸟
 	! 灵魂的降神 main >= 2
