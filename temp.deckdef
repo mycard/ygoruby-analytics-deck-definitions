@@ -1925,7 +1925,7 @@ tag: 礼物交换
 			! 死之卡组破坏病毒 main >= 1
 			! 34004470 main >= 3 # 大土星
 
-tag: 连接拷问巨人
+tag: 拷问
 	config: global
 	config: upgrade
 	! 75732622 main >= 2 # 拷问巨人
