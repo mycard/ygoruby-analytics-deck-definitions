@@ -2179,3 +2179,20 @@ tag: 灵神
 	config: global
 	config: upgrade
 	! [灵神] main >= 6
+
+#0x114 空牙团	空牙団
+set: 空牙团系列
+	inner set: 空牙团
+	64400161 # 飞龙艇-幻舵拉
+deck: 空牙团
+	! [空牙团系列] ori >= 10
+
+#0x115 闪刀	閃刀
+#0x1115 闪刀	閃刀姫
+tag: 闪刀
+	config: global
+	config: upgrade
+	! [闪刀] ori >= 7
+deck: 闪刀姬
+	! [闪刀] ori >= 15
+	refuse: 闪刀
