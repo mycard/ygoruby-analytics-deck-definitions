@@ -722,9 +722,13 @@ deck: 闪刀姬召唤兽 [10]
 	! 74063034 main >= 1 # 召唤魔术
 	refuse: 闪刀
 	refuse: 召唤兽
-
 deck: 魔王闪刀姬 [10]
 	! [闪刀] ori >= 13
 	! 50383626 main >= 1 # 黯黑之魔王 迪亚波罗斯
 	refuse: 闪刀
 	refuse: 魔王
+deck: 闪刀刚鬼 [10]
+	! [闪刀] ori >= 6
+	! [刚鬼] ori >= 7
+	refuse: 闪刀
+	refuse: 刚鬼
