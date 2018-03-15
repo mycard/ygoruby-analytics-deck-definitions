@@ -362,16 +362,28 @@ deck: 十二兽狱火机 [10]
 	refuse: 狱火机
 deck: 割草狱火机 [10]
 	! [狱火机] main >= 6
-	! 邻家割草 main >= 2
+	! 11110587 main >= 2 # 邻家割草
 	refuse: 割草
 	refuse: 狱火机
 deck: 割草十二兽狱火机 [20]
 	! [十二兽] main > 2
 	! [狱火机] main >= 6
-	! 邻家割草 main >= 2
+	! 11110587 main >= 2 # 邻家割草
 	refuse: 割草
 	refuse: 十二兽
 	refuse: 狱火机
+deck: 黯黑狱火机 [10]
+	! [狱火机] main >= 6
+	! 59160188 main >= 1 # 黯黑世界
+	refuse: 狱火机
+	refuse: 黯黑世界
+deck: 割草黯黑狱火机 [20]
+	! [狱火机] main >= 6
+	! 59160188 main >= 1 # 黯黑世界
+	! 11110587 main >= 2 # 邻家割草
+	refuse: 割草
+	refuse: 狱火机
+	refuse: 黯黑世界
 
 deck: 光白火 [20]
 	! [光道] main >= 3
@@ -705,8 +717,14 @@ deck: 植物连接 [10]
 	refuse: 捕食
 
 deck: 闪刀姬召唤兽 [10]
-	! [闪刀] ori >= 10
+	! [闪刀] ori >= 13
 	! 86120751 main >= 1 # 召唤师 阿莱斯特
 	! 74063034 main >= 1 # 召唤魔术
 	refuse: 闪刀
 	refuse: 召唤兽
+
+deck: 魔王闪刀姬 [10]
+	! [闪刀] ori >= 13
+	! 50383626 main >= 1 # 黯黑之魔王 迪亚波罗斯
+	refuse: 闪刀
+	refuse: 魔王
