@@ -2010,7 +2010,7 @@ tag: 有翼幻兽
 tag: 雪花
 	config: global
 	config: upgrade
-	! 24940422 main >= 3 # 雪花之光
+	! 24940422 main >= 2 # 雪花之光
 
 deck: 不死link # 待议
 	! 63665875 main >= 1 # 哥布林僵尸
