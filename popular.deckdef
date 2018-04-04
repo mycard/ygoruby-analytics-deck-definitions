@@ -201,6 +201,13 @@ deck: 魔导真龙WW召唤兽 [30]
 	#refuse: 真龙剑皇
 	refuse: 魔导
 
+deck: 机界召唤兽 [10]
+	! [机界骑士] main >= 5
+	! 86120751 main >= 1 # 召唤师 阿莱斯特
+	! 74063034 main >= 1 # 召唤魔术
+	refuse: 机界骑士
+	refuse: 召唤兽
+
 deck: 真龙炼装Kozmo [20]
 	! [炼装] main >= 6
 	! [真龙] main >= 2
