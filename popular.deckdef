@@ -743,3 +743,9 @@ deck: 闪刀刚鬼 [10]
 	! [刚鬼] ori >= 7
 	refuse: 闪刀
 	refuse: 刚鬼
+
+deck: 炼装神数 [10]
+	! [神数] ori >= 8
+	! [炼装] ori >= 8
+	refuse: 炼装
+	refuse: 神数
