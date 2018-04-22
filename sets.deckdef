@@ -1277,11 +1277,11 @@ tag: 星守
 
 #0x9d 影依	シャドール
 deck: 影依
-	! [影依] > 10
+	! [影依] ori > 10
 	refuse: 影依
 tag: 影依
 	config: global
-	! [影依] > 4
+	! [影依] ori > 4
 
 #0x9e 龙星	竜星
 deck: 龙星
