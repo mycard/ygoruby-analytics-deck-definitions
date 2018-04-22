@@ -474,6 +474,7 @@ set: 终焉仪式系列
 	81306186 # 世界再生
 deck: 终焉仪式
 	! [终焉仪式系列] main >= 9
+	refuse: 终焉之王
 
 tag: 头奖壶
 	config: global
