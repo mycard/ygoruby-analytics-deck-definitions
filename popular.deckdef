@@ -399,6 +399,7 @@ deck: 光白火 [20]
 	refuse: 光道
 	refuse: 白雪
 	refuse: 不知火
+	refuse: 不死族
 deck: 十二兽光白火 [30]
 	! [十二兽] main > 2
 	! [光道] main >= 3
@@ -408,6 +409,7 @@ deck: 十二兽光白火 [30]
 	refuse: 光道
 	refuse: 白雪
 	refuse: 不知火
+	refuse: 不死族
 
 deck: 十二兽捕食不知火 [20]
 	! [十二兽] main > 2
@@ -417,6 +419,7 @@ deck: 十二兽捕食不知火 [20]
 	refuse: 十二兽
 	refuse: 捕食
 	refuse: 不知火
+	refuse: 不死族
 
 deck: AF召唤兽 [10]
 	! [古遗物] main >= 4
