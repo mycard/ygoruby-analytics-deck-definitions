@@ -762,7 +762,7 @@ set: 次元系
 	63845230 # 吞食百万的暴食兽
 	强欲而贪欲之壶
 	红莲魔兽 塔·伊沙
-deck: 次元系
+deck: 次元系 [0]
 	! [次元系] main >= 8
 	refuse: 暴食
 	refuse: 红莲魔兽
@@ -1751,7 +1751,7 @@ set: 均beat部件
 deck: 均卡beat
 	! [均beat部件] main >= 12
 
-deck: Metabeat [0]
+deck: Metabeat
 	restrains: >= 2
 		! 15397015 main >= 2 # 冲浪检察官
 		! 42009836 main >= 2 # 肿头龙
