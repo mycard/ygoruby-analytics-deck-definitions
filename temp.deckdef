@@ -1751,7 +1751,7 @@ set: 均beat部件
 deck: 均卡beat
 	! [均beat部件] main >= 12
 
-deck: Metabeat
+deck: Metabeat [1]
 	restrains: >= 2
 		! 15397015 main >= 2 # 冲浪检察官
 		! 42009836 main >= 2 # 肿头龙
