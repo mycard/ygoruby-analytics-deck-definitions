@@ -170,8 +170,9 @@ deck: 植物淘气FTK [10]
 	! 5592689 main >= 1 # 献祭之莲
 	refuse: 淘气仙星
 
-deck: ABC(FTK) [10]
+deck: ABC(FTK) [0]
 	! 30012506 main >= 2 # A-突击核
 	! 11384280 main >= 1 # 加农炮兵
 	! 5043010 ex >= 1 # 防火龙
 	refuse: ABC
+	refuse: 加农炮兵
