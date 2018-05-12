@@ -521,7 +521,7 @@ deck: 异色眼魔术师 [10]
 	refuse: 异色眼
 deck: EM魔术师 [10]
 	! [魔术师] main >= 8
-	! [娱乐伙伴] main >= 6
+	! [娱乐伙伴] main >= 5
 	refuse: 魔术师
 	refuse: EM
 deck: EM异色眼魔术师 [20]
