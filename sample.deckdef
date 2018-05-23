@@ -272,7 +272,6 @@ deck: sample(十二兽) [999]
 	! 80978111 side >= 3 # 翔G
 	(男巫)
 		! 4392470 side >= 1
-	refuse: 吸毒壶
 
 deck: sample(黑羽) [999]
 	restrains: >= 18
