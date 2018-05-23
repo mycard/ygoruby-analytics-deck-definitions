@@ -313,10 +313,6 @@ tag: 白雪
 tag: 割草
 	config: global
 	! 邻家割草 main >= 2
-
-tag: 吸毒壶
-	config: global
-	! 强欲而贪欲之壶 main >= 2
 	
 tag: 滤抽
 	config: global
