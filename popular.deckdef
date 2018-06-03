@@ -500,6 +500,12 @@ deck: 红龙DH [10]
 			! 拉长石龙 main >= 1
 			! 碳素龙 main >= 1
 
+deck: 刚鬼英雄 [10]
+	! [刚鬼] ori >= 4
+	! [英雄] ori >= 5
+	refuse: hero
+	refuse: 刚鬼
+
 deck: WWSR [10]
 	! [风魔女] main >= 3
 	! [疾行机人] main >= 6
