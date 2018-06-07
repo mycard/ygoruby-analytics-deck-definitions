@@ -1953,7 +1953,7 @@ tag: 礼物交换
 tag: 拷问
 	config: global
 	config: upgrade
-	! 75732622 main >= 2 # 拷问巨人
+	! 75732622 main >= 1 # 拷问巨人
 	! 28776350 ex >= 1 # 虚空俏丽魔术师
 	! 99111753 ex >= 1 # 安全龙
 
@@ -2088,6 +2088,15 @@ set: 急流山系列
 
 deck: 急流山
 	! [急流山系列] main >= 15
+
+tag: 石蕊
+	config: global
+	config: upgrade
+	! 72566043 main >= 2 # 石蕊之死剑士
+	! 8955148  main >= 2 # 石蕊的死仪式
+	or:
+		! 82732705 main >= 1 # 技能抽取
+		! 20374520 main >= 1 # 逐客令
 
 # 误伤可能
 tag: 最终一战
