@@ -749,7 +749,7 @@ deck: 魔王闪刀姬 [10]
 	refuse: 黯黑魔王
 deck: 闪刀刚鬼 [10]
 	! [闪刀] ori >= 6
-	! [刚鬼] ori >= 7
+	! [刚鬼] ori >= 5
 	refuse: 闪刀
 	refuse: 刚鬼
 
