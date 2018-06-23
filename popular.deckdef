@@ -684,6 +684,12 @@ deck: WW淘气仙星 [10]
 	refuse: 同调系
 	refuse: 淘气仙星
 
+deck: 闪刀淘气 [10]
+	! [闪刀] ori >= 5
+	! [淘气仙星] main >= 6
+	refuse: 淘气仙星
+	refuse: 闪刀
+
 deck: 拷问秘旋谍 [10]
 	! [秘旋谍] ori >= 10
 	! 75732622 main >= 1 # 拷问巨人
