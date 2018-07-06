@@ -1910,7 +1910,7 @@ deck: 地中族
 
 #0xee 秘旋谍	SPYRAL
 deck: 秘旋谍
-	! [秘旋谍] ori > 10
+	! [秘旋谍] ori >= 7
 	#0x10ee 秘旋谍装备	SPYRAL GEAR
 	#0x20ee 秘旋谍任务	SPYRAL MISSION
 
