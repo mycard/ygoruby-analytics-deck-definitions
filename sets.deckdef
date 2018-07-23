@@ -2244,7 +2244,12 @@ deck: 自奏圣乐 [1]
 	! [自奏圣乐] ori >= 10
 
 #0x11c 雷龙
+tag: 雷龙
+	config: global
+	config: upgrade
+	! [雷龙] ori >= 7
 deck: 雷龙 [1]
 	! [雷龙] ori >= 10
+	refuse: 雷龙
 
 #0x11d 禁忌的
