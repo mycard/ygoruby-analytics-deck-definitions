@@ -501,8 +501,8 @@ deck: 红龙DH [10]
 			! 碳素龙 main >= 1
 
 deck: 刚鬼英雄 [10]
-	! [刚鬼] ori >= 4
-	! [英雄] ori >= 5
+	! [刚鬼] ori >= 3
+	! [英雄] ori >= 4
 	refuse: hero
 	refuse: 刚鬼
 
