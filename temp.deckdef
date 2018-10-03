@@ -2134,6 +2134,12 @@ set: 左轮系列
 deck: 左轮
 	! [左轮系列] ori >= 15
 
+tag: 弱肉一色
+	config: global
+	config: upgrade
+	! 66926224 main >= 2 # 弱肉一色
+	! 40703222 main >= 2 # 增殖
+
 # 误伤可能
 tag: 最终一战
 	config: global
