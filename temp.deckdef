@@ -2149,6 +2149,10 @@ deck: 守护龙
 	! [守护龙] ori >= 10
 	refuse: 守护龙
 
+tag: 强金
+	config: global
+	! 49238328 main >= 2 # 强欲而金满之壶
+
 # 误伤可能
 tag: 最终一战
 	config: global
