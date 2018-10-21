@@ -6,7 +6,7 @@ deck: 正义盟军 [1]
 	! [正义盟军] ori > 10
 
 #0x2 次世代	ジェネクス
-deck: 次世代 [1]
+deck: 次世代 [1]f
 	! [次世代] ori > 10
 	refuse: 次世代
 tag: 次世代
@@ -1559,11 +1559,13 @@ tag: 凭依装着
 
 #0xc1 PSY骨架	PSYフレーム
 deck: PSY骨架 [1]
-	! [PSY骨架] main >= 10
+	! [PSY骨架] ori >= 7
+	! 575512 main >= 1 # PSY骨架回路
 	refuse: PSY
 tag: PSY
 	config: global
 	! [PSY骨架] main >= 3
+	! 575512 main < 1 # PSY骨架回路
 
 #0xc2 动力工具	パワー・ツール
 #0xc3 锋利小鬼	エッジインプ
