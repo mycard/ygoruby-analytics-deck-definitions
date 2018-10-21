@@ -142,7 +142,6 @@ tag: 铁骑士
 tag: 说书
 	config: global
 	config: upgrade
-	! 61665245 ex >= 1 # 召唤女巫
 	! 59934749 ex >= 1 # 伊索德
 	or:
 		and:
