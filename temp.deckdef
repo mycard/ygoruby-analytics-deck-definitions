@@ -2140,6 +2140,15 @@ tag: 弱肉一色
 	! 66926224 main >= 2 # 弱肉一色
 	! 40703222 main >= 2 # 增殖
 
+tag: 守护龙
+	config: global
+	config: upgrade
+	! [守护龙] ori >= 5
+
+deck: 守护龙
+	! [守护龙] ori >= 10
+	refuse: 守护龙
+
 # 误伤可能
 tag: 最终一战
 	config: global
