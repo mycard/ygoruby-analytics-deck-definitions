@@ -1204,7 +1204,7 @@ set: 电子化天使系列
 	inner set: 机械天使
 deck: 电子化天使 [2]
 	! [电子化天使系列] main >= 6
-	refuse: 电子天使
+	refuse: 电子化天使
 tag: 电子化天使
 	config: global
 	config: upgrade
