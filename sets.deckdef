@@ -1195,16 +1195,20 @@ tag: 电子龙 [1]
 	config: global
 	config: upgrade
 	! [电子龙系列] main >= 6
+
 #0x2093 电子化天使	サイバー・エンジェル
 deck: 电子化 [1]
 	! [电子化] main >= 6
-deck: 电子天使 [2]
-	! [电子化天使] main >= 6
+set: 电子化天使系列
+	inner set: 电子化天使
+	inner set: 机械天使
+deck: 电子化天使 [2]
+	! [电子化天使系列] main >= 6
 	refuse: 电子天使
-tag: 电子天使
+tag: 电子化天使
 	config: global
 	config: upgrade
-	! [电子化天使] main >= 2
+	! [电子化天使系列] main >= 2
 #0x4093 电子暗黑	サイバー・ダーク/サイバーダーク
 tag: 暗电子
 	config: global
@@ -2309,5 +2313,12 @@ deck: 女武神 [1]
 	! [女武神系列] main >= 12
 
 #0x123 蔷薇龙
+set: 蔷薇龙系列
+	inner set: 蔷薇龙
+	53503015 # 冷蔷薇的抱香
+	99092624 # 漆黑之蔷薇的开华
+	33698022 # 月华龙 黑蔷薇
 deck: 蔷薇龙 [1]
-	! [蔷薇龙] ori >= 7
+	! [蔷薇龙系列] ori >= 7
+
+#0x124 机械天使
