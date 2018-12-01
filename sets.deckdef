@@ -2057,7 +2057,7 @@ tag: 淘气仙星
 
 #0xfc 刚鬼	剛鬼
 deck: 刚鬼 [1]
-	! [刚鬼] ori >= 5
+	! [刚鬼] ori >= 4
 	refuse: 刚鬼
 tag: 刚鬼
 	config: global
