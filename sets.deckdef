@@ -1229,7 +1229,7 @@ deck: 电子鱼人 [1]
 deck: 古遗物 [1]
 	! [古遗物] ori >= 10
 	refuse: AF
-	refue: 古遗物
+	refuse: 古遗物
 tag: AF
 	config: global
 	! [古遗物] main >= 3
