@@ -2176,6 +2176,14 @@ tag: 强金
 	config: global
 	! 49238328 main >= 2 # 强欲而金满之壶
 
+deck: 灵摆均 [0]
+	restrains: >= 3
+		! [魔导兽] main >= 4
+		! [龙剑士] main >= 2
+		! 11609969 main >= 1 # DD 魔导贤者 开普勒
+		! 29432356 main >= 2 # 智天之神星龙
+		! [魔术士] main >= 3
+
 # 误伤可能
 tag: 最终一战
 	config: global
