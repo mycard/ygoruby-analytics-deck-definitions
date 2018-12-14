@@ -800,3 +800,8 @@ deck: 炼装神数 [10]
 	! [炼装] ori >= 8
 	refuse: 炼装
 	refuse: 神数
+
+deck: 自奏PK [10]
+	! [自奏圣乐] ori >= 5
+	! [幻影] ori >= 5
+	refuse: 幻影骑士团
