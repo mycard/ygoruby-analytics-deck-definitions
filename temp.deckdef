@@ -2190,6 +2190,15 @@ deck: 灵摆均 [0]
 		! 29432356 main >= 2 # 智天之神星龙
 		! [魔术士] main >= 3
 
+tag: 电脑网风暴
+	config: global
+	config: upgrade
+	! 42461852 main >= 2 # 电脑网风暴
+	restrains: >= 2
+		! 10833828 main >= 1 # 魔神王的禁断契约书
+		! 60168186 main >= 1 # 异形神的契约书
+		! 50470982 main >= 1 # 命运的分岔道
+
 # 误伤可能
 tag: 最终一战
 	config: global
