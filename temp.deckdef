@@ -2199,6 +2199,12 @@ tag: 电脑网风暴
 		! 60168186 main >= 1 # 异形神的契约书
 		! 50470982 main >= 1 # 命运的分岔道
 
+tag: 魔钟洞
+	config: prefix
+	config: global
+	config: upgrade
+	! 76375976 main >= 2 # 魔钟洞
+
 # 误伤可能
 tag: 最终一战
 	config: global
