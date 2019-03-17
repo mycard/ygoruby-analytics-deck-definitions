@@ -2223,6 +2223,7 @@ set: 魔导兽系列
 deck: 魔导兽 [1]
 	! [魔导兽系列] main >= 9
 	refuse: 魔导兽
+	refuse: 魔力指示物
 tag: 魔导兽
 	config: global
 	! [魔导兽系列] main >= 4
@@ -2391,4 +2392,3 @@ deck: 恩底弥翁 [1]
 	! [恩底弥翁] ori >= 14
 	refuse: 恩底弥翁
 	refuse: 魔力指示物
-	refuse: 上海王
