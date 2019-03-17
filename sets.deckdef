@@ -2381,3 +2381,14 @@ tag: 咒眼
 deck: 咒眼 [1]
 	! [咒眼] ori >= 10
 	refuse: 咒眼
+
+#0x12a 恩底弥翁
+tag: 恩底弥翁
+	config: global
+	! [恩底弥翁] ori >= 7
+
+deck: 恩底弥翁 [1]
+	! [恩底弥翁] ori >= 14
+	refuse: 恩底弥翁
+	refuse: 魔力指示物
+	refuse: 上海王
