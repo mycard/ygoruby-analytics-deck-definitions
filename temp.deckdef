@@ -1581,17 +1581,15 @@ deck: 西格马beat [2]
 		! 83746708 main >= 1 # 魔导师之力
 		! 41431329 main >= 1 # 大日立方体
 
+set: 魔力指示物系列
+	inner set: 魔导兽系列
+	inner set: 恩底弥翁
+	75014062 # 魔力掌握
+	38325384 # 魔导加速
 tag: 魔力指示物
 	config: global
 	config: upgrade
-	! 魔法都市 恩底弥翁 main >= 2
-	! 魔力掌握 main >= 2
-	! 40732515 main < 1 # 上海王
-tag: 上海王
-	config: global
-	config: upgrade
-	! 40732515 main >= 1 # 上海王
-	! 39910367 main >= 1 # 魔都
+	! [魔力指示物系列] ori >= 10
 
 tag: 冀望皇86
 	config: global
