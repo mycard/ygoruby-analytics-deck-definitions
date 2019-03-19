@@ -1603,7 +1603,7 @@ tag: PSY
 
 #0xc4 神数	セフィラ
 deck: 神数 [1]
-	! [神数] main >= 12
+	! [神数] main >= 9
 	refuse: 神数
 tag: 神数
 	config: global
