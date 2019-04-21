@@ -495,7 +495,7 @@ deck: 大日 [1]
 
 #0x31 命运女郎	フォーチュンレディ
 deck: 命运女郎 [1]
-	! [命运女郎] main >= 8
+	! [命运女郎] ori >= 8
 	refuse: 命运女郎
 tag: 命运女郎
 	config: global
@@ -2395,3 +2395,23 @@ deck: 恩底弥翁 [1]
 	! [恩底弥翁系列] ori >= 12
 	refuse: 恩底弥翁
 	refuse: 魔力指示物
+
+#0x12b 海晶少女
+tag: 海晶少女
+	config: global
+	! [海晶少女] ori >= 6
+
+deck: 海晶少女 [1]
+	! [海晶少女] ori >= 10
+	refuse: 海晶少女
+
+#0x12c 天威
+set: 天威系列
+	inner set: 天威
+	65124425 # 虚空之龙轮
+deck: 天威 [1]
+	! [天威系列] ori >= 15
+
+#0x12d 斯摩夫
+deck: 斯摩夫 [1]
+	! [斯摩夫] ori >= 15
