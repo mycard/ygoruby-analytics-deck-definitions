@@ -2387,7 +2387,7 @@ tag: 咒眼
 	config: global
 	! [咒眼] ori >= 5
 deck: 咒眼 [1]
-	! [咒眼] ori >= 10
+	! [咒眼] ori >= 8
 	refuse: 咒眼
 
 #0x12a 恩底弥翁
