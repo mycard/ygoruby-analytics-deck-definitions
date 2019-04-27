@@ -318,7 +318,7 @@ deck: 恐龙真龙龙星 [20]
 	refuse: 龙星
 	refuse: 源龙星
 deck: 影依恐龙 [10]
-	! [影依] main >= 6
+	! [影依] ori >= 6
 	! 41782653 main >= 1
 	refuse: 恐龙族
 	refuse: 影依
