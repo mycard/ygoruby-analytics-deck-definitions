@@ -58,9 +58,21 @@ tag: 古代机械
 	! [古代的机械系列] main >= 4
 	
 #0x8 英雄	HERO
+set: DH系列
+	inner set: 命运英雄
+	inner set: D-
+	52947044 # 融合命运
+	99357565 # D3
+
 deck: 英雄 [0]
 	! [英雄] ori > 9
+	! [英雄] ori < 15
 	refuse: hero
+deck: 英雄 [3]
+	! [英雄] ori >= 15
+	refuse: hero
+	(到来)
+		! 8949584 main > 1 # 英雄到来
 tag: hero
 	config: global
 	config: upgrade
@@ -72,11 +84,18 @@ tag: hero
 #0x3008 元素英雄	E・HERO
 deck: 元素英雄 [2]
 	! [元素英雄] ori > 6
+	! [DH系列] ori <= 6
+	! [幻影英雄] ori <= 6
 	refuse: hero
 	(到来)
 		! 8949584 main > 1 # 英雄到来
 
 #0x5008 幻影英雄	V・HERO
+deck: 幻影英雄 [2]
+	! [幻影英雄] ori > 6
+	! [元素英雄] ori <= 6
+	! [DH系列] ori <= 6
+	refuse: hero
 #0x6008 邪心英雄	E-HERO
 
 #0xa008 假面英雄	M・HERO
@@ -92,11 +111,10 @@ tag: 假面
 	! [变化] main >= 1
 
 #0xc008 命运英雄	D-HERO
-set: DH系列
-	inner set: 命运英雄
-	99357565 # D3
 deck: 命运英雄 [2]
 	! [DH系列] ori > 6
+	! [元素英雄] ori <= 6
+	! [幻影英雄] ori <= 6
 	refuse: hero
 
 #0x9 新宇	ネオス
