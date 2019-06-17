@@ -105,7 +105,7 @@ set: 邪心英雄系列
 	18438874 # 邪心
 deck: 邪心英雄 [2]
 	! [邪心英雄系列] ori >= 6
-	refuse: 
+	refuse: hero
 
 #0xa008 假面英雄	M・HERO
 deck: 假面英雄 [3]
