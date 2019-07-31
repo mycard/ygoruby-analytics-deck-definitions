@@ -2167,6 +2167,8 @@ deck: 弹丸 [1]
 deck: 弹丸守护龙 [10]
 	! [弹丸系列] main >= 3
 	! [守护龙] ori >= 5
+	refuse: 弹丸
+	refuse: 守护龙
 tag: 弹丸
 	config: global
 	! [弹丸系列] main >= 3
