@@ -2354,12 +2354,13 @@ deck: 雷龙 [1]
 
 #0x11d 禁忌的
 #0x11e 未界域
-deck: 未界域 [1]
-	! [未界域] ori >= 15
 tag: 未界域
 	config: global
 	config: upgrade
 	! [未界域] ori >= 6
+deck: 未界域 [1]
+	! [未界域] ori >= 15
+	refuse: 未界域
 
 #0x11f 奈芙提斯
 tag: 奈芙提斯
