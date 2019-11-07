@@ -2503,3 +2503,26 @@ tag: 王战
 deck: 王战 [1]
 	! [王战] ori >= 8
 	refuse: 王战
+
+# 0x135 @火灵天星	@イグニスター
+# 0x136 “艾”	Ai（アイ）
+set: 艾系列
+	inner set: @火灵天星
+	inner set: “艾”
+
+deck: 艾 [1]
+	! [艾系列] ori >= 15
+
+# 0x137 战华	戦華
+deck: 战华 [1]
+	! [战华] ori >= 10
+	
+# 0x138 巨石遗物	メガリス
+tag: 巨石遗物
+	config: global
+	config: upgrade
+	! [巨石遗物] main >= 3
+
+deck: 巨石遗物 [1]
+	! [巨石遗物] main >= 9
+	refuse: 巨石遗物
