@@ -223,12 +223,13 @@ tag: 薰风
 	! [薰风] main >= 4
 
 #0x11 机巧	カラクリ
-deck: 机巧 [1]
-	! [机巧] main > 6
 tag: 机巧
 	config: global
 	! [机巧] main >= 4
 	! [机巧] ex >= 2
+deck: 机巧 [1]
+	! [机巧] main > 6
+	refuse: 机巧
 
 #0x12 青蛙	ガエル
 deck: 青蛙 [1]
