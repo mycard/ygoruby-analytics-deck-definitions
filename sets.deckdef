@@ -2532,3 +2532,17 @@ tag: 巨石遗物
 deck: 巨石遗物 [1]
 	! [巨石遗物] main >= 9
 	refuse: 巨石遗物
+
+# 0x13c 代码破坏者
+deck: 代码破坏者 [0]
+	! [代码破坏者] main >= 2
+	! [代码破坏者] ex >= 2
+
+# 0x13d 星义
+tag: 星义
+	config: global
+	! [星义] ori >= 4
+
+deck: 星义 [1]
+	! [星义] ori >= 9
+	refuse: 星义
