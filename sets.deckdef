@@ -2255,7 +2255,7 @@ set: 机界骑士系列
 tag: 机界骑士
 	config: global
 	config: upgrade
-	! [机界骑士] ori >= 4
+	! [机界骑士系列] ori >= 7
 deck: 机界骑士 [1]
 	! [机界骑士系列] ori >= 12
 	refuse: 机界骑士
