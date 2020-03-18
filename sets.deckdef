@@ -2591,5 +2591,12 @@ set: 黄金国系列
 	31434645 # 被诅咒的黄金国度
 	92379223 # 黄金之征服王
 
+tag: 黄金国
+	config: global
+	config: upgrade
+	! [黄金国系列] ori >= 6
+
 deck: 黄金国 [1]
 	! [黄金国系列] ori >= 12
+	refuse: 黄金国
+	refuse: 不死族
