@@ -1580,12 +1580,15 @@ tag: 残存
 	! 97219708 main >= 2 # 急袭猛禽-残存林鸮
 
 #0xbb 狱火机	インフェルノイド
+set: 狱火机系列
+	inner set: 狱火机
+	inner set: 炼狱
 deck: 狱火机 [1]
-	! [狱火机] ori > 10
+	! [狱火机系列] ori > 12
 	refuse: 狱火机
 tag: 狱火机
 	config: global
-	! [狱火机] main >= 6
+	! [狱火机系列] main >= 6
 
 #0xbc 人造人	人造人間
 deck: 人造人 [1]
