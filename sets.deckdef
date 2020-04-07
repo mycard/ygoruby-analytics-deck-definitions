@@ -1885,15 +1885,18 @@ tag: 白龙
 #0xde 艾克佐迪亚	エクゾディア
 
 #0xdf 月光	ムーンライト
-deck: 月光 [1]
-	! [月光] ori > 10
-	refuse: 月光
-	(花园)
-		! 71645242 main >= 1 # 黑色花园
+set: 月光系列
+	inner set: 月光
+	48444114 # 月光香
 tag: 月光
 	config: global
 	config: upgrade
-	! [月光] main >= 2
+	! [月光系列] main >= 2
+deck: 月光 [1]
+	! [月光系列] ori > 10
+	refuse: 月光
+	(花园)
+		! 71645242 main >= 1 # 黑色花园
 
 #0xe0 无形噬体	アモルファージ
 deck: 无形噬体 [1]
