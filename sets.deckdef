@@ -2200,7 +2200,8 @@ deck: 弹丸 [1]
 	refuse: 弹丸
 deck: 弹丸守护龙 [10]
 	! [弹丸系列] main >= 4
-	! [守护龙] ori >= 3
+	or:
+		! [守护龙] ori >= 2
 	refuse: 弹丸
 	refuse: 守护龙
 tag: 弹丸
