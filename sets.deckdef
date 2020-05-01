@@ -2612,3 +2612,32 @@ deck: 黄金国 [1]
 	! [黄金国系列] ori >= 12
 	refuse: 黄金国
 	refuse: 不死族
+
+#setname 0x145 教导
+set: 教导系列
+	inner set: 教导
+	68468459 # 阿不思的落胤
+	41373230 # 灰烬龙 落胤龙
+	1984618 # 天底的使徒
+tag: 教导
+	config: global
+	config: upgrade
+	! [教导系列] ori >= 4
+deck: 教导 [1]
+	! [教导系列] ori >= 10
+	refuse: 教导
+
+#setname 0x146 童话动物
+deck: 童话动物 [1]
+	! [童话动物] ori >= 10
+
+#setname 0x147 波波
+deck: 波波 [0]
+	! [波波] ori >= 6
+
+#setname 0x148 罗兰
+set: 焰圣骑士系列
+	inner set: 焰圣骑士
+	inner set: 焰圣剑
+deck: 焰圣骑士 [1]
+	! [焰圣骑士系列] ori >= 6
