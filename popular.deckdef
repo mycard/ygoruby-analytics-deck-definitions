@@ -601,11 +601,11 @@ deck: 影依占术姬 [10]
 	refuse: 圣占术姬
 	refuse: 影依
 
-deck: 银河电子 [10]
-	! 银河战士 main >= 2
-	! [电子龙] main >= 3
-	refuse: 银河
-	refuse: 电子龙
+#deck: 银河电子 [10]
+#	! 银河战士 main >= 2
+#	! [电子龙] main >= 3
+#	refuse: 银河
+#	refuse: 电子龙
 
 deck: 银河ABC [10]
 	! 银河战士 main >= 3
