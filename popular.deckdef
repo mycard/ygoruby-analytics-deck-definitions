@@ -214,8 +214,6 @@ deck: 教导召唤兽 [10]
 	! 74063034 main >= 1 # 召唤魔术
 	refuse: 教导	
 	refuse: 召唤兽
-	(影依)
-		! [影依] ori >= 3
 
 deck: 真龙炼装Kozmo [20]
 	! [炼装] main >= 6
