@@ -1235,6 +1235,9 @@ tag: 电子龙 [1]
 	config: global
 	config: upgrade
 	! [电子龙系列] main >= 6
+deck: 电子龙 [1]
+	! [电子龙系列] ori >= 12
+	refuse: 电子龙
 
 #0x2093 电子化天使	サイバー・エンジェル
 deck: 电子化 [1]
