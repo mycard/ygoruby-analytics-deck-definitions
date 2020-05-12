@@ -2648,7 +2648,7 @@ tag: 教导
 	config: global
 	config: upgrade
 	! [教导系列] ori >= 4
-deck: 教导 [1]
+deck: 教导 [0]
 	! [教导系列] ori >= 10
 	refuse: 教导
 
