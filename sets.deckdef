@@ -1097,7 +1097,6 @@ deck: 银河 [1]
 	refuse: 银河
 tag: 银河
 	config: global
-	config: prefix
 	! [银河] main <= 9
 	! 46659709 main >= 2 # 银河战士
 	#0x107b 银河眼	ギャラクシーアイズ
