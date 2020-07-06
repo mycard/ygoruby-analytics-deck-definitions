@@ -2694,7 +2694,7 @@ tag: 源数
 	config: global
 	config: upgrade
 	! [源数] ori >= 8
-deck: 源数 [1]
+deck: 源数 [0]
 	! [源数] ori >= 15
 	refuse: 源数
 
