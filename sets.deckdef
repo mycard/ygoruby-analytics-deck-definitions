@@ -2651,7 +2651,7 @@ tag: 黄金国
 	! [黄金国系列] ori >= 6
 
 deck: 黄金国 [1]
-	! [黄金国系列] ori >= 12
+	! [黄金国系列] ori >= 10
 	refuse: 黄金国
 	refuse: 不死族
 
@@ -2692,7 +2692,6 @@ deck: 化石 [1]
 #setname 0x114a 源数之门
 tag: 源数
 	config: global
-	config: upgrade
 	! [源数] ori >= 8
 deck: 源数 [0]
 	! [源数] ori >= 15
