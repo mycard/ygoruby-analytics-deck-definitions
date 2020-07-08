@@ -1678,6 +1678,21 @@ tag: 凭依装着
 	config: upgrade
 	! [凭依装着] main >= 3
 
+set: 灵使系列
+	inner set: 灵使
+	inner set: 凭依
+	91530236 # 精灵术的能手
+	38057522 # 大灵术-「一轮」
+
+deck: 灵使
+	or:
+		! [灵使系列] main >= 9
+		and:
+			! [凭依装着] main >= 1
+			! [灵使] main >= 1
+	refuse: 灵使
+	refuse: 凭依装着
+
 #0xc1 PSY骨架	PSYフレーム
 #0x10c1 PSY骨架装备	PSYフレームギア
 deck: PSY骨架 [1]
