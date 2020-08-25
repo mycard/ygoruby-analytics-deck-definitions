@@ -820,6 +820,12 @@ deck: 机甲自奏 [10]
 	refuse: 自奏圣乐
 	refuse: 机甲
 
+deck: 机界自奏 [10]
+	! [自奏圣乐] ori >= 7
+	! [机界骑士系列] ori >= 6
+	refuse: 自奏圣乐
+	refuse: 机界骑士
+
 deck: 未界域暗黑界 [10]
 	! [未界域] main >= 12
 	! [暗黑界] main >= 5
