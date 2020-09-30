@@ -2738,3 +2738,23 @@ deck: 电脑堺 [1]
 #setname 0x14f 双天
 deck: 双天 [1]
 	! [双天] ori >= 9
+
+#setname 0x150 大贤者	マギストス
+deck: 大贤者 [1]
+	! [大贤者] ori >= 12
+
+#setname 0x1151 直播☆双子	Live☆Twin
+#setname 0x2151 邪恶★双子	Evil★Twin
+#setname 0x152 姬丝基勒	キスキル
+#setname 0x153 璃拉	リィラ
+set: 双子系列
+	inner set: 直播☆双子
+	inner set: 邪恶★双子
+	61976639 # 秘密口令句
+
+deck: 双子 [1]
+	! [双子] ori >= 12
+
+#setname 0x154 龙辉巧	ドライトロン
+deck: 龙辉巧 [1]
+	! [龙辉巧] ori >= 12
