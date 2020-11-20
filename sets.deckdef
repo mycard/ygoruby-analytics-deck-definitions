@@ -2756,3 +2756,18 @@ deck: 双子 [1]
 #setname 0x154 龙辉巧	ドライトロン
 deck: 龙辉巧 [1]
 	! [龙辉巧] ori >= 8
+
+#setname 0x155 护宝炮妖	スプリガンズ
+set: 护宝炮妖系列
+	inner set: 护宝炮妖
+	60884672 # 大沙海 黄金戈尔康达
+deck: 护宝炮妖 [1]
+	! [护宝炮妖系列] ori >= 12
+
+#setname 0x156 治安战警队	S－Force
+deck: 治安战警队 [1]
+	! [治安战警队] ori >= 10
+
+#setname 0x157 突变体	Myutant
+deck: 突变体 [1]
+	! [突变体] ori >= 9
