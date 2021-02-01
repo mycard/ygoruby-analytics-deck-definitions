@@ -2791,3 +2791,23 @@ deck: 圣天树 [1]
 #setname 0x159 圣夜骑士	ホーリーナイツ
 deck: 圣夜骑士 [1]
 	! [圣夜骑士] ori > 6
+
+#setname 0x15b 惊乐	アメイズメント
+#setname 0x15c 游乐设施	アトラクション
+set: 惊乐系列
+	inner set: 惊乐
+	inner set: 游乐设施
+	70389815 # 惊奇时段通行证
+deck: 惊乐 [1]
+	! [惊乐系列] ori >= 12
+	refuse: 惊乐
+tag: 惊乐
+	config: global
+	! [惊乐系列] ori >= 6
+
+#setname 0x15d 烙印
+tag: 烙印
+	config: global
+	config: upstream
+	! [烙印] ori >= 9
+#setname 0x15e 降阶魔法	RDM
