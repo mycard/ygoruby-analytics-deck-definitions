@@ -2804,10 +2804,24 @@ deck: 惊乐 [1]
 tag: 惊乐
 	config: global
 	! [惊乐系列] ori >= 6
-
+	
 #setname 0x15d 烙印
+set: 落胤
+	inner set: 烙印
+	68468459 # 阿不思的落胤
+	41373230 # 灰烬龙 落胤龙
+	34848821 # 痕食龙 盗兽龙
+	1906812  # 铁驱龙 迅妖龙
+	29354228 # 教导的遭遇
+	83199011 # 护宝炮妖呼唤！
+	48285768 # 护宝炮妖欢乐制造机
 tag: 烙印
 	config: global
 	config: upstream
 	! [烙印] ori >= 9
+deck: 落胤 [1]
+	! 68468459 main >= 2 # 阿不思的落胤
+	! [落胤] main >= 6
+	! [落胤] ori >= 12
+	refuse: 烙印
 #setname 0x15e 降阶魔法	RDM
