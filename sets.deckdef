@@ -2825,3 +2825,39 @@ deck: 落胤 [1]
 	! [落胤] ori >= 12
 	refuse: 烙印
 #setname 0x15e 降阶魔法	RDM
+
+#setname 0x15f 岩战	War Rock
+deck: 岩战 [1]
+	! [岩战] ori >= 15
+
+#setname 0x160 源质兽	Materiactor
+tag: 源质兽
+	config: global
+	! [源质兽] ori >= 4
+
+#setname 0x161 溟界
+tag: 溟界
+	config: global
+	config: upgrade
+	! [溟界] ori >= 7
+deck: 溟界 [1]
+	! [溟界] ori >= 12
+	refuse: 溟界
+
+#setname 0x162 七音服	ドレミコード
+tag: 七音服
+	config: global
+	config: upgrade
+	! [七音服] ori >= 7
+deck: 七音服 [1]
+	! [七音服] ori >= 15
+	refuse: 七音服
+
+#setname 0x163 北极天熊	ベアルクティ
+tag: 北极天熊
+	config: global
+	config: upgrade
+	! [北极天熊] ori >= 6
+deck: 北极天熊 [1]
+	! [北极天熊] ori >= 12
+	refuse: 北极天熊
