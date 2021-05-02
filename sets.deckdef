@@ -1279,12 +1279,12 @@ deck: 古遗物 [1]
 	refuse: 古遗物
 tag: AF
 	config: global
-	! [古遗物] main >= 3
-	! [古遗物] main < 6
+	! [古遗物] main >= 4
+	! [古遗物] main < 7
 tag: 古遗物
 	config: global
 	config: upgrade
-	! [古遗物] main >= 6
+	! [古遗物] main >= 7
 
 #0x98 魔术师	魔術師
 deck: 魔术师 [1]
