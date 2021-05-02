@@ -404,7 +404,7 @@ tag: 混沌幻魔
 tag: 盟军头脑
 	config: global
 	config: upgrade
-	! 盟军头脑 main >= 2
+	! 盟军·头脑 main >= 2
 
 ## 阿兹特克
 ## 暗杀者
