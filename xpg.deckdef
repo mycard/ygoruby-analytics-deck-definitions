@@ -318,7 +318,7 @@ tag: 滤抽
 	config: global
 	! 星球改造 main >= 1
 	! 试胆竞速 main >= 1
-	! 哥布林暴发户 main >= 1
+	! 70368879 main >= 1 # 哥布林暴发户
 
 tag: 猴树
 	config: global
