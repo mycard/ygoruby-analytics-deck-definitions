@@ -160,8 +160,8 @@ deck: WW辉夜坏兽 [20]
 	refuse: 辉夜
 	refuse: 同调系
 deck: 辉夜坏兽 [0]
-	! [坏兽] main >= 2
-	! 86937530 main >= 2 # 妖精传姬-辉夜
+	! [坏兽] main >= 4
+	! 86937530 main >= 3 # 妖精传姬-辉夜
 	refuse: 辉夜
 	refuse: 坏兽
 
