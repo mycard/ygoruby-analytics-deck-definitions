@@ -58,11 +58,6 @@ deck: 十二兽Kozmo [10]
 	! [星际仙踪] main >= 8
 	refuse: 十二兽
 	refuse: Kozmo
-deck: 十二黄金国 [10]
-	! [十二兽] main > 2
-	! [黄金国系列] ori >= 6
-	refuse: 十二兽
-	refuse: 黄金国
 
 deck: Kozmo真龙 [10]
 	! [星际仙踪] main >= 8
