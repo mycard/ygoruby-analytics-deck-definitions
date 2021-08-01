@@ -2276,6 +2276,7 @@ set: 弹丸系列
 	29296344 # 削短枪管龙
 	73539069 # 主动撞针龙
 	30131474 # 枪管供给点
+	93612434 # 双持手枪龙
 tag: 弹丸
 	config: global
 	! [弹丸系列] main >= 3
@@ -2925,3 +2926,28 @@ deck: 机巧传 [1]
 #setname 0x168 隐形水母怪	ステルス・クラーゲン
 #setname 0x169 原数天灵	ヌメロニアス
 #setname 0x16a 编号系	ナンバーズ
+#setname 0x16b 相剑	相剣
+set: 相剑系列
+	inner set: 相剑
+	55273560 # 白之圣女 艾克莉西娅
+deck: 相剑 [1]
+	! [相剑] ori >= 15
+
+#setname 0x16c 冰水	氷水
+tag: 冰水系列
+	config: global
+	! [冰水] ori >= 6
+deck: 冰水 [1]
+	! [冰水] ori >= 12
+	refuse: 冰水
+
+#setname 0x16d 随风旅鸟	ふわんだりぃず
+tag: 随风旅鸟
+	config: global
+	config: upgrade
+	! [随风旅鸟] ori >= 6
+deck: 随风旅鸟 [1]
+	! [随风旅鸟] ori >= 15
+	refuse: 随风旅鸟
+
+#setname 0x16e 拓扑	トポロジック
