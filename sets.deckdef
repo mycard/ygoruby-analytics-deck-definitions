@@ -2889,12 +2889,19 @@ deck: 北极天熊 [1]
 	refuse: 北极天熊
 
 #setname 0x164 死狱乡	デスピア
+set: 死狱乡系列
+	inner set: 死狱乡
+	36637374 # 烙印开幕
+	82738008 # 赫之烙印
+	6855503 # 赫灼龙 伪装龙
 tag: 死狱乡
 	config: global
 	config: upgrade
-	! [死狱乡] ori >= 4
+	! [死狱乡系列] main >= 3
+	! [死狱乡系列] ori >= 6
 deck: 死狱乡 [1]
-	! [死狱乡] ori >= 12
+	! [死狱乡系列] main >= 6
+	! [死狱乡系列] ori >= 12
 	refuse: 死狱乡
 
 #setname 0x165 魔键	魔鍵
