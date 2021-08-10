@@ -128,9 +128,34 @@ deck: 命运英雄 [2]
 	refuse: hero
 
 #0x9 新宇	ネオス
+#0x1e 茧状体	C（コクーン）
+#0x1f 新空间侠	N（ネオスペーシアン）
+tag: 新空间侠
+	config: global
+	config: upgrade
+	! [新空间侠] ori >= 6
 tag: 新宇
 	config: global
 	! [新宇] ori > 8
+set: 新宇系列
+	inner set: 新空间侠
+	inner set: 新宇
+	inner set: 茧状体
+	1539051  # 宇宙人礼物
+	85787173 # 次一世代
+	14772491 # 魂之共有
+	56641453 # 茧状衣
+	35255456 # 奇迹接触
+	41933425 # 接触之门
+	69270537 # 接触分离
+	73239437 # 二重英雄攻击
+	74414885 # 新空间扩界
+deck: 新宇侠 [4]
+	! [新宇系列] main >= 6
+	! [新宇系列] ori >= 15
+	refuse: hero
+	refuse: 新宇
+	refuse: 新空间侠
 
 #0xa 入魔	ヴェルズ
 deck: 入魔 [2]
@@ -399,14 +424,6 @@ deck: 核成 [1]
 		! [炎舞] main >= 3
 deck: 岩石Beat [2]
 	! [岩石四兄弟] main >= 6
-
-#0x1e 茧状体	C（コクーン）
-
-#0x1f 新空间侠	N（ネオスペーシアン）
-tag: 新空间侠
-	config: global
-	config: upgrade
-	! [新空间侠] ori >= 6
 
 #0x20 紫炎	紫炎
 
