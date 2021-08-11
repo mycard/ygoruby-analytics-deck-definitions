@@ -832,3 +832,8 @@ deck: 未界域暗黑界 [10]
 	! 34230233 main >= 1 # 暗黑界的龙神
 	refuse: 未界域
 	refuse: 暗黑界
+deck: 影依黄金国 [10]
+	! [影依] main > 6
+	! [黄金国] main >= 6
+	refuse: 影依
+	refuse: 黄金国
