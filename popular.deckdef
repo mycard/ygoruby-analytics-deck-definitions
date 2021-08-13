@@ -837,3 +837,8 @@ deck: 影依黄金国 [10]
 	! [黄金国] main >= 6
 	refuse: 影依
 	refuse: 黄金国
+deck: 武装龙扰乱 [10]
+	! [武装龙] main >= 4
+	! [扰乱] main >= 6
+	refuse: 武装龙
+	refuse: 扰乱
