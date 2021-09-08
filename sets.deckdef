@@ -3021,7 +3021,7 @@ set: 勇者系列
 tag: 勇者
 	config: global
 	config: upgrade
-	! [勇者] origin >= 6
+	! [勇者系列] origin >= 6
 deck: 勇者 [1]
-	! [勇者] origin >= 18
+	! [勇者系列] origin >= 18
 	refuse: 勇者
