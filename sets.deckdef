@@ -2982,3 +2982,46 @@ deck: 随风旅鸟 [1]
 	refuse: 随风旅鸟
 
 #setname 0x16e 拓扑	トポロジック
+#setname 0x16f 许珀里翁	ヒュペリオン
+#setname 0x170 甲虫骑兵	Beetrooper
+tag: 甲虫骑兵
+	config: global
+	config: upgrade
+	! [甲虫骑兵] ori >= 6
+deck: 甲虫骑兵 [1]
+	! [甲虫骑兵] ori >= 15
+	refuse: 甲虫骑兵
+
+#setname 0x171 朋克	P.U.N.K.
+deck: 朋克 [1]
+	! [朋克] ori >= 15
+
+#setname 0x172 救祓少女	エクソシスター
+tag: 救祓少女
+	config: global
+	config: upgrade
+	! [救祓少女] ori >= 6
+deck: 救祓少女 [1]
+	! [救祓少女] ori >= 15
+	refuse: 救祓少女
+
+set: 勇者系列
+	3285551  # 阿拉弥赛亚之仪
+	30680659 # 圣殿的水遣
+	66078354 # 遗迹的魔矿战士
+	2563463  # 流离的狮鹫骑手
+	39568067 # 命运之旅路
+	65952776 # 光之圣剑 丹内尔
+	92341815 # 星空蝶
+	38745520 # 骑龙 驮龙
+	64230128 # 暗黑神殿 扎拉拉姆
+	91228233 # 迷幻花之森
+	27623932 # 雷霆放电
+	64018647 # 复活气息
+tag: 勇者
+	config: global
+	config: upgrade
+	! [勇者] origin >= 6
+deck: 勇者 [1]
+	! [勇者] origin >= 18
+	refuse: 勇者
