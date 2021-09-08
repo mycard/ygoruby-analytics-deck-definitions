@@ -2660,7 +2660,7 @@ set: 艾系列
 	inner set: @火灵天星
 	inner set: “艾”
 
-deck: 艾 [1]
+deck: 火灵天星 [1]
 	! [艾系列] ori >= 12
 
 # 0x137 战华	戦華
