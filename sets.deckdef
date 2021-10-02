@@ -2822,9 +2822,9 @@ deck: 护宝炮妖 [1]
 deck: 治安战警队 [1]
 	! [治安战警队] ori >= 10
 
-#setname 0x157 突变体	Myutant
-deck: 突变体 [1]
-	! [突变体] ori >= 9
+#setname 0x157 秘异三变	Myutant
+deck: 秘异三变 [1]
+	! [秘异三变] ori >= 9
 
 #setname 0x1158 圣蔓	サンヴァイン
 #setname 0x2158 圣天树	サンアバロン
@@ -2876,14 +2876,14 @@ deck: 落胤 [1]
 	refuse: 烙印
 #setname 0x15e 降阶魔法	RDM
 
-#setname 0x15f 岩战	War Rock
-deck: 岩战 [1]
-	! [岩战] ori >= 15
+#setname 0x15f 战吼	War Rock
+deck: 战吼 [1]
+	! [战吼] ori >= 15
 
-#setname 0x160 源质兽	Materiactor
-tag: 源质兽
+#setname 0x160 物质炉	Materiactor
+tag: 物质炉
 	config: global
-	! [源质兽] ori >= 4
+	! [物质炉] ori >= 4
 
 #setname 0x161 溟界
 tag: 溟界
