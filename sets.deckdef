@@ -3027,3 +3027,18 @@ tag: 勇者
 deck: 勇者 [1]
 	! [勇者系列] origin >= 18
 	refuse: 勇者
+
+#setname 0x173 恐啡肽狂龙	ダイノルフィア
+tag: 恐啡肽狂龙
+	config: global
+	config: upgrade
+	! [恐啡肽狂龙] ori >= 6
+deck: 恐啡肽狂龙 [1]
+	! [恐啡肽狂龙] ori >= 15
+	! [恐啡肽狂龙] ex >= 3
+	refuse: 恐啡肽狂龙
+
+#setname 0x174 恶魔娘	悪魔嬢
+tag: 恶魔娘
+	config: global
+	! [恶魔娘] ori >= 4
