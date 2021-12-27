@@ -2972,7 +2972,7 @@ deck: 相剑 [1]
 	! [相剑] ori >= 12
 
 #setname 0x16c 冰水	氷水
-tag: 冰水系列
+tag: 冰水
 	config: global
 	! [冰水] ori >= 6
 deck: 冰水 [1]
