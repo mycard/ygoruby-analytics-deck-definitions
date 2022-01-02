@@ -1151,7 +1151,7 @@ deck: 阳炎 [1]
 #setname 0x207e 异热同心从者	ZS（ゼアル・サーバス）
 tag: 异热同心
 	config: global
-	config: upstream
+	config: upgrade
 	! [异热同心] main >= 4
 set: 霍普系列
 	inner set: 异热同心
@@ -2874,7 +2874,7 @@ set: 落胤
 	70534340 # 神炎龙 赫界龙
 tag: 烙印
 	config: global
-	config: upstream
+	config: upgrade
 	! [烙印] ori >= 9
 deck: 落胤 [1]
 	! 68468459 main >= 2 # 阿不思的落胤
