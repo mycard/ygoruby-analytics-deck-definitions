@@ -2164,6 +2164,7 @@ tag: 甘多拉
 
 #0xf7 抒情歌鸲	LL（リリカル・ルスキニア）
 deck: 抒情歌鸲 [2]
+	! [抒情歌鸲] main >= 3
 	! [抒情歌鸲] ori >= 9
 tag: 夜莺Burn
 	config: global
