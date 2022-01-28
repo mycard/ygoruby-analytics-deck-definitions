@@ -3001,8 +3001,13 @@ deck: 甲虫骑兵 [1]
 	refuse: 甲虫骑兵
 
 #setname 0x171 朋克	P.U.N.K.
+set: 朋克
+	config: global
+	! [朋克] ori >= 4
+	! [朋克] main >= 1
 deck: 朋克 [1]
 	! [朋克] ori >= 15
+	refuse: 朋克
 
 #setname 0x172 救祓少女	エクソシスター
 tag: 救祓少女
@@ -3026,6 +3031,7 @@ set: 勇者系列
 	91228233 # 迷幻花之森
 	27623932 # 雷霆放电
 	64018647 # 复活气息
+	42198835 # 外法之骑士
 tag: 勇者
 	config: global
 	config: upgrade
