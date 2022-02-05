@@ -3001,7 +3001,7 @@ deck: 甲虫骑兵 [1]
 	refuse: 甲虫骑兵
 
 #setname 0x171 朋克	P.U.N.K.
-set: 朋克
+tag: 朋克
 	config: global
 	! [朋克] ori >= 4
 	! [朋克] main >= 1
