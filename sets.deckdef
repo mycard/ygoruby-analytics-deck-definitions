@@ -3089,3 +3089,6 @@ deck: 肆世坏 [1]
 	! [肆世坏系列] ori >= 15
 
 #setname 0x17b 野蛮人	バーバリアン
+#setname 0x17c 漫读使灵	Libromancer
+deck: 漫读使灵 [1]
+	! [漫读使灵] ori >= 9
