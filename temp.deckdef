@@ -2365,6 +2365,11 @@ deck: 毁灭武装 [5]
 	or:
 		! 58577036 ori >= 2 # 名推理
 		! 43040603 ori >= 2 # 怪兽之门
+tag: 大饵Burn
+	config: global
+	config: upgrade
+	! 48814566 main >= 3 # 魔兽的大饵
+	! 8628798  main >= 3 # D.D.炸药
 
 # 误伤可能
 tag: 最终一战
