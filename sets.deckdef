@@ -3196,3 +3196,19 @@ deck: 俱舍怒威族 [1]
 deck: 魊影 [1]
 	! [魊影] ori >= 10
 
+#setname 0x18b 救援ACE队	R－ACE
+deck: 救援ACE队 [1]
+	! [救援ACE队] ori >= 10
+
+#setname 0x18c 纯爱妖精	ピュアリィ
+deck: 纯爱妖精 [1]
+	! [纯爱妖精] ori >= 10
+	! 25550531 main >= 1 # 纯爱妖精
+
+!setname 0x18d 御巫
+tag: 御巫
+	config: global
+	! [御巫] ori >= 6
+deck: 御巫 [1]
+	! [御巫] ori >= 10
+	refuse: 御巫
