@@ -3205,7 +3205,7 @@ deck: 纯爱妖精 [1]
 	! [纯爱妖精] ori >= 10
 	! 25550531 main >= 1 # 纯爱妖精
 
-!setname 0x18d 御巫
+#setname 0x18d 御巫
 tag: 御巫
 	config: global
 	! [御巫] ori >= 6
