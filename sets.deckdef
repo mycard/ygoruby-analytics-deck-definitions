@@ -3149,9 +3149,9 @@ deck: 珠泪哀歌族 [1]
 #setname 0x182 春化精
 tag: 春化精
 	! [春化精] ori >= 4
-	! [春化精] ori < 9
+	! [春化精] ori < 12
 deck: 春化精 [1]
-	! [春化精] ori >= 9
+	! [春化精] ori >= 12
 	refuse: 春化精
 
 #setname 0x183 悠悠	もけもけ
