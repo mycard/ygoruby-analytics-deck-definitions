@@ -2764,9 +2764,9 @@ deck: 化石 [1]
 #setname 0x114a 源数之门
 tag: 源数
 	config: global
-	! [源数] ori >= 8
+	! [源数] ori >= 6
 deck: 源数 [0]
-	! [源数] ori >= 15
+	! [源数] ori >= 12
 	refuse: 源数
 
 #setname 0x14b 机块
