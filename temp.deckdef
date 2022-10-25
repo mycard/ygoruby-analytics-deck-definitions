@@ -561,13 +561,13 @@ tag: 铁骑士
 	! 拘束解除 main >= 1
 	! 剑圣-赤膊的基亚·弗里德 main >= 1
 
-tag: 海洋看守者
+tag: 海洋怪鱼卫士
 	config: global
 	config: upgrade
-	! 海洋看守者 main >= 1
+	! 45045866 main >= 1 # 海洋怪鱼卫士
 	or:
-		! 母脑鱼 main >= 1
-		! 千眼水母 main >= 1
+		! 18828179 main >= 1 # 母脑鱼
+		! 81434470 main >= 1 # 千眼卵鱼
 
 tag: 平庸鬼
 	config: global
