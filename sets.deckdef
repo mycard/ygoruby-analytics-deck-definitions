@@ -658,13 +658,16 @@ deck: 熔岩 [1]
 			! 72142276 >= 1 # 炎热传导场
 
 #0x3a 遗式	リチュア
+set: 遗式系列
+	inner set:遗式
+	72386290 # 仪水镜的集光
 deck: 遗式 [2]
-	! [遗式] main >= 8
+	! [遗式系列] main >= 8
 	refuse: 遗式
 tag: 遗式
 	config: global
 	config: upgrade
-	! [遗式] main >= 3
+	! [遗式系列] main >= 4
 
 #0x3b 真红眼	レッドアイズ
 set: 真红眼系列
@@ -3000,14 +3003,14 @@ deck: 随风旅鸟 [1]
 
 #setname 0x16e 拓扑	トポロジック
 #setname 0x16f 许珀里翁	ヒュペリオン
-#setname 0x170 甲虫骑兵	Beetrooper
-tag: 甲虫骑兵
+!setname 0x170 骑甲虫	ビートルーパー
+tag: 骑甲虫
 	config: global
 	config: upgrade
-	! [甲虫骑兵] ori >= 6
-deck: 甲虫骑兵 [1]
-	! [甲虫骑兵] ori >= 15
-	refuse: 甲虫骑兵
+	! [骑甲虫] ori >= 6
+deck: 骑甲虫 [1]
+	! [骑甲虫] ori >= 15
+	refuse: 骑甲虫
 
 #setname 0x171 朋克	P.U.N.K.
 tag: 朋克
@@ -3214,3 +3217,5 @@ tag: 御巫
 deck: 御巫 [1]
 	! [御巫] ori >= 10
 	refuse: 御巫
+
+#setname 0x18e 仪水镜	儀水鏡
