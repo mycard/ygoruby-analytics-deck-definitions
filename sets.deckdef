@@ -3189,12 +3189,15 @@ deck: 深渊之兽 [1]
 	refuse: 深渊之兽
 
 #setname 0x189 俱舍怒威族	クシャトリラ
+set: 六世坏系列
+	inner set: 俱舍怒威族
+	71832012 # 六世坏-天魔世界
 tag: 俱舍怒威族
 	config: global
-	! [俱舍怒威族] ori >= 4
+	! [六世坏系列] ori >= 6
 
 deck: 俱舍怒威族 [1]
-	! [俱舍怒威族] ori >= 10
+	! [六世坏系列] ori >= 13
 	refuse: 俱舍怒威族
 
 #setname 0x18a 魊影	Ghoti
