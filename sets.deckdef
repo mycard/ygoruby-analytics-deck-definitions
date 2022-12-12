@@ -1232,13 +1232,17 @@ deck: 武神 [1]
 #0x89 洞	ホール
 
 #setname 0x8a 虫惑	蟲惑
+set: 虫惑魔系列
+	inner set: 虫惑魔
+	12801833 # 虫惑之园
+	48805472 # 虫惑的引诱
 deck: 虫惑魔 [1]
-	! [虫惑魔] ori > 7
+	! [虫惑魔系列] ori > 7
 	refuse: 虫惑魔
 tag: 虫惑魔
 	config: global
 	config: upgrade
-	! [虫惑魔] ori >= 4
+	! [虫惑魔系列] ori >= 4
 	#0x108a 虫惑魔	蟲惑魔
 
 #0x8b 恶餐	マリスボラス
