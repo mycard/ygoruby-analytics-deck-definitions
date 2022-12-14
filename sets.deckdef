@@ -3118,15 +3118,13 @@ deck: 群豪 [1]
 #setname 0x17e 拉比林斯迷宫	ラビュリンス
 #setname 0x117e 拉比林斯迷宫欢迎	ウェルカム・ラビュリンス
 deck: 拉比林斯迷宫 [1]
-	! [拉比林斯迷宫] ori >= 10
+	! [拉比林斯迷宫] ori >= 9
 
 #setname 0x17f 神碑
 tag: 神碑
 	config: global
 	config: upgrade
 	! [神碑] ori >= 9
-	! [神碑] ori < 18
-
 deck: 神碑 [1]
 	! [神碑] ori >= 18
 	refuse: 神碑
@@ -3203,9 +3201,9 @@ tag: 俱舍怒威族
 deck: 俱舍怒威族 [1]
 	or:
 		and:
-			! [六世坏系列] ori >= 13
+			! [六世坏系列] ori >= 10
 			! 31149212 ori >= 2 # 俱舍怒威族·莱斯哈特
-		! [六世坏系列] ori >= 18
+		! [六世坏系列] ori >= 14
 	refuse: 俱舍怒威族
 
 #setname 0x18a 魊影	Ghoti
