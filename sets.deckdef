@@ -3135,7 +3135,7 @@ tag: 卫星闪灵
 	config: upgrade
 	! [卫星闪灵] ori >= 6
 	! [卫星闪灵] ori < 10
-deck: 卫星闪灵 [1]
+deck: 卫星闪灵 [0]
 	! [卫星闪灵] ori >= 10
 	refuse: 卫星闪灵
 
