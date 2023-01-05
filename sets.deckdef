@@ -2650,8 +2650,12 @@ deck: 梦魔镜 [1]
 	! [梦魔镜] ori >= 8
 
 # 0x132 斩机
-deck: 斩机 [1]
+tag: 斩机
+	config: global
 	! [斩机] ori >= 8
+deck: 斩机 [1]
+	! [斩机] ori >= 15
+	refuse: 斩机
 
 # 0x133 半龙女仆
 deck: 半龙女仆 [1]
