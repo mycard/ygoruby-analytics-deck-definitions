@@ -1328,7 +1328,6 @@ deck: 古遗物 [1]
 tag: AF
 	config: global
 	! [古遗物] main >= 4
-	! [古遗物] main < 7
 tag: 古遗物
 	config: global
 	config: upgrade
@@ -1375,16 +1374,16 @@ tag: 幻奏
 	! [幻奏] ori > 5
 	#0x109b 幻奏的音姬	幻奏の音姫
 
-#0x9c 星守	テラナイト
-deck: 星守 [1]
-	! [星守] main > 6
-	! [星守] ex >= 2
-	refuse: 星守
-tag: 星守
+#0x9c 星骑士	テラナイト
+deck: 星骑士 [1]
+	! [星骑士] main > 6
+	! [星骑士] ex >= 2
+	refuse: 星骑士
+tag: 星骑士
 	config: global
 	config: upgrade
-	! [星守] main >= 4
-	#0x109c 星辉士|星守	ステラナイト
+	! [星骑士] main >= 4
+	#0x109c 星辉士|星骑士	ステラナイト
 
 #0x9d 影依	シャドール
 deck: 影依 [1]
@@ -1979,7 +1978,7 @@ tag: 白龙
 #0xdf 月光	ムーンライト
 set: 月光系列
 	inner set: 月光
-	48444114 # 月光香
+	48444114 # 月华香
 tag: 月光
 	config: global
 	config: upgrade
@@ -3133,9 +3132,9 @@ deck: 恐吓爪牙族 [1]
 	! [肆世坏系列] ori >= 15
 
 #setname 0x17b 野蛮人	バーバリアン
-#setname 0x17c 漫读使灵	Libromancer
-deck: 漫读使灵 [1]
-	! [漫读使灵] ori >= 9
+#setname 0x17c 书灵师	リブロマンサー
+deck: 书灵师 [1]
+	! [书灵师] ori >= 9
 
 #setname 0x17d 群豪	ヴァリアンツ
 deck: 群豪 [1]
@@ -3171,9 +3170,8 @@ set: 壹世坏系列
 	inner set: 珠泪哀歌族
 	77103950 # 壹世坏-珍珠世界
 tag: 壹世坏
-	config: globa
+	config: global
 	! [壹世坏系列] ori >= 4
-	! [壹世坏系列] ori < 8
 deck: 珠泪哀歌族 [1]
 	! [珠泪哀歌族] ori >= 8
 	refuse: 壹世坏
@@ -3181,7 +3179,6 @@ deck: 珠泪哀歌族 [1]
 #setname 0x182 春化精
 tag: 春化精
 	! [春化精] ori >= 6
-	! [春化精] ori < 15
 deck: 春化精 [1]
 	! [春化精] ori >= 15
 	refuse: 春化精
@@ -3229,7 +3226,6 @@ set: 六世坏系列
 tag: 俱舍怒威族
 	config: global
 	! [六世坏系列] ori >= 6
-
 deck: 俱舍怒威族 [1]
 	or:
 		and:
@@ -3260,3 +3256,29 @@ deck: 御巫 [1]
 	refuse: 御巫
 
 #setname 0x18e 仪水镜	儀水鏡
+#setname 0x18f 防火	ファイアウォール
+#setname 0x190 末那愚子族	マナドゥム
+set: 五世坏系列
+	inner set: 末那愚子族
+	82460246 # 伍世坏-喜悦世界
+tag: 五世坏
+	config: globa
+	! [五世坏系列] ori >= 4
+deck: 末那愚子族 [1]
+	! [五世坏系列] ori >= 8
+	refuse: 五世坏
+
+set: 世坏系列
+	56099748 # 维萨斯-斯塔弗罗斯特
+	82361809 # 恐吓爪牙族·莱希哈特
+	53776969 # 恐吓爪牙族·莱特哈特
+	73956664 # 珠泪哀歌族·雷诺哈特
+	31149212 # 俱舍怒威族·莱斯哈特
+	71277255 # 末那愚子族·里姆哈特
+deck: 世坏 [2]
+	! 65815684 ex >= 1 # 维舍斯-阿修特罗德
+	! [世坏系列] ori >= 7
+
+#setname 0x191 妮穆蕾莉娅	ネムレリア
+deck: 妮穆蕾莉娅 [1]
+	! [妮穆蕾莉娅] ori >= 8
