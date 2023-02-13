@@ -858,3 +858,12 @@ tag: 地天使
 	config: global
 	config: upgrade
 	! [地天使系列] ori >= 10
+
+set: 地均系列
+	inner set: 地天使系列
+	inner set: 春化精
+	inner set: 魔救
+deck: 地属性 [0]
+	! [地均系列] ori >= 20
+	! 94689206 main >= 2 # 积木龙
+	refuse: 地天使
