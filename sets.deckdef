@@ -504,8 +504,12 @@ tag: 龙骑兵团
 	! [龙骑兵团] main >= 5
 
 #0x2a 自然	ナチュル
+tag: 自然
+	config: global
+	! [自然] main >= 5
 deck: 自然 [1]
 	! [自然] ori > 10
+	refuse: 自然
 
 #0x2b 忍者
 deck: 忍者 [1]
@@ -1359,9 +1363,13 @@ tag: 异色眼
 	! [异色眼] main >= 5
 
 #0x9a 超重武者
+#0x109a 超重武者装留
+tag: 超重武者
+	config: global
+	! [超重武者] main >= 6
 deck: 超重武者 [1]
 	! [超重武者] ori > 14
-	#0x109a 超重武者装留
+	refuse: 超重武者
 
 #0x9b 幻奏
 deck: 幻奏 [1]
