@@ -83,12 +83,6 @@ deck: 魔杰拉
 deck: 假面魔兽
 	! [假面魔兽] main >= 3
 
-deck: 门之守护神
-	! 门之守护神 main >= 1
-	! 雷魔神-桑迦 main >= 1
-	! 水魔神-斯迦 main >= 1
-	! 风魔神-修迦 main >= 1
-
 tag: 机炮龙
 	config: global
 	config: upgrade
