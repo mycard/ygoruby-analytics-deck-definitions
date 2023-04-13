@@ -1388,7 +1388,9 @@ tag: 超重武者
 	config: global
 	! [超重武者] main >= 6
 deck: 超重武者 [1]
-	! [超重武者] ori > 14
+	or:
+		! [超重武者] ori > 14
+		! [超重武者] main >= 12
 	refuse: 超重武者
 
 #0x9b 幻奏
