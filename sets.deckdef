@@ -1388,6 +1388,7 @@ tag: 超重武者
 	config: global
 	! [超重武者] main >= 6
 deck: 超重武者 [1]
+	! 94689206 main < 1 # 积木龙
 	or:
 		! [超重武者] ori > 14
 		! [超重武者] main >= 12
