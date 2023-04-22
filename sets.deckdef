@@ -2685,7 +2685,7 @@ tag: 斩机
 	config: global
 	! [斩机] ori >= 8
 deck: 斩机 [1]
-	! [斩机] ori >= 15
+	! [斩机] ori >= 13
 	refuse: 斩机
 
 # 0x133 半龙女仆
