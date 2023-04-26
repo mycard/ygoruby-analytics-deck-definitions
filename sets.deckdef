@@ -2683,7 +2683,9 @@ deck: 梦魔镜 [1]
 # 0x132 斩机
 tag: 斩机
 	config: global
+	config: upgrade
 	! [斩机] ori >= 8
+	! [斩机] main >= 4
 deck: 斩机 [1]
 	! [斩机] ori >= 13
 	refuse: 斩机
