@@ -2380,6 +2380,14 @@ tag: 大饵Burn
 	! 48814566 main >= 3 # 魔兽的大饵
 	! 8628798  main >= 3 # D.D.炸药
 
+tag: 死灵之颜
+	config: global
+	config: upgrade
+	! 28297833 main >= 2 # 死灵之颜
+	or:
+		! 55623480 main >= 1 # 妖精传姬-白雪
+		! [深渊之兽] main >= 2
+
 # 误伤可能
 tag: 最终一战
 	config: global
