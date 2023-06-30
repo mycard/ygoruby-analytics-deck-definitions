@@ -2388,6 +2388,14 @@ tag: 死灵之颜
 		! 55623480 main >= 1 # 妖精传姬-白雪
 		! [深渊之兽] main >= 2
 
+tag: 三角阵
+	config: global
+	config: upgrade
+	! 11489642 main >= 1 # 三角阵-O
+	! 7903368  main >= 1 # 水晶头骨
+	! 58996839 main >= 1 # 阿育王铁柱
+	! 84384943 main >= 1 # 卡布雷拉石
+
 # 误伤可能
 tag: 最终一战
 	config: global
