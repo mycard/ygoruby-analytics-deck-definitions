@@ -437,6 +437,7 @@ deck: 地缚 [1]
 	! [地缚] ori >= 12
 	! [地缚] ex >= 3
 	refuse: 地缚
+	refuse: 地缚神
 
 set: 地缚神系列
 	inner set: 地缚神
@@ -454,6 +455,7 @@ tag: 地缚神
 deck: 地缚神 [2]
 	! [地缚神] main >= 2
 	! [地缚神系列] main >= 6
+	refuse: 地缚
 	refuse: 地缚神
 
 #0x22 朱罗纪	ジュラック
