@@ -2861,7 +2861,8 @@ tag: 教导
 	config: upgrade
 	! [教导系列] ori >= 4
 deck: 教导 [0]
-	! [教导系列] ori >= 10
+	! [教导系列] main >= 7
+	! [教导系列] ori >= 12
 	refuse: 教导
 
 #setname 0x146 童话动物
