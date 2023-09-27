@@ -1428,30 +1428,31 @@ tag: 古遗物
 	config: upgrade
 	! [古遗物] main >= 7
 
+tag: 魔术师
+	config: global
+	config: upgrade
+	! [魔术师] main >= 6
 #0x98 魔术师	魔術師
 deck: 魔术师 [1]
 	! [魔术师] main >= 9
 	! [灵摆读阵] main >= 2
 	#! 47349116 ex >= 1 # 星刻之魔术师
 	refuse: 魔术师
+	refuse: 霸王门
 	(宙刻)
-		! 76794549 main >= 2 # 宙读之魔术师
+		! 76794549 main >= 1 # 宙读之魔术师
 		! 94415058 main >= 1 # 星读之魔术师
-		! 12289247 main >= 2 # 刻读之魔术师
+		! 12289247 main >= 1 # 刻读之魔术师
 		! 20409757 main >= 1 # 时读之魔术师
-tag: 魔术师
-	config: global
-	config: upgrade
-	! [魔术师] main >= 6
 
 #0x99 异色眼	オッドアイズ
-deck: 异色眼 [1]
-	! [异色眼] ori >= 15
-	refuse: 异色眼
 tag: 异色眼
 	config: global
 	config: upgrade
 	! [异色眼] main >= 5
+deck: 异色眼 [1]
+	! [异色眼] ori >= 15
+	refuse: 异色眼
 
 #0x9a 超重武者
 #0x109a 超重武者装留
@@ -3524,7 +3525,7 @@ tag: 罪宝
 	config: upgrade
 	! [罪宝系列] ori >= 5
 deck: 迪亚贝尔斯塔尔 [0]
-	! [罪宝系列] ori >= 12
+	! [罪宝系列] ori >= 10
 	! 72270339 main >= 2 # 黑魔女 迪亚贝尔斯塔尔
 	refuse: 罪宝
 
