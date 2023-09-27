@@ -3522,10 +3522,10 @@ set: 罪宝系列
 tag: 罪宝
 	config: global
 	config: upgrade
-	! [罪宝系列] ori >= 6
+	! [罪宝系列] ori >= 5
 deck: 迪亚贝尔斯塔尔 [0]
 	! [罪宝系列] ori >= 12
-	! 72270339 main >= 2
+	! 72270339 main >= 2 # 黑魔女 迪亚贝尔斯塔尔
 	refuse: 罪宝
 
 #0x19f 圣菓使	聖菓使
