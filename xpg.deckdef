@@ -187,11 +187,6 @@ tag: 毛扎
 	! 毛扎 main >= 1
 	! 毛兽之王 main >= 1
 
-deck: 于贝尔
-	! 于贝尔 main >= 1
-	! 于贝尔-被憎恶的骑士 main >= 1
-	! 于贝尔-极度悲伤的魔龙 main >= 1
-
 tag: 独角兽
 	config: global
 	config: upgrade
@@ -469,6 +464,7 @@ set: 幻魔系列
 	6007213  # 神炎皇
 	43378048 # 混沌幻魔 阿米泰尔
 	95463814 # 幻魔帝 三联电子人
+	53134520 # 幻魔之召唤神
 tag: 神炎皇
 	config: global
 	config: upgrade
