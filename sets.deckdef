@@ -1273,7 +1273,7 @@ deck: 尘妖 [1]
 
 #0x81 炎王
 deck: 炎王 [1]
-	! [炎王] main > 7
+	! [炎王] ori > 7
 	refuse: 炎王
 tag: 炎王
 	config: global
@@ -3511,7 +3511,7 @@ tag: 蛇眼
 	config: global
 	! [蛇眼] ori >= 6
 deck: 蛇眼 [1]
-	! [蛇眼] ori >= 12
+	! [蛇眼] ori >= 10
 	refuse: 蛇眼
 
 #0x19d 荷鲁斯	ホルス
