@@ -2406,10 +2406,10 @@ tag: 早埋
 	config: global
 	config: upgrade
 	! 70828912 = 1 # 过早的埋葬
-tag: 大风暴
-	config: global
-	config: upgrade
-	! 19613556 = 1 # 大风暴
+#tag: 大风暴
+#	config: global
+#	config: upgrade
+#	! 19613556 = 1 # 大风暴
 
 deck: GX遗老游街会 [100]
 	restrains: >= 2
