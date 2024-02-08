@@ -3584,6 +3584,8 @@ set: 于贝尔系列
 	65261141 # 噩梦之苦痛
 	92650749 # 成熟年代记
 	87532344 # 永远的至爱
+	24215921 # 地狱墓场蠕动者
+	93729896 # 噩梦之王座
 deck: 于贝尔 [1]
 	or:
 		! [于贝尔系列] ori >= 12
@@ -3611,3 +3613,47 @@ set: 白斗气系列
 	57964143 # 白之仲裁
 deck: 白斗气 [1]
 	! [白斗气系列] ori >= 15
+
+#setname 0x1a9 灿幻
+#setname 0x1aa 天杯龙
+set: 天杯龙系列
+	inner set: 天杯龙
+	inner set: 灿幻
+tag: 天杯龙
+	config: global
+	config: upgrade
+	! [天杯龙系列] ori >= 6
+deck: 天杯龙 [1]
+	! [天杯龙系列] ori >= 10
+	refuse: 天杯龙
+
+#setname 0x1ab 蕾祸
+tag: 蕾祸
+	config: global
+	config: upgrade
+	! [蕾祸] ori >= 7
+deck: 蕾祸 [1]
+	! [蕾祸] ori >= 13
+	refuse: 蕾祸
+
+#setname 0x1ac 飞龙炎
+tag: 炎之剑士系列
+	inner set: 飞龙炎
+	45231177 # 炎之剑士
+	45231178 # 炎之剑士
+	13722870 # 黑炎之骑士
+	1047075  # 斗炎之剑士
+	73936388 # 幻影之剑士
+	324483   # 极炎之剑士
+	36319131 # 斗炎之龙
+	73714736 # 炎之剑域
+	35697544 # 斗气炎斩剑
+	8080257  # 炎之剑舞
+tag: 炎之剑士
+	config: global
+	config: upgrade
+	! [炎之剑士系列] ori >= 6
+deck: 炎之剑士 [1]
+	! [炎之剑士系列] ori >= 12
+	refuse: 炎之剑士
+	
