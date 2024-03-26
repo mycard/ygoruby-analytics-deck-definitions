@@ -3656,4 +3656,12 @@ tag: 炎之剑士
 deck: 炎之剑士 [1]
 	! [炎之剑士系列] ori >= 12
 	refuse: 炎之剑士
+
+#setname 0x1ad 灰尽	Ashened
+set: 灰尽系列
+	inner set: 灰尽
+	78783557 # 灭烬爆龙 维多斯
+deck: 灰尽 [1]
+	! [灰尽系列] ori >= 12
+
 	
