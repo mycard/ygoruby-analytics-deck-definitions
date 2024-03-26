@@ -3420,9 +3420,9 @@ deck: 世坏 [2]
 deck: 妮穆蕾莉娅 [1]
 	! [妮穆蕾莉娅] ori >= 8
 
-#setname 0x192 金傲大奖赛	GP（ゴールド・プライド）
-deck: 金傲大奖赛 [1]
-	! [金傲大奖赛] ori >= 10
+#setname 0x192 黄金荣耀	GP（ゴールド・プライド）
+deck: 黄金荣耀 [1]
+	! [黄金荣耀] ori >= 10
 
 #setname 0x193 迷宫壁	Labyrinth Wall
 #setname 0x194 至爱	フェイバリット
