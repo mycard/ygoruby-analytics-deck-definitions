@@ -777,7 +777,7 @@ tag: 救世龙
 	! [救世] ex >= 1
 
 #0x40 被封印	封印されし
-deck: 艾克佐迪亚(缺部件) [1]
+deck: 艾克佐迪亚(缺部件) [0]
 	restrains: >= 3
 		! 7902349  main >= 1 # 被封印者的左腕
 		! 70903634 main >= 1 # 被封印者的右腕
@@ -3556,7 +3556,7 @@ deck: 莫忘 [1]
 #0x1a2 百夫长骑士	センチュリオン
 set: 百夫长骑士系列
 	inner set: 百夫长骑士
-	77765207 # 誓言之徽
+	inner set: 徽记
 tag: 百夫长骑士
 	config: global
 	! [百夫长骑士系列] ori >= 6
@@ -3664,4 +3664,29 @@ set: 灰尽系列
 deck: 灰尽 [1]
 	! [灰尽系列] ori >= 12
 
-	
+#setname 0x1ae 千年	千年/ミレニアム
+set: 千年系列
+	inner set: 千年
+	63017368 # 石板神殿
+tag: 千年
+	config: global
+	config: upgrade
+	! [千年系列] ori >= 4
+#setname 0x1af 艾格佐德	エグゾード
+
+#setname 0x1b0 刻魔	デモンスミス
+tag: 刻魔
+	config: global
+	config: upgrade
+	! [刻魔] ori >= 7
+deck: 刻魔 [1]
+	! [刻魔] ori >= 12
+	refuse: 刻魔
+
+#setname 0x1b1 白森林	白き森
+deck: 白森林 [1]
+	! [白森林] ori >= 12
+
+#setname 0x1b2 欢聚友伴	マルチャミー
+#setname 0x1b3 徽记	エンブレーマ
+
