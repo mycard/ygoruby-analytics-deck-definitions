@@ -3679,7 +3679,7 @@ tag: 刻魔
 	config: global
 	config: upgrade
 	! [刻魔] ori >= 7
-deck: 刻魔 [1]
+deck: 刻魔 [0]
 	! [刻魔] ori >= 12
 	refuse: 刻魔
 
