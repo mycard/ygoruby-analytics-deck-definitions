@@ -3509,9 +3509,9 @@ tag: 吠陀
 #0x19c 蛇眼	スネークアイ
 tag: 蛇眼
 	config: global
-	! [蛇眼] ori >= 6
+	! [蛇眼] ori >= 4
 deck: 蛇眼 [1]
-	! [蛇眼] ori >= 10
+	! [蛇眼] ori >= 8
 	refuse: 蛇眼
 
 #0x19d 荷鲁斯	ホルス
