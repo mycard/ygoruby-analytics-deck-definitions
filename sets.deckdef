@@ -3695,13 +3695,16 @@ deck: 白森林 [1]
 #setname 0x1b2 欢聚友伴	マルチャミー
 #setname 0x1b3 徽记	エンブレーマ
 #setname 0x1b4 时空	タキオン
+set: 时空系列
+	inner set: 时空
+	44698398 # 神影金龙 光速子龙
 tag: 时空
 	config: global
-	! [时空] ori >= 6
+	! [时空系列] ori >= 6
 deck: 时空 [0]
-	! [时空] ori >= 9
-	! [时空] main >= 1
-	! [时空] ex >= 1
+	! [时空系列] ori >= 9
+	! [时空系列] main >= 1
+	! [时空系列] ex >= 1
 	refuse: 时空
 
 #setname 0x1b5 蓝泪	青い涙
