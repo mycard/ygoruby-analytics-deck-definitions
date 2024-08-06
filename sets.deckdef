@@ -758,8 +758,26 @@ deck: 爬虫妖 [1]
 	! [爬虫妖] main >= 9
 
 #0x3d 六武众	六武衆
+#0x1ba 六武式
+#0x103d 影六武众	影六武衆
+set: 六武系列
+	inner set: 六武众
+	inner set: 六武式
+	inner set: 紫炎
+	54913680 # 六武之书
+	12324546 # 漆黑的名马
+	53819808 # 六武院
+	6357341  # 忍之六武
+	21007444 # 诸刃的活人剑术
+	32603633 # 究极·背水之阵
+	75525309 # 六武派二刀流
+	96218085 # 中央突破
+	71934924 # 疾风！凶杀阵
+	84613836 # 神速之具足
+	41458579 # 六尺琼勾玉
+
 deck: 六武众 [1]
-	! [六武众] main >= 8
+	! [六武系列] main >= 10
 	refuse: 六武众
 	(道场)
 		! 47436247 main >= 1 # 紫炎的道场
@@ -768,9 +786,7 @@ deck: 六武众 [1]
 		! 74094021 main = 3 # 真六武众-瑞穂
 tag: 六武众
 	config: global
-	! [六武众] main >= 3
-
-#0x103d 影六武众	影六武衆
+	! [六武系列] main >= 3
 
 #0x3e 异虫	ワーム
 deck: 异虫 [1]
@@ -3735,4 +3751,53 @@ deck: 时空 [0]
 	refuse: 时空
 
 #setname 0x1b5 蓝泪	青い涙
+#setname 0x1b6 石版
+#setname 0x1b7 拟箱掳尸	Mimighoul
+tag: 拟箱掳尸
+	config: global
+	! [拟箱掳尸] ori >= 6
+deck: 拟箱掳尸
+	! [拟箱掳尸] ori >= 10
+	refuse: 拟箱掳尸
 
+!setname 0x1b8 鲨	シャーク
+!setname 0x11b8 鲨龙兽	シャーク・ドレイク
+!setname 0x1b9 原石
+tag: 原石
+	config: global
+	! [原石] ori >= 4
+deck: 原石 [0]
+	! [原石] ori >= 10
+	refuse: 原石
+
+!setname 0x1bb 金属化	メタル化
+set: 金属化系列
+	inner set: 金属化
+	80870883 # 真红眼黑重钢龙
+	27268998 # 钢铁恶魔兽灵X
+	53753697 # 恶魔兽 恶魔兽灵
+	29157292 # 钢铁幻想师
+	94661166 # 迫近的机械
+tag: 金属化
+	config: global
+	! [金属化系列] ori >= 4
+deck: 金属化 [0]
+	! [金属化] ori >= 10
+	refuse: 金属化
+	
+!setname 0x1bc 魔瞳
+!setname 0x1bd 蓟花	アザミナ
+set: 蓟花系列
+	inner set: 蓟花
+	66328392 # 罪宝的欺骗
+tag: 蓟花
+	config: global
+	! [蓟花] ori >= 5
+deck: 蓟花 [0]
+	! [蓟花] ori >= 15
+	refuse: 蓟花
+
+!setname 0x1be 祝台
+tag: 祝台
+	config: global
+	! [祝台] ori >= 2
