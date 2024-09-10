@@ -3809,8 +3809,8 @@ deck: 雷火沸动 [1]
 	! [雷火沸动] ori >= 10
 
 #setname 0x1bf 魔∀丽丝	M∀LICE
-deck: 魔∀丽丝 [1]
-	! [魔∀丽丝] ori >= 10
+deck: 码丽丝 [1]
+	! [码丽丝] ori >= 10
 
 #setname 0x1c0 龙华	竜華
 tag: 龙华
