@@ -488,6 +488,7 @@ deck: 地缚神 [2]
 deck: 朱罗纪 [1]
 	! [朱罗纪] main >= 10
 	! [朱罗纪] ex >= 2
+	refuse: 恐龙族
 tag: 瓜巴龙
 	config: global
 	! 11012887 main >= 3
