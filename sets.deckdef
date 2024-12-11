@@ -3850,10 +3850,15 @@ tag: 祝台
 	! [祝台] ori >= 2
 
 #setname 0x1be 雷火沸动	ライゼオル
+tag: 雷火沸动
+	config: global
+	! [雷火沸动] ori >= 5
+	! [雷火沸动] main >= 1
 deck: 雷火沸动 [1]
-	! [雷火沸动] ori >= 10
+	! [雷火沸动] ori >= 12
+	refuse: 雷火沸动
 
-#setname 0x1bf 魔∀丽丝	M∀LICE
+#setname 0x1bf 码丽丝	M∀LICE
 deck: 码丽丝 [1]
 	! [码丽丝] ori >= 10
 
