@@ -714,8 +714,9 @@ tag: 攻击封锁
 tag: 世界锁
 	config: global
 	config: upgrade
-	! 秘仪之力21-世界 main >= 2
-	! [秘仪之力] main <= 10
+	! 23846921 main >= 1 # 秘仪之力21-世界
+	! 73206827 main >= 1 # 光之结界
+	! [秘仪之力系列] ori <= 10
 
 deck: 时间吞噬者
 	! 时间吞噬者 main >= 1
