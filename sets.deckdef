@@ -3825,6 +3825,7 @@ set: 金属化系列
 	29157292 # 钢铁幻想师
 	94661166 # 迫近的机械
 	27704731 # 钢炎之剑士
+	83711531 # 真红眼钢爪龙
 tag: 金属化
 	config: global
 	! [金属化系列] ori >= 4
@@ -3874,3 +3875,34 @@ deck: 龙华 [1]
 deck: 阿尔戈☆群星 [1]
 	! [阿尔戈☆群星] ori >= 8
 #setname 0x1c2 喷水引擎	アクア・ジェット
+
+#setname 0x1c3 御剑	Mitsurugi
+deck: 御剑 [1]
+	! [御剑] ori >= 12
+
+#setname 0x1c4 征龙	征竜
+set: 征龙系列
+	inner set: 征龙
+	4575541	# 超龙灾祸
+tag: 征龙
+	config: global
+	config: upgrade
+	! [征龙] ori >= 8
+deck: 征龙 [1]
+	! [征龙系列] ori >= 15
+	refuse: 征龙
+
+#setname 0x1c5 再世	再世
+tag: 再世
+	config: global
+	! [再世] ori >= 6
+deck: 再世 [1]
+	! [再世] ori >= 15
+
+#setname 0x1c6 统王	ドミナス
+set: 统王系列
+	inner set: 统王
+	58053438 # 列王诗篇
+tag: 统王
+	config: global
+	! [统王系列] ori >= 6
