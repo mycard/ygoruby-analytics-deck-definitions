@@ -2946,11 +2946,15 @@ set: 教导系列
 	24915933 # 赫焉龙 大木偶剧场龙
 tag: 教导
 	config: global
-	config: upgrade
 	! [教导系列] ori >= 4
+	! [教导系列] ori < 7
+tag: 教导
+	config: global
+	config: upgrade
+	! [教导系列] ori >= 7
 deck: 教导 [0]
-	! [教导系列] main >= 7
-	! [教导系列] ori >= 12
+	! [教导系列] main >= 12
+	! [教导系列] ori >= 15
 	refuse: 教导
 
 #setname 0x146 童话动物
@@ -3863,7 +3867,7 @@ deck: 雷火沸动 [1]
 
 #setname 0x1bf 码丽丝	M∀LICE
 deck: 码丽丝 [1]
-	! [码丽丝] ori >= 10
+	! [码丽丝] ori >= 12
 
 #setname 0x1c0 龙华	竜華
 tag: 龙华
@@ -3900,6 +3904,7 @@ tag: 再世
 	! [再世] ori >= 6
 deck: 再世 [1]
 	! [再世] ori >= 15
+	refuse: 再世
 
 #setname 0x1c6 统王	ドミナス
 set: 统王系列
