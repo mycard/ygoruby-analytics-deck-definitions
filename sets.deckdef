@@ -3903,7 +3903,7 @@ tag: 再世
 	config: global
 	! [再世] ori >= 6
 deck: 再世 [1]
-	! [再世] ori >= 15
+	! [再世] ori >= 12
 	refuse: 再世
 
 #setname 0x1c6 统王	ドミナス
