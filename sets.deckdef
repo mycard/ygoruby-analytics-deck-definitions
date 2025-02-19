@@ -3866,8 +3866,14 @@ deck: 雷火沸动 [1]
 	refuse: 雷火沸动
 
 #setname 0x1bf 码丽丝	M∀LICE
+tag: 码丽丝
+	config: global
+	config: upgrade
+	! [码丽丝] main >= 4
+	! [码丽丝] ori >= 8
 deck: 码丽丝 [1]
 	! [码丽丝] ori >= 12
+	refuse: 码丽丝
 
 #setname 0x1c0 龙华	竜華
 tag: 龙华
