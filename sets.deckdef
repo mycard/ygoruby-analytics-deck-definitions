@@ -3941,3 +3941,20 @@ set: 王家的神殿系列
 
 deck: 王家的神殿 [1]
 	! [王家的神殿系列] ori >= 12
+
+#setname 0x1c9 星辰	ドラゴンテイル
+deck: 星辰 [1]
+	! [星辰] ori >= 12
+
+#setname 0x1ca 味美喵	ヤミー
+deck: 味美喵 [1]
+	! [味美喵] ori >= 12
+
+#setname 0x1cb K9	K9
+tag: K9
+	config: global
+	config: upgrade
+	! [K9] ori >= 4
+deck: K9 [1]
+	! [K9] ori >= 12
+	refuse: K9
