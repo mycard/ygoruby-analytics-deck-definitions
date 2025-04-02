@@ -3009,6 +3009,11 @@ deck: 双天 [1]
 	! [双天] ori >= 9
 
 #setname 0x150 大贤者	マギストス
+tag: 大贤者
+	config: global
+	! [大贤者] main >= 1
+	! [大贤者] ex >= 1
+	! [大贤者] ori >= 5
 deck: 大贤者 [1]
 	! [大贤者] ori >= 12
 
