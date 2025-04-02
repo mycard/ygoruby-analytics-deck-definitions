@@ -3016,6 +3016,7 @@ tag: 大贤者
 	! [大贤者] ori >= 5
 deck: 大贤者 [1]
 	! [大贤者] ori >= 12
+	refuse: 大贤者
 
 #setname 0x1151 直播☆双子	Live☆Twin
 #setname 0x2151 邪恶★双子	Evil★Twin
