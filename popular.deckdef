@@ -943,3 +943,9 @@ deck: K9水晶机巧 [10]
 	! [水晶机巧|非「机巧」] ori >= 7
 	refuse: K9
 	refuse: 水晶机巧
+
+deck: K9征服斗魂 [10]
+	! [K9] ori >= 8
+	! [征服斗魂系列] ori >= 8
+	refuse: K9
+	refuse: 征服斗魂
