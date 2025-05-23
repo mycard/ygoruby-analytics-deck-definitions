@@ -3896,9 +3896,9 @@ deck: 阿尔戈☆群星 [1]
 	! [阿尔戈☆群星] ori >= 8
 #setname 0x1c2 喷水引擎	アクア・ジェット
 
-#setname 0x1c3 御剑	Mitsurugi
-deck: 御剑 [1]
-	! [御剑] ori >= 12
+#setname 0x1c3 巳剑	Mitsurugi
+deck: 巳剑 [1]
+	! [巳剑] ori >= 12
 
 #setname 0x1c4 征龙	征竜
 set: 征龙系列
@@ -3964,3 +3964,12 @@ tag: K9
 deck: K9 [1]
 	! [K9] ori >= 12
 	refuse: K9
+
+#setname 0x1cc 瞬间移动	テレポート
+#setname 0x1cd 神艺	アルトメギア
+#setname 0x1ce 狱神	獄神
+set: 神艺系列
+	inner set: 神艺
+	53589300 # 创狱神 涅瓦
+deck: 神艺 [1]
+	! [神艺系列] ori >= 10
