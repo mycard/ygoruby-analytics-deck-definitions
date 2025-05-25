@@ -3850,6 +3850,11 @@ deck: 金属化 [0]
 	refuse: 金属化
 	
 #setname 0x1bb 魔瞳
+tag: 魔瞳
+	config: global
+	config: upgrade
+	! [魔瞳] ori >= 8
+
 #setname 0x1bc 蓟花	アザミナ
 set: 蓟花系列
 	inner set: 蓟花
