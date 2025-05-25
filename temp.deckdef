@@ -274,24 +274,13 @@ set: LV系列
 	90500169 # 等级下降
 deck: LV
 	! [LV系列] main >= 6
-tag: 武装龙
-	config: global
-	! [武装龙 LV] main >= 3
-deck: 武装龙
-	! [武装龙 LV] main >= 5
-	refuse: 武装龙
 tag: 漆黑之魔王
 	config: global
 	! [漆黑之魔王] main >= 3
 deck: 漆黑之魔王
 	! [漆黑之魔王] main >= 5
 	refuse: 漆黑之魔王
-tag: 魅惑的女王
-	config: global
-	! [魅惑的女王] main >= 3
-deck: 魅惑的女王
-	! [魅惑的女王] main >= 5
-	refuse: 魅惑的女王
+
 tag: 究极昆虫
 	config: global
 	! [究极昆虫] main >= 3
