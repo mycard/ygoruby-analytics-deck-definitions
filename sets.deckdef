@@ -3870,6 +3870,10 @@ tag: 蓟花
 	config: global
 	! [蓟花] ori >= 5
 deck: 蓟花 [0]
+	! [蓟花] ori >= 9
+	! [蓟花] ori < 15
+	refuse: 蓟花
+deck: 蓟花 [1]
 	! [蓟花] ori >= 15
 	refuse: 蓟花
 
