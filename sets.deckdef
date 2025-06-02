@@ -3860,7 +3860,7 @@ deck: 金属化 [0]
 tag: 魔瞳
 	config: global
 	config: upgrade
-	! [魔瞳] ori >= 6
+	! [魔瞳] ori >= 5
 deck: 魔瞳 [1]
 	! [魔瞳] ori >= 8
 	refuse: 魔瞳
