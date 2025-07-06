@@ -2362,8 +2362,8 @@ deck: 毁灭武装 [5]
 tag: 大饵Burn
 	config: global
 	config: upgrade
-	! 48814566 main >= 3 # 魔兽的大饵
-	! 8628798  main >= 3 # D.D.炸药
+	! 48814566 main >= 2 # 魔兽的大饵
+	! 8628798  main >= 2 # D.D.炸药
 
 tag: 死灵之颜
 	config: global
