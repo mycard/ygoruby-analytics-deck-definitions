@@ -951,6 +951,12 @@ deck: K9征服斗魂 [10]
 	refuse: K9
 	refuse: 征服斗魂
 
+deck: K9七音服 [10]
+	! [K9] ori >= 8
+	! [七音服] ori >= 7
+	refuse: K9
+	refuse: 七音服
+
 deck: 星辰阿不思 [10]
 	! [星辰] ori >= 9
 	! 68468459 main >= 1 # 阿不思的落胤
