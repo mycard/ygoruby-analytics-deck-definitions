@@ -3832,13 +3832,13 @@ deck: 时空 [0]
 
 #setname 0x1b5 蓝泪	青い涙
 #setname 0x1b6 石版
-#setname 0x1b7 拟箱掳尸	Mimighoul
-tag: 拟箱掳尸
+#setname 0x1b7 迷拟宝箱鬼 ミミグル
+tag: 迷拟宝箱鬼
 	config: global
-	! [拟箱掳尸] ori >= 6
-deck: 拟箱掳尸
-	! [拟箱掳尸] ori >= 10
-	refuse: 拟箱掳尸
+	! [迷拟宝箱鬼] ori >= 6
+deck: 迷拟宝箱鬼
+	! [迷拟宝箱鬼] ori >= 10
+	refuse: 迷拟宝箱鬼
 
 #setname 0x1b8 鲨	シャーク
 #setname 0x11b8 鲨龙兽	シャーク・ドレイク
@@ -4029,3 +4029,17 @@ set: 终刻系列
 	68231287 # 坏狱神 朱庇特
 deck: 终刻 [1]
 	! [终刻系列] ori >= 12
+
+#setname 0x1d3 不可见之手	ヘカトンケイル
+deck: 不可见之手 [1]
+	! [不可见之手] ori >= 12
+
+#setname 0x1d4 纠罪巧	糾罪巧
+deck: 纠罪巧 [1]
+	! [纠罪巧] ori >= 12
+
+#setname 0x1d5 杀手级调整曲	キラーチューン
+deck: 杀手级调整曲 [1]
+	! [杀手级调整曲] ori >= 12
+
+#setname 0x1d6 树熊	コアラ
