@@ -3931,9 +3931,15 @@ deck: 阿尔戈☆群星 [1]
 #setname 0x1c3 巳剑	Mitsurugi
 tag: 巳剑
 	config: global
-	! [巳剑] ori >= 6
+	! [巳剑] ori >= 7
+	! [巳剑] ori < 10
+tag: 巳剑
+	config: global
+	config: upgrade
+	! [巳剑] ori >= 10
+	! [巳剑] ori < 15
 deck: 巳剑 [1]
-	! [巳剑] ori >= 12
+	! [巳剑] ori >= 15
 	refuse: 巳剑
 
 #setname 0x1c4 征龙	征竜
