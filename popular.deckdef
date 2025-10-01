@@ -980,9 +980,9 @@ deck: 巳剑自奏圣乐 [10]
 
 deck: 巳剑味美喵 [10]
 	! [巳剑] ori >= 5
-	! [味美猫] ori >= 6
+	! [味美喵] ori >= 6
 	refuse: 巳剑
-	refuse: 味美猫
+	refuse: 味美喵
 
 deck: 溟界巳剑 [10]
 	! [巳剑] ori >= 7
