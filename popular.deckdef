@@ -964,3 +964,28 @@ deck: 星辰阿不思 [10]
 	! [阿不思系列] ori >= 15
 	refuse: 烙印
 	refuse: 星辰
+
+deck: 巳剑雷火沸动 [10]
+	! [巳剑] ori >= 6
+	! [雷火沸动] ori >= 5
+	refuse: 巳剑
+	refuse: 雷火沸动
+
+deck: 巳剑自奏圣乐 [10]
+	! [巳剑] ori >= 6
+	! [自奏圣乐系列] ori >= 6
+	! [自奏圣乐系列] main >= 1
+	refuse: 巳剑
+	refuse: 自奏圣乐
+
+deck: 巳剑味美喵 [10]
+	! [巳剑] ori >= 5
+	! [味美猫] ori >= 6
+	refuse: 巳剑
+	refuse: 味美猫
+
+deck: 溟界巳剑 [10]
+	! [巳剑] ori >= 7
+	! [溟界] ori >= 7
+	refuse: 巳剑
+	refuse: 溟界
