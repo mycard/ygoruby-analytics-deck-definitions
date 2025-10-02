@@ -3987,8 +3987,13 @@ set: 王家的神殿系列
 	96687733 # 神殿的守护
 	59576447 # 阿努比斯的判词
 
+tag: 王家的神殿
+	config: global
+	config: upgrade
+	! [王家的神殿系列] ori >= 7
 deck: 王家的神殿 [1]
 	! [王家的神殿系列] ori >= 10
+	refuse: 王家的神殿
 
 #setname 0x1c9 星辰	ドラゴンテイル
 tag: 星辰
