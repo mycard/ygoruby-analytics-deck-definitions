@@ -4178,7 +4178,7 @@ deck: 道化一座 [1]
 
 #setname 0x1dd GMX
 set: GMX系列
-	innser set: GMX
+	inner set: GMX
 	29927283 # 返祖小龙 丹宁
 deck: GMX [1]
 	! [GMX系列] ori >= 9
