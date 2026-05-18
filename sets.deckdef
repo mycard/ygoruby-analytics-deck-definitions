@@ -1731,7 +1731,7 @@ deck: 黑魔导 [0]
 	refuse: 增殖栗子球
 deck: 黑魔术师 [1]
 	! [黑魔术师系列] main >= 8
-	! [黑魔术师系列] ori >= 15
+	! [黑魔术师系列] ori >= 12
 	refuse: 幕帘
 	refuse: 增殖栗子球
 #deck: 师匠beat [2]
