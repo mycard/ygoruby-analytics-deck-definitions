@@ -4154,9 +4154,9 @@ set: 狱神系列
 deck: 狱神 [1]
 	! [狱神系列] ori >= 12
 
-#setname 0x1cf 奏悦机组	R.B.
-deck: 奏悦机组 [1]
-	! [奏悦机组] ori >= 10
+#setname 0x1cf 反叛曲机器人	R.B.
+deck: 反叛曲机器人 [1]
+	! [反叛曲机器人] ori >= 10
 
 #setname 0x1d1 绚岚	絢嵐
 tag: 绚岚
@@ -4214,12 +4214,12 @@ deck: 妖精传姬 [1]
 deck: 道化一座 [1]
 	! [道化一座] ori >= 12
 
-#setname 0x1dd GMX
+#setname 0x1dd 基因组混合
 set: GMX系列
-	inner set: GMX
+	inner set: 基因组混合
 	29927283 # 返祖小龙 丹宁
 	1595137  # 遂进龙 丹宁
-deck: GMX [1]
+deck: 基因组混合 [1]
 	! [GMX系列] ori >= 9
 
 #setname 0x1de 暗黑调整	DT
