@@ -4267,7 +4267,7 @@ set: 雷盟系列
 deck: 雷盟 [1]
 	! [雷盟系列] ori >= 12
 
-!setname 0x2e5 具象天使
+#setname 0x2e5 具象天使
 tag: 具象天使
 	config: global
 	config: upgrade
@@ -4290,7 +4290,7 @@ set: 时间黑魔术师系列
 deck: 时间黑魔术师 [1]
 	! [时间黑魔术师系列] ori >= 15
 
-!setname 0x2e3 泰达路斯
+#setname 0x2e3 泰达路斯
 set: 龙都系列
 	101306013 # 亚特兰蒂斯的龙神-泰达路斯
 	101306014 # 亚特兰蒂斯的战将
@@ -4305,13 +4305,13 @@ set: 龙都系列
 deck: 龙都亚特兰蒂斯 [1]
 	! [龙都系列] ori >= 15
 	
-!setname 0x2e4 艮鬼
+#setname 0x2e4 艮鬼
 deck: 艮鬼 [1]
 	! [艮鬼] ori >= 15
 
-!setname 0x2e6 无垢艺术
-!setname 0x2e7 底亚克托罗斯
-!setname 0x2e8 米底乌斯
+#setname 0x2e6 无垢艺术
+#setname 0x2e7 底亚克托罗斯
+#setname 0x2e8 米底乌斯
 set: 无垢艺术系列
 	inner set: 无垢艺术
 	101306017 # 预幻使 米底乌斯
