@@ -4305,9 +4305,9 @@ set: 龙都系列
 deck: 龙都亚特兰蒂斯 [1]
 	! [龙都系列] ori >= 15
 	
-#setname 0x2e4 艮鬼
-deck: 艮鬼 [1]
-	! [艮鬼] ori >= 15
+#setname 0x2e4 艮神鬼
+deck: 艮神鬼 [1]
+	! [艮神鬼] ori >= 15
 
 #setname 0x2e6 无垢大艺术
 #setname 0x2e7 底亚克托罗斯
