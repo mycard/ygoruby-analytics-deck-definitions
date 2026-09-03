@@ -4098,8 +4098,11 @@ deck: 再世 [1]
 	refuse: 再世
 
 #setname 0x1c6 统王	ドミナス
+!setname 0x31c6 圣王的粉碎|统王	ドミナス・パージ
+!setname 0x1ea 列王
 set: 统王系列
 	inner set: 统王
+	inner set: 列王
 	58053438 # 列王诗篇
 tag: 统王
 	config: global
@@ -4322,3 +4325,15 @@ deck: 无垢大艺术 [1]
 	! [无垢大艺术系列] ori >= 12
 
 #setname 0x1e9 白夜
+
+#setname 0x2ea 归光
+deck: 归光 [1]
+	! [归光] ori >= 12
+
+#setname 0x2ec 异解△
+deck: 异解△ [1]
+	! [异解△] ori >= 12
+
+#setname 0x2ed 升辉月
+deck: 升辉月 [1]
+	! [升辉月] ori >= 12
