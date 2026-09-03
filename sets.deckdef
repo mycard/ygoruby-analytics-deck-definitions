@@ -4098,8 +4098,8 @@ deck: 再世 [1]
 	refuse: 再世
 
 #setname 0x1c6 统王	ドミナス
-!setname 0x31c6 圣王的粉碎|统王	ドミナス・パージ
-!setname 0x1ea 列王
+#setname 0x31c6 圣王的粉碎|统王	ドミナス・パージ
+#setname 0x1ea 列王
 set: 统王系列
 	inner set: 统王
 	inner set: 列王
