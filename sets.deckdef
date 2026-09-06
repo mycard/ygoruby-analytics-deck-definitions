@@ -4334,6 +4334,6 @@ deck: 归光 [1]
 deck: 异解△ [1]
 	! [异解△] ori >= 12
 
-#setname 0x2ed 升辉月
-deck: 升辉月 [1]
-	! [升辉月] ori >= 12
+#setname 0x2ed 盈彩月夜
+deck: 盈彩月夜 [1]
+	! [盈彩月夜] ori >= 12
