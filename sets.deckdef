@@ -4326,9 +4326,9 @@ deck: 无垢大艺术 [1]
 
 #setname 0x1e9 白夜
 
-#setname 0x2ea 归光
-deck: 归光 [1]
-	! [归光] ori >= 12
+#setname 0x2ea 塞尼特
+deck: 塞尼特 [1]
+	! [塞尼特] ori >= 12
 
 #setname 0x2ec 异解△
 deck: 异解△ [1]
