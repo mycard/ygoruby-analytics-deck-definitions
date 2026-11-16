@@ -1422,9 +1422,19 @@ deck: 怒怒怒 [1]
 	! [怒怒怒] main >= 6
 	refuse: 拟声
 
-#0x83 机关傀儡	ギミック・パペット
+#setname 0x83 傀儡	パペット
+#setname 0x1083 机关傀儡	ギミック・パペット
+set: 机关傀儡系列
+	inner set: 机关傀儡
+	1969506  # 傀儡仪式
+	57093995 # 哀悼傀儡
+	67968069 # 废品傀儡
+	6471156  # 演奏傀儡
+	36890111 # 地狱人偶之馆
+	32875265 # 傀儡葬仪-傀儡大游行
+	36400569 # 傀儡游仪-服务傀儡
 deck: 机关傀儡 [1]
-	! [机关傀儡] ori > 6
+	! [机关傀儡] ori > 8
 
 #0x84 燃烧拳	バーニングナック
 #0x1084 燃烧拳击手	BK（バーニングナックラー）
@@ -4360,8 +4370,8 @@ tag: 龙札
 	config: global
 	! [龙札] ori >= 4
 
-#setname 0x2ef 太阳神	太陽神
-#setname 0x2f0 拉之翼神龙	ラーの翼神竜
+#setname 0x1ef 太阳神	太陽神
+#setname 0x1f0 拉之翼神龙	ラーの翼神竜
 set: 翼神龙系列
 	inner set: 太阳神
 	inner set: 拉之翼神龙
@@ -4388,17 +4398,17 @@ deck: 翼神龙 [1]
 	! [翼神龙系列] ori >= 15
 	refuse: 翼神龙
 
-#setname 0x2f2 白鸦	白鴉
+#setname 0x1f1 白鸦	白鴉
 deck: 白鸦 [1]
 	! [白鸦] ori >= 12
 	refuse: 同调系
 
-#setname 0x2f1 无死虫龙	リインゼルム
-deck: 无死虫龙 [1]
-	! [无死虫龙] ori >= 12
-
-#setname 0x2f3 香草醛兔	バニリン
-tag: 香草醛兔
+#setname 0x1f2 香兰兔	バニリン
+tag: 香兰兔
 	config: global
 	config: upgrade
-	! [香草醛兔] ori >= 5
+	! [香兰兔] ori >= 5
+
+#setname 0x1f3 轮回虫龙	リインゼルム
+deck: 轮回虫龙 [1]
+	! [轮回虫龙] ori >= 12
