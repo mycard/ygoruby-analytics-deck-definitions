@@ -4336,8 +4336,12 @@ deck: 龙都亚特兰蒂斯 [1]
 	! [龙都系列] ori >= 15
 	
 #setname 0x1e4 艮神鬼
+tag: 艮神鬼
+	config: global
+	! [艮神鬼] ori >= 6
 deck: 艮神鬼 [1]
-	! [艮神鬼] ori >= 15
+	! [艮神鬼] ori >= 12
+	refuse: 艮神鬼
 
 #setname 0x1e6 无垢大艺术
 #setname 0x1e7 底亚克托罗斯
